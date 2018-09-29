@@ -1,0 +1,89 @@
+.background.home{
+    background: #fc732b;
+    height: -webkit-fill-available;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background.home a{
+    color: white;
+}
+.lp.brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button.doc{
+    border: 1px solid white;
+    background: white;
+    color: #fc732b!important;
+    padding: 12px;
+    border-radius: 7px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+.button.doc:hover{
+    border: 1px solid white;
+    background: transparent;
+    color: white!important;
+    transition: all 0.3s;
+}
+/* wrapper */
+.ini.wrapper{
+    display: flex;
+}
+.ini.wrapper .sidebar{
+    width: 220px;
+    padding-right:1rem; 
+}
+.ini.wrapper .body.content{
+    width: calc(100% - 220px);
+}
+/* section documentation */
+.example{
+    border: 2px solid whitesmoke;
+    padding: 15px;
+    margin-top: 8px;
+}
+.code{
+    background: whitesmoke;
+    padding: 15px;
+    line-height: 25px;
+    font-size: 14px;
+}
+.ini.button.copy{
+    color: #636363;
+    padding: 0;
+    font-size: 12px;
+}
+.tag{
+    color: #005875;
+}
+.class{
+    color: #07a247;
+}
+.nclass{
+    color: #b16109;
+}
+/* documentation buton */
+.ini.section .example.button button{
+    margin: 3px 6px 3px 0px;
+}
+.ini.section .example.button button:last-child{
+    margin: 3px 0px 3px 0px;
+}
+/* documentation grid */
+.example.grids .grid::after{
+    content: '';
+    display: block;
+    background:gainsboro;
+    height: 50px;
+}
+/* documentation container */
+.example.container .ini.container{
+    content: '';
+    display: block;
+    background:gainsboro;
+    height: 100px;
+}
