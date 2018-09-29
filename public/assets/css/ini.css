@@ -700,7 +700,14 @@ img {
   padding: 0rem 1rem; }
   .ini.modals .ini.modal {
     transform: scaleX(0.8) scaleY(0.8);
-    transition: all 0.2s; }
+    transition: all 0.2s;
+    margin: 2rem auto; }
+  .ini.modals .ini.modal.small {
+    max-width: 540px; }
+  .ini.modals .ini.modal.medium {
+    max-width: 720px; }
+  .ini.modals .ini.modal.large {
+    max-width: 1080px; }
 
 .ini.modals.active {
   visibility: visible;
@@ -741,14 +748,6 @@ h6 {
   margin-left: auto;
   padding: 0;
   color: #000; }
-
-.ini.modal.small {
-  max-width: 540px;
-  margin: 2rem auto; }
-
-.ini.modal.medium {
-  max-width: 768px;
-  margin: 2rem auto; }
 
 @media (max-width: 575px) {
   .ini.modal {
