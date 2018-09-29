@@ -3,8 +3,8 @@
     <Navbar/>
     <div class="ini wrapper container">
       <Menu/>
-      <div class="content">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae aliquid dolorem quod maiores quae laudantium voluptates dolores similique officiis iure voluptate magni placeat nihil numquam consectetur vero architecto, ad asperiores!
+      <div class="body content">
+          <h1>Form</h1>
       </div>
     </div>
   </div>
@@ -22,4 +22,3 @@ export default {
   }
 }
 </script>
-

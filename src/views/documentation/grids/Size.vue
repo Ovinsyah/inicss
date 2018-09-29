@@ -55,7 +55,7 @@
 <script>
 // @ is an alias to /src
 import Navbar from '@/components/Navbar.vue'
-import Menu from '@/components/Menu.vue'
+import Menu from '@/components/Menubar.vue'
 
 export default {
   name: 'home',
