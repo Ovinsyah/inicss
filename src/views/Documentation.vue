@@ -3,7 +3,7 @@
     <Navbar/>
     <div class="ini wrapper container">
       <Menu/>
-      <div class="content">
+      <div class="body content">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae aliquid dolorem quod maiores quae laudantium voluptates dolores similique officiis iure voluptate magni placeat nihil numquam consectetur vero architecto, ad asperiores!
       </div>
     </div>

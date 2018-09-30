@@ -112,113 +112,129 @@ img{
 }
 
 //responsive
-[class*="grid of-12"] {
+.grid-12{
     flex: none;
     width: 100%;
     padding-right: 10px;
     padding-left: 10px;
 }
-
-[class*="grid of-10"] {
+.grid-11{
+    flex: none;
+    width: 91.666667%;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.grid-10{
     flex: none;
     width: 83.333333%;
     padding-right: 10px;
     padding-left: 10px;
 }
 
-[class*="grid of-9"] {
+.grid-9{
     flex: none;
     width: 75%;
     padding-right: 10px;
     padding-left: 10px;
 }
 
-[class*="grid of-8"] {
+.grid-8{
     flex: none;
     width: 66.666667%;
     padding-right: 10px;
     padding-left: 10px;
 }
 
-[class*="grid of-7"] {
+.grid-7{
     flex: none;
     width: 58.333333%;
     padding-right: 10px;
     padding-left: 10px;
 }
 
-[class*="grid of-6"] {
+.grid-6{
     flex: none;
     width: 50%;
     padding-right: 10px;
     padding-left: 10px;
 }
 
-[class*="grid of-5"] {
+.grid-5{
     flex: none;
     width: 41.666667%;
     padding-right: 10px;
     padding-left: 10px;
 }
 
-[class*="grid of-4"] {
+.grid-4{
     flex: none;
     width: 33.333333%;
     padding-right: 10px;
     padding-left: 10px;
 }
 
-[class*="grid of-3"] {
+.grid-3{
     flex: none;
     width: 25%;
     padding-right: 10px;
     padding-left: 10px;
 }
 
-[class*="grid of-2"] {
+.grid-2{
     flex: none;
     width: 16.666667%;
     padding-right: 10px;
     padding-left: 10px;
 }
 
-[class*="grid of-1"] {
+.grid-1{
     flex: none;
     width: 8.333333%;
     padding-right: 10px;
     padding-left: 10px;
 }
+//Set Grid Out Size
+.grid.xsmall-1,.grid.xsmall-2,.grid.xsmall-3,.grid.xsmall-4,.grid.xsmall-5,.grid.xsmall-6,.grid.xsmall-7,.grid.xsmall-8,.grid.xsmall-9,.grid.xsmall-10,.grid.xsmall-11,.grid.xsmall-12,
+.grid.small-1,.grid.small-2,.grid.small-3,.grid.small-4,.grid.small-5,.grid.small-6,.grid.small-7,.grid.small-8,.grid.small-9,.grid.small-10,.grid.small-11,.grid.small-12,
+.grid.large-1,.grid.large-2,.grid.large-3,.grid.large-4,.grid.large-5,.grid.large-6,.grid.large-7,.grid.large-8,.grid.large-9,.grid.large-10,.grid.large-11,.grid.large-12,
+.grid.xlarge-1,.grid.xlarge-2,.grid.xlarge-3,.grid.xlarge-4,.grid.xlarge-5,.grid.xlarge-6,.grid.xlarge-7,.grid.xlarge-8,.grid.xlarge-9,.grid.xlarge-10,.grid.xlarge-11,.grid.xlarge-12,
+{
+    width: 100%;
+    flex-basis: auto;
+    -ms-flex-positive: auto;
+    flex-grow: inherit;
+}
 //Extra small
 @media (min-width: 0px) {
-    [class*="grid xsmall of-1"] {
+    .grid.xsmall-1{
         -ms-flex: 0 0 8.333333%;
         flex: 0 0 8.333333%;
         max-width: 8.333333%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid xsmall of-2"] {
+    .grid.xsmall-2{
         -ms-flex: 0 0 16.666667%;
         flex: 0 0 16.666667%;
         max-width: 16.666667%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid xsmall of-3"] {
+    .grid.xsmall-3{
         -ms-flex: 0 0 25%;
         flex: 0 0 25%;
         max-width: 25%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid xsmall of-4"] {
+    .grid.xsmall-4{
         -ms-flex: 0 0 33.333333%;
         flex: 0 0 33.333333%;
         max-width: 33.333333%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid xsmall of-5"] {
+    .grid.xsmall-5{
         -ms-flex: 0 0 41.666667%;
         -ms-flex: 0 0 41.666667%;
         flex: 0 0 41.666667%;
@@ -226,49 +242,49 @@ img{
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid xsmall of-6"] {
+    .grid.xsmall-6{
         -ms-flex: 0 0 50%;
         flex: 0 0 50%;
         max-width: 50%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid xsmall of-7"] {
+    .grid.xsmall-7{
         -ms-flex: 0 0 58.333333%;
         flex: 0 0 58.333333%;
         max-width: 58.333333%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid xsmall of-8"] {
+    .grid.xsmall-8{
         -ms-flex: 0 0 66.666667%;
         flex: 0 0 66.666667%;
         max-width: 66.666667%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid xsmall of-9"] {
+    .grid.xsmall-9{
         -ms-flex: 0 0 75%;
         flex: 0 0 75%;
         max-width: 75%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid xsmall of-10"] {
+    .grid.xsmall-10{
         -ms-flex: 0 0 83.333333%;
         flex: 0 0 83.333333%;
         max-width: 83.333333%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid xsmall of-11"] {
+    .grid.xsmall-11{
         -ms-flex: 0 0 91.666667%;
         flex: 0 0 91.666667%;
         max-width: 91.666667%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid xsmall of-12"] {
+    .grid.xsmall-12{
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
         max-width: 100%;
@@ -278,35 +294,35 @@ img{
 }
 //small
 @media (min-width: 576px) {
-    [class*="grid small of-1"] {
+    .grid.small-1{
         -ms-flex: 0 0 8.333333%;
         flex: 0 0 8.333333%;
         max-width: 8.333333%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid small of-2"] {
+    .grid.small-2{
         -ms-flex: 0 0 16.666667%;
         flex: 0 0 16.666667%;
         max-width: 16.666667%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid small of-3"] {
+    .grid.small-3{
         -ms-flex: 0 0 25%;
         flex: 0 0 25%;
         max-width: 25%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid small of-4"] {
+    .grid.small-4{
         -ms-flex: 0 0 33.333333%;
         flex: 0 0 33.333333%;
         max-width: 33.333333%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid small of-5"] {
+    .grid.small-5{
         -ms-flex: 0 0 41.666667%;
         -ms-flex: 0 0 41.666667%;
         flex: 0 0 41.666667%;
@@ -314,49 +330,49 @@ img{
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid small of-6"] {
+    .grid.small-6{
         -ms-flex: 0 0 50%;
         flex: 0 0 50%;
         max-width: 50%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid small of-7"] {
+    .grid.small-7{
         -ms-flex: 0 0 58.333333%;
         flex: 0 0 58.333333%;
         max-width: 58.333333%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid small of-8"] {
+    .grid.small-8{
         -ms-flex: 0 0 66.666667%;
         flex: 0 0 66.666667%;
         max-width: 66.666667%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid small of-9"] {
+    .grid.small-9{
         -ms-flex: 0 0 75%;
         flex: 0 0 75%;
         max-width: 75%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid small of-10"] {
+    .grid.small-10{
         -ms-flex: 0 0 83.333333%;
         flex: 0 0 83.333333%;
         max-width: 83.333333%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid small of-11"] {
+    .grid.small-11{
         -ms-flex: 0 0 91.666667%;
         flex: 0 0 91.666667%;
         max-width: 91.666667%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid small of-12"] {
+    .grid.small-12{
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
         max-width: 100%;
@@ -367,84 +383,84 @@ img{
 
 //medium
 @media (min-width: 768px) {
-    [class*="grid medium of-1"] {
+    .grid.medium-1{
         -ms-flex: 0 0 8.333333%;
         flex: 0 0 8.333333%;
         max-width: 8.333333%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid medium of-2"] {
+    .grid.medium-2{
         -ms-flex: 0 0 16.666667%;
         flex: 0 0 16.666667%;
         max-width: 16.666667%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid medium of-3"] {
+    .grid.medium-3{
         -ms-flex: 0 0 25%;
         flex: 0 0 25%;
         max-width: 25%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid medium of-4"] {
+    .grid.medium-4{
         -ms-flex: 0 0 33.333333%;
         flex: 0 0 33.333333%;
         max-width: 33.333333%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid medium of-5"] {
+    .grid.medium-5{
         -ms-flex: 0 0 41.666667%;
         flex: 0 0 41.666667%;
         max-width: 41.666667%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid medium of-6"] {
+    .grid.medium-6{
         -ms-flex: 0 0 50%;
         flex: 0 0 50%;
         max-width: 50%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid medium of-7"] {
+    .grid.medium-7{
         -ms-flex: 0 0 58.333333%;
         flex: 0 0 58.333333%;
         max-width: 58.333333%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid medium of-8"] {
+    .grid.medium-8{
         -ms-flex: 0 0 66.666667%;
         flex: 0 0 66.666667%;
         max-width: 66.666667%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid medium of-9"] {
+    .grid.medium-9{
         -ms-flex: 0 0 75%;
         flex: 0 0 75%;
         max-width: 75%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid medium of-10"] {
+    .grid.medium-10{
         -ms-flex: 0 0 83.333333%;
         flex: 0 0 83.333333%;
         max-width: 83.333333%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid medium of-11"] {
+    .grid.medium-11{
         -ms-flex: 0 0 91.666667%;
         flex: 0 0 91.666667%;
         max-width: 91.666667%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid medium of-12"] {
+    .grid.medium-12{
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
         max-width: 100%;
@@ -453,84 +469,84 @@ img{
     }
 } //large
 @media (min-width: 992px) {
-    [class*="grid large of-1"] {
+    .grid.large-1{
         -ms-flex: 0 0 8.333333%;
         flex: 0 0 8.333333%;
         max-width: 8.333333%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid large of-2"] {
+    .grid.large-2{
         -ms-flex: 0 0 16.666667%;
         flex: 0 0 16.666667%;
         max-width: 16.666667%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid large of-3"] {
+    .grid.large-3{
         -ms-flex: 0 0 25%;
         flex: 0 0 25%;
         max-width: 25%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid large of-4"] {
+    .grid.large-4{
         -ms-flex: 0 0 33.333333%;
         flex: 0 0 33.333333%;
         max-width: 33.333333%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid large of-5"] {
+    .grid.large-5{
         -ms-flex: 0 0 41.666667%;
         flex: 0 0 41.666667%;
         max-width: 41.666667%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid large of-6"] {
+    .grid.large-6{
         -ms-flex: 0 0 50%;
         flex: 0 0 50%;
         max-width: 50%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid large of-7"] {
+    .grid.large-7{
         -ms-flex: 0 0 58.333333%;
         flex: 0 0 58.333333%;
         max-width: 58.333333%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid large of-8"] {
+    .grid.large-8{
         -ms-flex: 0 0 66.666667%;
         flex: 0 0 66.666667%;
         max-width: 66.666667%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid large of-9"] {
+    .grid.large-9{
         -ms-flex: 0 0 75%;
         flex: 0 0 75%;
         max-width: 75%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid large of-10"] {
+    .grid.large-10{
         -ms-flex: 0 0 83.333333%;
         flex: 0 0 83.333333%;
         max-width: 83.333333%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid large of-11"] {
+    .grid.large-11{
         -ms-flex: 0 0 91.666667%;
         flex: 0 0 91.666667%;
         max-width: 91.666667%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid large of-12"] {
+    .grid.large-12{
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
         max-width: 100%;
@@ -540,84 +556,84 @@ img{
 }
 //extra large
 @media (min-width: 1200px) {
-    [class*="grid xlarge .of-1"] {
+    .grid.xlarge-1{
         -ms-flex: 0 0 8.333333%;
         flex: 0 0 8.333333%;
         max-width: 8.333333%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid xlarge .of-2"] {
+    .grid.xlarge-2{
         -ms-flex: 0 0 16.666667%;
         flex: 0 0 16.666667%;
         max-width: 16.666667%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid xlarge .of-3"] {
+    .grid.xlarge-3{
         -ms-flex: 0 0 25%;
         flex: 0 0 25%;
         max-width: 25%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid xlarge .of-4"] {
+    .grid.xlarge-4{
         -ms-flex: 0 0 33.333333%;
         flex: 0 0 33.333333%;
         max-width: 33.333333%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid xlarge .of-5"] {
+    .grid.xlarge-5{
         -ms-flex: 0 0 41.666667%;
         flex: 0 0 41.666667%;
         max-width: 41.666667%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid xlarge .of-6"] {
+    .grid.xlarge-6{
         -ms-flex: 0 0 50%;
         flex: 0 0 50%;
         max-width: 50%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid xlarge .of-7"] {
+    .grid.xlarge-7{
         -ms-flex: 0 0 58.333333%;
         flex: 0 0 58.333333%;
         max-width: 58.333333%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid xlarge .of-8"] {
+    .grid.xlarge-8{
         -ms-flex: 0 0 66.666667%;
         flex: 0 0 66.666667%;
         max-width: 66.666667%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid xlarge .of-9"] {
+    .grid.xlarge-9{
         -ms-flex: 0 0 75%;
         flex: 0 0 75%;
         max-width: 75%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid xlarge of-10"] {
+    .grid.xlarge-10{
         -ms-flex: 0 0 83.333333%;
         flex: 0 0 83.333333%;
         max-width: 83.333333%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid xlarge of-11"] {
+    .grid.xlarge-11{
         -ms-flex: 0 0 91.666667%;
         flex: 0 0 91.666667%;
         max-width: 91.666667%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    [class*="grid xlarge of-12"] {
+    .grid.xlarge-12{
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
         max-width: 100%;
@@ -825,6 +841,11 @@ img{
         transition: all 0.2s;
     }
 }
+.ini.modals.centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .ini.modal{
     background:white;
 }
@@ -1030,6 +1051,7 @@ h6 {
         display:block;
         padding: 10px;
         cursor: pointer;
+        font-weight: 600;
     }
     .openCollapse::after{
         font-family: 'Material Icons';
@@ -1041,19 +1063,20 @@ h6 {
     }
     .collapse.active{
         max-height: 999px;
-        transition: max-height 2s;
+        transition: max-height 0.5s;
     }
     .collapse{
         list-style: none;
         overflow: hidden;
         padding-left: 20px;
         max-height: 0px;
-        transition: max-height 0.5s;
+        transition: max-height 0.3s;
         a{
             display:block;
             padding: 7px;
             cursor: pointer; 
             color: $text-nd-color;
+            font-size: 14px;
         }
     }
 }
@@ -1296,5 +1319,47 @@ h6 {
 @media (min-width: 576px) {
     .ini.hide.down-small{
         display: show;
+    }
+}
+/*
+===============================================================
+    INI TABLE
+===============================================================
+*/
+.ini.table{
+    width: 100%;
+    background: #fff;
+    text-align: left;
+    border-spacing: 0;
+    font-size: 14px;
+    thead tr th,tbody tr td{
+        padding: .78571429em .78571429em;
+    }
+    thead{
+        border-spacing: 0;
+        background: #e4e4e4;
+    }
+    tbody tr td{
+        border-bottom: 1px solid #ececec; 
+    }
+}
+.ini.table.striped tbody tr:nth-of-type(odd){
+    background: #f7f7f7;
+}
+.ini.table.bordered{
+    border: 1px solid #eaeaea;
+    border-radius: 3px;
+    thead tr th{
+        border-right: 1px solid #fff;
+    }
+    tbody tr td{
+        border: 0px solid #eaeaea;
+        border-width: 0px 1px 1px 0px;
+    }
+    tbody tr td:last-child,thead tr th:last-child{
+        border-right: none;
+    }
+    tbody tr:last-child td{
+        border-bottom: none;
     }
 }
