@@ -34,7 +34,7 @@
               <div class="area selected">
                   <div><span class="tag">&#x3C;img <span class="class"> div=</span> <span class="nclass">"ini-rounded"</span> </span><span class="class"> src=</span> <span class="nclass">"..." alt=&#x22;image&#x22;</span> <span class="tag"> /&#x3E;</span></div>
               </div>
-              <textarea cols="100" rows="100" class="hidden">&#x3C;img src=&#x22;...&#x22; alt=&#x22;image&#x22; /&#x3E;</textarea>
+              <textarea cols="100" rows="100" class="hidden">&#x3C;img class=&#x22;ini rounded&#x22; src=&#x22;/assets/img/image.png&#x22; alt=&#x22;image&#x22; /&#x3E;</textarea>
           </div>
 
           <h4 class="mt-3"><i>Circle Image</i></h4>
@@ -49,7 +49,7 @@
               <div class="area selected">
                   <div><span class="tag">&#x3C;img <span class="class"> div=</span> <span class="nclass">"ini-circle"</span> </span><span class="class"> src=</span> <span class="nclass">"..." alt=&#x22;image&#x22;</span> <span class="tag"> /&#x3E;</span></div>
               </div>
-              <textarea cols="100" rows="100" class="hidden">&#x3C;img src=&#x22;...&#x22; alt=&#x22;image&#x22; /&#x3E;</textarea>
+              <textarea cols="100" rows="100" class="hidden">&#x3C;img class=&#x22;ini circle&#x22; src=&#x22;/assets/img/image.png&#x22; alt=&#x22;image&#x22; /&#x3E;</textarea>
           </div>
 
           <h4 class="mt-3"><i>Thumbnail Image</i></h4>
