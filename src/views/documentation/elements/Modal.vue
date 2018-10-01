@@ -1,3 +1,7 @@
+<style>
+    
+</style>
+
 <template>
   <div class="content documentation">
     <Navbar/>
