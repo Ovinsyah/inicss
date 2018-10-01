@@ -62,9 +62,9 @@
                   <button class="ini button copy onCopy">Copy</button>
               </div>
               <div class="area selected">
-                  <div><span class="tag">&#x3C;img <span class="class"> div=</span> <span class="nclass">"ini-circle"</span> </span><span class="class"> src=</span> <span class="nclass">"..." alt=&#x22;image&#x22;</span> <span class="tag"> /&#x3E;</span></div>
+                  <div><span class="tag">&#x3C;img <span class="class"> div=</span> <span class="nclass">"ini thumbnail"</span> </span><span class="class"> src=</span> <span class="nclass">"..." alt=&#x22;image&#x22;</span> <span class="tag"> /&#x3E;</span></div>
               </div>
-              <textarea cols="100" rows="100" class="hidden">&#x3C;img src=&#x22;...&#x22; alt=&#x22;image&#x22; /&#x3E;</textarea>
+              <textarea cols="100" rows="100" class="hidden">&#x3C;img class=&#x22;ini thumbnail&#x22; src=&#x22;/assets/img/image.png&#x22; alt=&#x22;image&#x22; /&#x3E;</textarea>
           </div>
         </div>
       </div>
