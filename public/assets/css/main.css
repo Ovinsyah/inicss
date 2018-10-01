@@ -32,13 +32,15 @@
 /* wrapper */
 .ini.wrapper{
     display: flex;
+    margin-bottom: 1rem;
 }
 .ini.wrapper .sidebar{
-    width: 220px;
+    min-width: 220px;
     padding-right:1rem; 
 }
 .ini.wrapper .body.content{
     width: calc(100% - 220px);
+    padding: 10px;
 }
 /* section documentation */
 .example{
@@ -74,7 +76,7 @@
     margin: 3px 0px 3px 0px;
 }
 /* documentation grid */
-.example.grids .grid::after{
+.example.grids [class*="grid"]::after{
     content: '';
     display: block;
     background:gainsboro;
