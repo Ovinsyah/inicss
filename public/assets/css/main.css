@@ -75,6 +75,11 @@
 .ini.section .example.button button:last-child{
     margin: 3px 0px 3px 0px;
 }
+.ini.section .example.image-rounded img,
+.ini.section .example.image-circle img{
+    max-width: 400px;
+    width: 100%;
+}
 /* documentation grid */
 .example.grids [class*="grid"]::after{
     content: '';

@@ -1158,4 +1158,15 @@ h6 {
   .ini.table.bordered tbody tr:last-child td {
     border-bottom: none; }
 
+/*
+===============================================================
+    INI IMAGE
+===============================================================
+*/
+img.ini.rounded {
+  border-radius: 5%; }
+
+img.ini.circle {
+  border-radius: 100%; }
+
 /*# sourceMappingURL=ini.css.map */
