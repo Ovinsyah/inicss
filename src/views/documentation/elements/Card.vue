@@ -5,6 +5,7 @@
       <Menu/>
       <div class="body content">
           <h1>Card</h1>
+          <div>Dokumentasi dan contoh untuk menggunakan card pada ini css</div>
       </div>
     </div>
   </div>
