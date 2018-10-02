@@ -1389,7 +1389,7 @@ img.ini.thumbnail{
 */
 .ini.card{
     .card.content,
-    .card.footer{
+    {
         padding: 0.5rem;
         border: 1px solid #f5f5f5;
         display: flow-root;
@@ -1404,6 +1404,12 @@ img.ini.thumbnail{
     }
     .card.text{
         margin-top: 0.5rem;
+        font-size: 14px;
+    }
+    .card.footer{
+        padding: 1rem 0.5rem;
+        border: 1px solid #f5f5f5;
+        display: flow-root;
         font-size: 14px;
     }
 }
