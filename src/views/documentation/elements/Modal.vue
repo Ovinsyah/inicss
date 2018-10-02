@@ -35,7 +35,7 @@
                     <button class="ini button copy onCopy">Copy</button>
                 </div>
                 <div class="area selected">
-                    <div><span class="tag"><span class="tag">&#x3C;button</span></span><span class="class"> class=</span><span class="nclass">&#x22;ini button blue openModal&#x22;</span><span class="class"> data-target=</span><span class="nclass">&#x22;#modalSmall&#x22;</span><span class="tag">&#x3E;</span>Open Modal><span class="tag">&#x3C;/button&#x3E;</span></div>
+                    <div><span class="tag"><span class="tag">&#x3C;button</span></span><span class="class"> class=</span><span class="nclass">&#x22;ini button inicss openModal&#x22;</span><span class="class"> data-target=</span><span class="nclass">&#x22;#modalSmall&#x22;</span><span class="tag">&#x3E;</span>Open Modal><span class="tag">&#x3C;/button&#x3E;</span></div>
                     <div><span class="tag">&#x3C;div</span><span class="class"> class=</span><span class="nclass">&#x22;ini modals&#x22;</span><span class="class"> id=</span><span class="nclass">&#x22;modalSmall&#x22;</span><span class="tag">&#x3E;</span></div>
                         <div class="ml-4"><span class="tag">&#x3C;div</span><span class="class"> class=</span><span class="nclass">&#x22;ini modal small&#x22;</span><span class="tag">&#x3E;</span></div>
                             <div class="ml-5"><span class="tag">&#x3C;div</span><span class="class"> class=</span><span class="nclass">&#x22;header&#x22;</span><span class="tag">&#x3E;</span></div>
@@ -98,7 +98,7 @@
                     <button class="ini button copy onCopy">Copy</button>
                 </div>
                 <div class="area selected">
-                    <div><span class="tag"><span class="tag">&#x3C;button</span></span><span class="class"> class=</span><span class="nclass">&#x22;ini button blue openModal&#x22;</span><span class="class"> data-target=</span>&#x22;#modalMedium&#x22;&#x3E;Open Modal><span class="tag">&#x3C;/button&#x3E;</span></div>
+                    <div><span class="tag"><span class="tag">&#x3C;button</span></span><span class="class"> class=</span><span class="nclass">&#x22;ini button inicss openModal&#x22;</span><span class="class"> data-target=</span>&#x22;#modalMedium&#x22;&#x3E;Open Modal><span class="tag">&#x3C;/button&#x3E;</span></div>
                     <div><span class="tag">&#x3C;div</span><span class="class"> class=</span><span class="nclass">&#x22;ini modals&#x22;</span><span class="class"> id=</span>&#x22;modalMedium&#x22;&#x3E;</div>
                         <div class="ml-4"><span class="tag">&#x3C;div</span><span class="class"> class=</span><span class="nclass">&#x22;ini modal medium&#x22;</span><span class="tag">&#x3E;</span></div>
                             <div class="ml-5"><span class="tag">&#x3C;div</span><span class="class"> class=</span><span class="nclass">&#x22;header&#x22;</span><span class="tag">&#x3E;</span></div>
@@ -161,7 +161,7 @@
                     <button class="ini button copy onCopy">Copy</button>
                 </div>
                 <div class="area selected">
-                    <div><span class="tag"><span class="tag">&#x3C;button</span></span><span class="class"> class=</span><span class="nclass">&#x22;ini button blue openModal&#x22;</span><span class="class"> data-target=</span>&#x22;#modalLarge&#x22;&#x3E;Open Modal><span class="tag">&#x3C;/button&#x3E;</span></div>
+                    <div><span class="tag"><span class="tag">&#x3C;button</span></span><span class="class"> class=</span><span class="nclass">&#x22;ini button inicss openModal&#x22;</span><span class="class"> data-target=</span>&#x22;#modalLarge&#x22;&#x3E;Open Modal><span class="tag">&#x3C;/button&#x3E;</span></div>
                     <div><span class="tag">&#x3C;div</span><span class="class"> class=</span><span class="nclass">&#x22;ini modals&#x22;</span><span class="class"> id=</span>&#x22;modalLarge&#x22;&#x3E;</div>
                         <div class="ml-4"><span class="tag">&#x3C;div</span><span class="class"> class=</span><span class="nclass">&#x22;ini modal large&#x22;</span><span class="tag">&#x3E;</span></div>
                             <div class="ml-5"><span class="tag">&#x3C;div</span><span class="class"> class=</span><span class="nclass">&#x22;header&#x22;</span><span class="tag">&#x3E;</span></div>
@@ -224,7 +224,7 @@
                     <button class="ini button copy onCopy">Copy</button>
                 </div>
                 <div class="area selected">
-                    <div><span class="tag"><span class="tag">&#x3C;button</span></span><span class="class"> class=</span><span class="nclass">&#x22;ini button blue openModal&#x22;</span><span class="class"> data-target=</span>&#x22;#modalMedium&#x22;&#x3E;Open Modal><span class="tag">&#x3C;/button&#x3E;</span></div>
+                    <div><span class="tag"><span class="tag">&#x3C;button</span></span><span class="class"> class=</span><span class="nclass">&#x22;ini button inicss openModal&#x22;</span><span class="class"> data-target=</span>&#x22;#modalMedium&#x22;&#x3E;Open Modal><span class="tag">&#x3C;/button&#x3E;</span></div>
                     <div><span class="tag">&#x3C;div</span><span class="class"> class=</span><span class="nclass">&#x22;ini modals centered&#x22;</span><span class="class"> id=</span>&#x22;modalMedium&#x22;&#x3E;</div>
                         <div class="ml-4"><span class="tag">&#x3C;div</span><span class="class"> class=</span><span class="nclass">&#x22;ini modal medium&#x22;</span><span class="tag">&#x3E;</span></div>
                             <div class="ml-5"><span class="tag">&#x3C;div</span><span class="class"> class=</span><span class="nclass">&#x22;header&#x22;</span><span class="tag">&#x3E;</span></div>

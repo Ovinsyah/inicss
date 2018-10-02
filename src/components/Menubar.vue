@@ -12,8 +12,15 @@
 					<li><router-link to="/documentation/elements/navbar">Navbar</router-link></li>
 					<li><router-link to="/documentation/elements/image">Image</router-link></li>
 					<li><router-link to="/documentation/elements/card">Card</router-link></li>
-					<li><router-link to="/documentation/elements/form">Form</router-link></li>
 					<li><router-link to="/documentation/elements/menu">Menu</router-link></li>
+				</ul>
+			</li>
+			<li>
+				<a class="openCollapse">
+					Form
+				</a>
+				<ul class="collapse">
+					<li><router-link to="/documentation/form/input">Input</router-link></li>
 				</ul>
 			</li>
 			<li>

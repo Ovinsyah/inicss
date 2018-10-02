@@ -6,10 +6,11 @@ import DocElButton from './views/documentation/elements/Button.vue'
 import DocElModal from './views/documentation/elements/Modal.vue'
 import DocElNavbar from './views/documentation/elements/Navbar.vue'
 import DocElTable from './views/documentation/elements/Table.vue'
-import DocElForm from './views/documentation/elements/Form.vue'
 import DocElImage from './views/documentation/elements/Image.vue'
 import DocElMenu from './views/documentation/elements/Menu.vue'
 import DocElCard from './views/documentation/elements/Card.vue'
+
+import DocFormInput from './views/documentation/form/Input.vue'
 
 import DocGridFlex from './views/documentation/grids/Flexible.vue'
 import DocGridSize from './views/documentation/grids/Size.vue'
@@ -47,11 +48,6 @@ export default new Router({
       component: DocElCard
     },
     {
-      path: '/documentation/elements/form',
-      name: 'form',
-      component: DocElForm
-    },
-    {
       path: '/documentation/elements/image',
       name: 'image',
       component: DocElImage
@@ -70,6 +66,11 @@ export default new Router({
       path: '/documentation/elements/table',
       name: 'table',
       component: DocElTable
+    },
+    {
+      path: '/documentation/form/input',
+      name: 'input',
+      component: DocFormInput
     },
     {
       path: '/documentation/grids/flexible',
