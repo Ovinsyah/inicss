@@ -1173,4 +1173,24 @@ img.ini.thumbnail {
   padding: 0.5rem;
   border: 1px solid #f5f5f5; }
 
+/*
+===============================================================
+    INI CARD
+===============================================================
+*/
+.ini.card .card.content,
+.ini.card .card.footer {
+  padding: 0.5rem;
+  border: 1px solid #f5f5f5;
+  display: flow-root; }
+.ini.card .card.title {
+  font-size: 1.5rem;
+  font-weight: bold; }
+.ini.card .card.subtitle {
+  font-size: 14px;
+  color: #cccccc; }
+.ini.card .card.text {
+  margin-top: 0.5rem;
+  font-size: 14px; }
+
 /*# sourceMappingURL=ini.css.map */
