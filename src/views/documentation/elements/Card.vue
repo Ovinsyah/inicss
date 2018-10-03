@@ -257,42 +257,118 @@
               <div class="area selected">
                 <div>
                   <div>&#x3C;div class=&#x22;ini grids&#x22;&#x3E;</div>
-                    <div class="ml-2">&#x3C;div class=&#x22;grid xsmall-12 large-4&#x22;&#x3E;</div>
-                      <div class="ml-3"><span class="tag">&#x3C;div</span> <span class="class"> class=</span><span class="nclass">&#x22;ini card&#x22;</span><span class="tag">&#x3E;</span></div>
-                        <div class="ml-4"><span class="tag">&#x3C;div</span> <span class="class"> class=</span><span class="nclass">&#x22;card content&#x22;</span><span class="tag">&#x3E;</span></div>
-                          <div class="ml-5"><span class="tag">&#x3C;div</span> <span class="class"> class=</span><span class="nclass">&#x22;card title&#x22;</span>&#x3E;Card Title<span class="tag">&#x3C;/div&#x3E;</span></div>
-                          <div class="ml-5"><span class="tag">&#x3C;div</span> <span class="class"> class=</span><span class="nclass">&#x22;card subtitle&#x22;</span>&#x3E;Card Subtitle<span class="tag">&#x3C;/div&#x3E;</span></div>
-                          <div class="ml-5"><span class="tag">&#x3C;div</span> <span class="class"> class=</span><span class="nclass">&#x22;card text&#x22;</span><span class="tag">&#x3E;</span></div>
-                            <div class="ml-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nesciunt eligendi distinctio dolorum vel? Numquam nihil molestias repellat quasi dolorum? Dolor porro nesciunt optio. Odio amet harum cupiditate quas unde.</div>
-                          <div class="ml-5"><span class="tag">&#x3C;/div&#x3E;</span></div>
-                        <div class="ml-4"><span class="tag">&#x3C;/div&#x3E;</span></div>
-                        <div class="ml-4"><span class="tag">&#x3C;div</span> <span class="class"> class=</span><span class="nclass">&#x22;card footer&#x22;</span><span class="tag">&#x3E;</span></div>
-                          <div class="ml-5"><span class="tag">&#x3C;button</span> <span class="class"> class=</span><span class="nclass">&#x22;ini button o-green mr-1&#x22;</span>&#x3E;Approve<span class="tag">&#x3C;/button&#x3E;</span></div>
-                          <div class="ml-5"><span class="tag">&#x3C;button</span> <span class="class"> class=</span><span class="nclass">&#x22;ini button o-red&#x22;</span>&#x3E;Deny<span class="tag">&#x3C;/button&#x3E;</span></div>
-                        <div class="ml-4"><span class="tag">&#x3C;/div&#x3E;</span></div>
-                      <div class="ml-3"><span class="tag">&#x3C;/div&#x3E;</span></div>
-                    <div class="ml-2"><span class="tag">&#x3C;/div&#x3E;</span></div>
+                    <div class="ml-3">&#x3C;div class=&#x22;grid xsmall-12 large-4&#x22;&#x3E;</div>
+                      <div class="ml-4"><span class="tag">&#x3C;div</span> <span class="class"> class=</span><span class="nclass">&#x22;ini card&#x22;</span><span class="tag">&#x3E;</span></div>
+                        <div class="ml-5"><span class="tag">&#x3C;div</span> <span class="class"> class=</span><span class="nclass">&#x22;card content&#x22;</span><span class="tag">&#x3E;</span></div>
+                          <div class="ml-6"><span class="tag">&#x3C;div</span> <span class="class"> class=</span><span class="nclass">&#x22;card title&#x22;</span>&#x3E;Card Title<span class="tag">&#x3C;/div&#x3E;</span></div>
+                          <div class="ml-6"><span class="tag">&#x3C;div</span> <span class="class"> class=</span><span class="nclass">&#x22;card subtitle&#x22;</span>&#x3E;Card Subtitle<span class="tag">&#x3C;/div&#x3E;</span></div>
+                          <div class="ml-6"><span class="tag">&#x3C;div</span> <span class="class"> class=</span><span class="nclass">&#x22;card text&#x22;</span><span class="tag">&#x3E;</span></div>
+                            <div class="ml-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nesciunt eligendi distinctio dolorum vel? Numquam nihil molestias repellat quasi dolorum? Dolor porro nesciunt optio. Odio amet harum cupiditate quas unde.</div>
+                          <div class="ml-6"><span class="tag">&#x3C;/div&#x3E;</span></div>
+                        <div class="ml-5"><span class="tag">&#x3C;/div&#x3E;</span></div>
+                        <div class="ml-5"><span class="tag">&#x3C;div</span> <span class="class"> class=</span><span class="nclass">&#x22;card footer&#x22;</span><span class="tag">&#x3E;</span></div>
+                          <div class="ml-6"><span class="tag">&#x3C;button</span> <span class="class"> class=</span><span class="nclass">&#x22;ini button o-green mr-1&#x22;</span>&#x3E;Approve<span class="tag">&#x3C;/button&#x3E;</span></div>
+                          <div class="ml-6"><span class="tag">&#x3C;button</span> <span class="class"> class=</span><span class="nclass">&#x22;ini button o-red&#x22;</span>&#x3E;Deny<span class="tag">&#x3C;/button&#x3E;</span></div>
+                        <div class="ml-5"><span class="tag">&#x3C;/div&#x3E;</span></div>
+                      <div class="ml-4"><span class="tag">&#x3C;/div&#x3E;</span></div>
+                    <div class="ml-3"><span class="tag">&#x3C;/div&#x3E;</span></div>
+                    <div class="ml-3">&#x3C;div class=&#x22;grid xsmall-12 large-4&#x22;&#x3E;</div>
+                      <div class="ml-4"><span class="tag">&#x3C;div</span> <span class="class"> class=</span><span class="nclass">&#x22;ini card&#x22;</span><span class="tag">&#x3E;</span></div>
+                        <div class="ml-5"><span class="tag">&#x3C;div</span> <span class="class"> class=</span><span class="nclass">&#x22;card content&#x22;</span><span class="tag">&#x3E;</span></div>
+                          <div class="ml-6"><span class="tag">&#x3C;div</span> <span class="class"> class=</span><span class="nclass">&#x22;card title&#x22;</span>&#x3E;Card Title<span class="tag">&#x3C;/div&#x3E;</span></div>
+                          <div class="ml-6"><span class="tag">&#x3C;div</span> <span class="class"> class=</span><span class="nclass">&#x22;card subtitle&#x22;</span>&#x3E;Card Subtitle<span class="tag">&#x3C;/div&#x3E;</span></div>
+                          <div class="ml-6"><span class="tag">&#x3C;div</span> <span class="class"> class=</span><span class="nclass">&#x22;card text&#x22;</span><span class="tag">&#x3E;</span></div>
+                            <div class="ml-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nesciunt eligendi distinctio dolorum vel? Numquam nihil molestias repellat quasi dolorum? Dolor porro nesciunt optio. Odio amet harum cupiditate quas unde.</div>
+                          <div class="ml-6"><span class="tag">&#x3C;/div&#x3E;</span></div>
+                        <div class="ml-5"><span class="tag">&#x3C;/div&#x3E;</span></div>
+                        <div class="ml-5"><span class="tag">&#x3C;div</span> <span class="class"> class=</span><span class="nclass">&#x22;card footer&#x22;</span><span class="tag">&#x3E;</span></div>
+                          <div class="ml-6"><span class="tag">&#x3C;button</span> <span class="class"> class=</span><span class="nclass">&#x22;ini button o-green mr-1&#x22;</span>&#x3E;Approve<span class="tag">&#x3C;/button&#x3E;</span></div>
+                          <div class="ml-6"><span class="tag">&#x3C;button</span> <span class="class"> class=</span><span class="nclass">&#x22;ini button o-red&#x22;</span>&#x3E;Deny<span class="tag">&#x3C;/button&#x3E;</span></div>
+                        <div class="ml-5"><span class="tag">&#x3C;/div&#x3E;</span></div>
+                      <div class="ml-4"><span class="tag">&#x3C;/div&#x3E;</span></div>
+                    <div class="ml-3"><span class="tag">&#x3C;/div&#x3E;</span></div>
+                    <div class="ml-3">&#x3C;div class=&#x22;grid xsmall-12 large-4&#x22;&#x3E;</div>
+                      <div class="ml-4"><span class="tag">&#x3C;div</span> <span class="class"> class=</span><span class="nclass">&#x22;ini card&#x22;</span><span class="tag">&#x3E;</span></div>
+                        <div class="ml-5"><span class="tag">&#x3C;div</span> <span class="class"> class=</span><span class="nclass">&#x22;card content&#x22;</span><span class="tag">&#x3E;</span></div>
+                          <div class="ml-6"><span class="tag">&#x3C;div</span> <span class="class"> class=</span><span class="nclass">&#x22;card title&#x22;</span>&#x3E;Card Title<span class="tag">&#x3C;/div&#x3E;</span></div>
+                          <div class="ml-6"><span class="tag">&#x3C;div</span> <span class="class"> class=</span><span class="nclass">&#x22;card subtitle&#x22;</span>&#x3E;Card Subtitle<span class="tag">&#x3C;/div&#x3E;</span></div>
+                          <div class="ml-6"><span class="tag">&#x3C;div</span> <span class="class"> class=</span><span class="nclass">&#x22;card text&#x22;</span><span class="tag">&#x3E;</span></div>
+                            <div class="ml-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nesciunt eligendi distinctio dolorum vel? Numquam nihil molestias repellat quasi dolorum? Dolor porro nesciunt optio. Odio amet harum cupiditate quas unde.</div>
+                          <div class="ml-6"><span class="tag">&#x3C;/div&#x3E;</span></div>
+                        <div class="ml-5"><span class="tag">&#x3C;/div&#x3E;</span></div>
+                        <div class="ml-5"><span class="tag">&#x3C;div</span> <span class="class"> class=</span><span class="nclass">&#x22;card footer&#x22;</span><span class="tag">&#x3E;</span></div>
+                          <div class="ml-6"><span class="tag">&#x3C;button</span> <span class="class"> class=</span><span class="nclass">&#x22;ini button o-green mr-1&#x22;</span>&#x3E;Approve<span class="tag">&#x3C;/button&#x3E;</span></div>
+                          <div class="ml-6"><span class="tag">&#x3C;button</span> <span class="class"> class=</span><span class="nclass">&#x22;ini button o-red&#x22;</span>&#x3E;Deny<span class="tag">&#x3C;/button&#x3E;</span></div>
+                        <div class="ml-5"><span class="tag">&#x3C;/div&#x3E;</span></div>
+                      <div class="ml-4"><span class="tag">&#x3C;/div&#x3E;</span></div>
+                    <div class="ml-3"><span class="tag">&#x3C;/div&#x3E;</span></div>
                   <div><span class="tag">&#x3C;/div&#x3E;</span></div>
                 </div>
               </div>
               <textarea cols="100" rows="100" class="hidden">
-&#x3C;div class=&#x22;ini card&#x22;&#x3E;
-  &#x3C;div class=&#x22;card content&#x22;&#x3E;
-    &#x3C;div&#x3E;Header&#x3C;/div&#x3E;
-  &#x3C;/div&#x3E;
-  &#x3C;div class=&#x22;card image&#x22;&#x3E;
-    &#x3C;img src=&#x22;...&#x22; alt=&#x22;image&#x22; /&#x3E;
-  &#x3C;/div&#x3E;
-  &#x3C;div class=&#x22;card content&#x22;&#x3E;
-    &#x3C;div class=&#x22;card title&#x22;&#x3E;Card Title&#x3C;/div&#x3E;
-    &#x3C;div class=&#x22;card subtitle&#x22;&#x3E;Card Subtitle&#x3C;/div&#x3E;
-    &#x3C;div class=&#x22;card text&#x22;&#x3E;
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nesciunt eligendi distinctio dolorum vel? Numquam nihil molestias repellat quasi dolorum? Dolor porro nesciunt optio. Odio amet harum cupiditate quas unde.
+&#x3C;div class=&#x22;ini grids&#x22;&#x3E;
+  &#x3C;div class=&#x22;grid xsmall-12 large-4&#x22;&#x3E;
+    &#x3C;div class=&#x22;ini card&#x22;&#x3E;
+      &#x3C;div class=&#x22;card content&#x22;&#x3E;
+        &#x3C;div&#x3E;Header&#x3C;/div&#x3E;
+      &#x3C;/div&#x3E;
+      &#x3C;div class=&#x22;card image&#x22;&#x3E;
+        &#x3C;img src=&#x22;...&#x22; alt=&#x22;image&#x22; /&#x3E;
+      &#x3C;/div&#x3E;
+      &#x3C;div class=&#x22;card content&#x22;&#x3E;
+        &#x3C;div class=&#x22;card title&#x22;&#x3E;Card Title&#x3C;/div&#x3E;
+        &#x3C;div class=&#x22;card subtitle&#x22;&#x3E;Card Subtitle&#x3C;/div&#x3E;
+        &#x3C;div class=&#x22;card text&#x22;&#x3E;
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nesciunt eligendi distinctio dolorum vel? Numquam nihil molestias repellat quasi dolorum? Dolor porro nesciunt optio. Odio amet harum cupiditate quas unde.
+        &#x3C;/div&#x3E;
+      &#x3C;/div&#x3E;
+      &#x3C;div class=&#x22;card footer&#x22;&#x3E;
+        &#x3C;button class=&#x22;ini button blue&#x22;&#x3E;Button Left&#x3C;/button&#x3E;
+        &#x3C;button class=&#x22;ini button blue float right&#x22;&#x3E;Button Right&#x3C;/button&#x3E;
+      &#x3C;/div&#x3E;
     &#x3C;/div&#x3E;
   &#x3C;/div&#x3E;
-  &#x3C;div class=&#x22;card footer&#x22;&#x3E;
-    &#x3C;button class=&#x22;ini button blue&#x22;&#x3E;Button Left&#x3C;/button&#x3E;
-    &#x3C;button class=&#x22;ini button blue float right&#x22;&#x3E;Button Right&#x3C;/button&#x3E;
+  &#x3C;div class=&#x22;grid xsmall-12 large-4&#x22;&#x3E;
+    &#x3C;div class=&#x22;ini card&#x22;&#x3E;
+      &#x3C;div class=&#x22;card content&#x22;&#x3E;
+        &#x3C;div&#x3E;Header&#x3C;/div&#x3E;
+      &#x3C;/div&#x3E;
+      &#x3C;div class=&#x22;card image&#x22;&#x3E;
+        &#x3C;img src=&#x22;...&#x22; alt=&#x22;image&#x22; /&#x3E;
+      &#x3C;/div&#x3E;
+      &#x3C;div class=&#x22;card content&#x22;&#x3E;
+        &#x3C;div class=&#x22;card title&#x22;&#x3E;Card Title&#x3C;/div&#x3E;
+        &#x3C;div class=&#x22;card subtitle&#x22;&#x3E;Card Subtitle&#x3C;/div&#x3E;
+        &#x3C;div class=&#x22;card text&#x22;&#x3E;
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nesciunt eligendi distinctio dolorum vel? Numquam nihil molestias repellat quasi dolorum? Dolor porro nesciunt optio. Odio amet harum cupiditate quas unde.
+        &#x3C;/div&#x3E;
+      &#x3C;/div&#x3E;
+      &#x3C;div class=&#x22;card footer&#x22;&#x3E;
+        &#x3C;button class=&#x22;ini button blue&#x22;&#x3E;Button Left&#x3C;/button&#x3E;
+        &#x3C;button class=&#x22;ini button blue float right&#x22;&#x3E;Button Right&#x3C;/button&#x3E;
+      &#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+  &#x3C;/div&#x3E;
+  &#x3C;div class=&#x22;grid xsmall-12 large-4&#x22;&#x3E;
+    &#x3C;div class=&#x22;ini card&#x22;&#x3E;
+      &#x3C;div class=&#x22;card content&#x22;&#x3E;
+        &#x3C;div&#x3E;Header&#x3C;/div&#x3E;
+      &#x3C;/div&#x3E;
+      &#x3C;div class=&#x22;card image&#x22;&#x3E;
+        &#x3C;img src=&#x22;...&#x22; alt=&#x22;image&#x22; /&#x3E;
+      &#x3C;/div&#x3E;
+      &#x3C;div class=&#x22;card content&#x22;&#x3E;
+        &#x3C;div class=&#x22;card title&#x22;&#x3E;Card Title&#x3C;/div&#x3E;
+        &#x3C;div class=&#x22;card subtitle&#x22;&#x3E;Card Subtitle&#x3C;/div&#x3E;
+        &#x3C;div class=&#x22;card text&#x22;&#x3E;
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nesciunt eligendi distinctio dolorum vel? Numquam nihil molestias repellat quasi dolorum? Dolor porro nesciunt optio. Odio amet harum cupiditate quas unde.
+        &#x3C;/div&#x3E;
+      &#x3C;/div&#x3E;
+      &#x3C;div class=&#x22;card footer&#x22;&#x3E;
+        &#x3C;button class=&#x22;ini button blue&#x22;&#x3E;Button Left&#x3C;/button&#x3E;
+        &#x3C;button class=&#x22;ini button blue float right&#x22;&#x3E;Button Right&#x3C;/button&#x3E;
+      &#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
   &#x3C;/div&#x3E;
 &#x3C;/div&#x3E;</textarea>
           </div>
@@ -314,4 +390,3 @@ export default {
   }
 };
 </script>
-
