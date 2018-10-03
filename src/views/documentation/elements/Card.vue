@@ -256,8 +256,8 @@
               </div>
               <div class="area selected">
                 <div>
-                  <div>&#x3C;div class=&#x22;ini grids&#x22;&#x3E;</div>
-                    <div class="ml-3">&#x3C;div class=&#x22;grid xsmall-12 large-4&#x22;&#x3E;</div>
+                  <div><span class="tag">&#x3C;div</span><span class="class"> class=</span><span class="nclass">&#x22;grids&#x22;</span><span class="tag">&#x3E;</span></div>
+                    <div class="ml-3"><span class="tag">&#x3C;div</span><span class="class"> class=</span><span class="nclass">&#x22;grid xsmall-12 large-4&#x22;</span><span class="tag">&#x3E;</span></div>
                       <div class="ml-4"><span class="tag">&#x3C;div</span> <span class="class"> class=</span><span class="nclass">&#x22;ini card&#x22;</span><span class="tag">&#x3E;</span></div>
                         <div class="ml-5"><span class="tag">&#x3C;div</span> <span class="class"> class=</span><span class="nclass">&#x22;card content&#x22;</span><span class="tag">&#x3E;</span></div>
                           <div class="ml-6"><span class="tag">&#x3C;div</span> <span class="class"> class=</span><span class="nclass">&#x22;card title&#x22;</span>&#x3E;Card Title<span class="tag">&#x3C;/div&#x3E;</span></div>
@@ -272,7 +272,7 @@
                         <div class="ml-5"><span class="tag">&#x3C;/div&#x3E;</span></div>
                       <div class="ml-4"><span class="tag">&#x3C;/div&#x3E;</span></div>
                     <div class="ml-3"><span class="tag">&#x3C;/div&#x3E;</span></div>
-                    <div class="ml-3">&#x3C;div class=&#x22;grid xsmall-12 large-4&#x22;&#x3E;</div>
+                    <div class="ml-3"><span class="tag">&#x3C;div</span><span class="class"> class=</span><span class="nclass">&#x22;grid xsmall-12 large-4&#x22;</span><span class="tag">&#x3E;</span></div>
                       <div class="ml-4"><span class="tag">&#x3C;div</span> <span class="class"> class=</span><span class="nclass">&#x22;ini card&#x22;</span><span class="tag">&#x3E;</span></div>
                         <div class="ml-5"><span class="tag">&#x3C;div</span> <span class="class"> class=</span><span class="nclass">&#x22;card content&#x22;</span><span class="tag">&#x3E;</span></div>
                           <div class="ml-6"><span class="tag">&#x3C;div</span> <span class="class"> class=</span><span class="nclass">&#x22;card title&#x22;</span>&#x3E;Card Title<span class="tag">&#x3C;/div&#x3E;</span></div>
@@ -287,7 +287,7 @@
                         <div class="ml-5"><span class="tag">&#x3C;/div&#x3E;</span></div>
                       <div class="ml-4"><span class="tag">&#x3C;/div&#x3E;</span></div>
                     <div class="ml-3"><span class="tag">&#x3C;/div&#x3E;</span></div>
-                    <div class="ml-3">&#x3C;div class=&#x22;grid xsmall-12 large-4&#x22;&#x3E;</div>
+                    <div class="ml-3"><span class="tag">&#x3C;div</span><span class="class"> class=</span><span class="nclass">&#x22;grid xsmall-12 large-4&#x22;</span><span class="tag">&#x3E;</span></div>
                       <div class="ml-4"><span class="tag">&#x3C;div</span> <span class="class"> class=</span><span class="nclass">&#x22;ini card&#x22;</span><span class="tag">&#x3E;</span></div>
                         <div class="ml-5"><span class="tag">&#x3C;div</span> <span class="class"> class=</span><span class="nclass">&#x22;card content&#x22;</span><span class="tag">&#x3E;</span></div>
                           <div class="ml-6"><span class="tag">&#x3C;div</span> <span class="class"> class=</span><span class="nclass">&#x22;card title&#x22;</span>&#x3E;Card Title<span class="tag">&#x3C;/div&#x3E;</span></div>
