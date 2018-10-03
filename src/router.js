@@ -10,7 +10,12 @@ import DocElImage from './views/documentation/elements/Image.vue'
 import DocElMenu from './views/documentation/elements/Menu.vue'
 import DocElCard from './views/documentation/elements/Card.vue'
 
+import DocFormGeneral from './views/documentation/form/General.vue'
 import DocFormInput from './views/documentation/form/Input.vue'
+import DocFormTextarea from './views/documentation/form/Textarea.vue'
+import DocFormCheckbox from './views/documentation/form/Checkbox.vue'
+import DocFormRadio from './views/documentation/form/Radio.vue'
+import DocFormSelect from './views/documentation/form/Select.vue'
 
 import DocGridFlex from './views/documentation/grids/Flexible.vue'
 import DocGridSize from './views/documentation/grids/Size.vue'
@@ -68,9 +73,34 @@ export default new Router({
       component: DocElTable
     },
     {
+      path: '/documentation/form/general',
+      name: 'general',
+      component: DocFormGeneral
+    },
+    {
       path: '/documentation/form/input',
       name: 'input',
       component: DocFormInput
+    },
+    {
+      path: '/documentation/form/textarea',
+      name: 'textarea',
+      component: DocFormTextarea
+    },
+    {
+      path: '/documentation/form/checkbox',
+      name: 'checkbox',
+      component: DocFormCheckbox
+    },
+    {
+      path: '/documentation/form/radio',
+      name: 'radio',
+      component: DocFormRadio
+    },
+    {
+      path: '/documentation/form/select',
+      name: 'select',
+      component: DocFormSelect
     },
     {
       path: '/documentation/grids/flexible',

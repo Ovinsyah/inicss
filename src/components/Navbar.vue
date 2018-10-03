@@ -12,12 +12,12 @@
             </button>
             <div class="ini menus">
                 <div class="menu left">
-                    <a href="">
+                    <router-link to="/documentation">
                         Documentation
-                    </a>
-                    <!-- <a href="">
-                        Documentation
-                    </a> -->
+                    </router-link>
+                    <router-link to="/">
+                        Template
+                    </router-link>
                 </div>
                 <!-- <div class="menu center">
                     <a href="">tengah</a>

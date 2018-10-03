@@ -1,33 +1,4 @@
-<style>
-    .ini.form{
-      margin-bottom: 1rem;
-    }
-    .ini.form label{
-      display: block;
-      color: black;
-      font-size: 14px;
-      font-weight: 700;
-      margin-bottom: 0.3rem;
-    }
-    .ini.form .ini.input{
-      width: 100% !important;
-    }
-    .ini.form.search{
-      position: relative;
-    }
-    .ini.form i{
-      position: absolute;
-    }
-    .ini.input{
-        max-width: 100% !important;
-        background: white !important;
-        font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif !important;
-        padding: 0.6rem !important;
-        border: 1px solid rgba(34,36,38,.15) !important;
-        border-radius: .28571429rem !important;
-        height: 36px !important;
-    }
-</style>
+
 <template>
   <div class="content documentation">
     <Navbar/>
@@ -36,7 +7,7 @@
       <div class="body content">
         <h1>Input</h1>
           <div>Kayak gini kalo mau pakek input bos</div>
-          <h4 class="mt-3">Input Login</h4>
+          <h4 class="mt-3">Default</h4>
           <div class="ini section">
             <div class="example button">
               <div class="ini form">
@@ -45,7 +16,7 @@
               </div>
               <div class="ini form">
                 <label>Password</label>
-                <input type="password" class="ini input" placeholder="Email">
+                <input type="password" class="ini input" placeholder="Password">
               </div>
             </div>
             <div class="code">
@@ -53,7 +24,105 @@
                     <button class="ini button copy onCopy">Copy</button>
                 </div>
                 <div class="area selected">
-                  <!-- Area -->
+                  <div><span class="tag">&#x3C;div</span><span class="class"> class=</span><span class="nclass">&#x22;ini form&#x22;</span><span class="tag">&#x3E;</span></div>
+                  <div class="ml-4"><span class="tag">&#x3C;label&#x3E;</span>Email<span class="tag">&#x3C;/label&#x3E;</span></div>
+                  <div class="ml-4"><span class="tag">&#x3C;input</span><span class="class"> type=</span><span class="nclass">&#x22;email&#x22;</span><span class="class"> class=</span><span class="nclass">&#x22;ini input&#x22;</span><span class="class"> placeholder=</span><span class="nclass">&#x22;Email&#x22;</span><span class="tag">&#x3E;</span></div>
+                  <div><span class="tag">&#x3C;/div&#x3E;</span></div>
+                  <div><span class="tag">&#x3C;div</span><span class="class"> class=</span><span class="nclass">&#x22;ini form&#x22;</span><span class="tag">&#x3E;</span></div>
+                  <div class="ml-4"><span class="tag">&#x3C;label&#x3E;</span>Password<span class="tag">&#x3C;/label&#x3E;</span></div>
+                  <div class="ml-4"><span class="tag">&#x3C;input</span><span class="class"> type=</span>&#x22;password&#x22;<span class="class"> class=</span><span class="nclass">&#x22;ini input&#x22;</span><span class="class"> placeholder=</span><span class="nclass">&#x22;Password&#x22;</span><span class="tag">&#x3E;</span></div>
+                  <div><span class="tag">&#x3C;/div&#x3E;</span></div>
+                </div>
+                <textarea cols="100" rows="100" class="hidden">
+&#x3C;div class=&#x22;ini form&#x22;&#x3E;
+  &#x3C;label&#x3E;Email&#x3C;/label&#x3E;
+  &#x3C;input type=&#x22;email&#x22; class=&#x22;ini input&#x22; placeholder=&#x22;Email&#x22;&#x3E;
+&#x3C;/div&#x3E;
+&#x3C;div class=&#x22;ini form&#x22;&#x3E;
+  &#x3C;label&#x3E;Password&#x3C;/label&#x3E;
+  &#x3C;input type=&#x22;password&#x22; class=&#x22;ini input&#x22; placeholder=&#x22;Password&#x22;&#x3E;
+&#x3C;/div&#x3E;</textarea>
+            </div>
+          </div>
+          <h4 class="mt-3">Rounded</h4>
+          <div class="ini section">
+            <div class="example button">
+              <div class="ini form">
+                <input type="text" class="ini input rouneded" placeholder="Search">
+              </div>
+            </div>
+            <div class="code">
+                <div class="ini align right">
+                    <button class="ini button copy onCopy">Copy</button>
+                </div>
+                <div class="area selected">
+                  <div class="ml-4"><span class="tag">&#x3C;input</span><span class="class"> type=</span><span class="nclass">&#x22;email&#x22;</span><span class="class"> class=</span><span class="nclass">&#x22;ini input rounded&#x22;</span><span class="class"> placeholder=</span><span class="nclass">&#x22;Search&#x22;</span><span class="tag">&#x3E;</span></div>
+                </div>
+                <textarea cols="100" rows="100" class="hidden">&#x3C;input type=&#x22;email&#x22; class=&#x22;ini input rounded&#x22; placeholder=&#x22;Search&#x22;&#x3E;</textarea>
+            </div>
+          </div>
+          <h4 class="mt-3">Disabled</h4>
+          <div class="ini section">
+            <div class="example button">
+              <div class="ini form">
+                <input type="text" class="ini input" placeholder="Search" disabled>
+              </div>
+            </div>
+            <div class="code">
+                <div class="ini align right">
+                    <button class="ini button copy onCopy">Copy</button>
+                </div>
+                <div class="area selected">
+                  <div class="ml-4"><span class="tag">&#x3C;input</span><span class="class"> type=</span><span class="nclass">&#x22;email&#x22;</span><span class="class"> class=</span><span class="nclass">&#x22;ini input disabled&#x22;</span><span class="class"> placeholder=</span><span class="nclass">&#x22;Search&#x22;</span><span class="class"> disabled</span><span class="tag">&#x3E;</span></div>
+                </div>
+                <textarea cols="100" rows="100" class="hidden">&#x3C;input type=&#x22;email&#x22; class=&#x22;ini input rounded&#x22; placeholder=&#x22;Search&#x22; disabled&#x3E;</textarea>
+            </div>
+          </div>
+          <h4 class="mt-3">With Icon</h4>
+          <div class="ini section">
+            <div class="example button">
+              <div class="ini form">
+                <div class="icon right">
+                  <i class="material-icons">search</i>
+                  <input type="text" class="ini input rouneded" placeholder="Search">
+                </div>
+              </div>
+              <div class="ini form">
+                <div class="icon left">
+                  <i class="material-icons">email</i>
+                  <input type="email" class="ini input" placeholder="Email">
+                </div>
+              </div>
+              <div class="ini form">
+                <div class="icon left">
+                  <i class="material-icons">vpn_key</i>
+                  <input type="password" class="ini input" placeholder="Password">
+                </div>
+              </div>
+            </div>
+            <div class="code">
+                <div class="ini align right">
+                    <button class="ini button copy onCopy">Copy</button>
+                </div>
+                <div class="area selected">
+                  <div><span class="tag">&#x3C;div</span> <span class="class"> class=</span><span class="nclass">&#x22;ini form&#x22;</span><span class="tag">&#x3E;</span></div>
+                    <div class="ml-4"><span class="tag">&#x3C;div</span> <span class="class"> class=</span><span class="class">&#x22;icon right&#x22;</span><span class="tag">&#x3E;</span></div>
+                      <div class="ml-5">&#x3C;i <span class="class"> class=</span><span class="nclass">&#x22;material-icons&#x22;</span><span class="tag">&#x3E;</span>search<span class="tag">&#x3C;/i&#x3E;</span></div>
+                      <div class="ml-5"><span class="tag">&#x3C;input</span><span class="class">type=&#x22;text&#x22;</span><span class="class"> class=</span><span class="nclass">&#x22;ini input rouneded&#x22;</span><span class="class"> placeholder=</span><span class="nclass">&#x22;Search&#x22;</span><span class="tag">&#x3E;</span></div>
+                    <div class="ml-4"><span class="tag">&#x3C;/div&#x3E;</span></div>
+                  <div><span class="tag">&#x3C;/div&#x3E;</span></div>
+                  <div><span class="tag">&#x3C;div</span> <span class="class"> class=</span><span class="nclass">&#x22;ini form&#x22;</span><span class="tag">&#x3E;</span></div>
+                    <div class="ml-4"><span class="tag">&#x3C;div</span> <span class="class"> class=</span>&#x22;icon left&#x22;<span class="tag">&#x3E;</span></div>
+                      <div class="ml-5">&#x3C;i <span class="class"> class=</span><span class="nclass">&#x22;material-icons&#x22;</span><span class="tag">&#x3E;</span>email<span class="tag">&#x3C;/i&#x3E;</span></div>
+                      <div class="ml-5"><span class="tag">&#x3C;input</span><span class="class">type=&#x22;email&#x22;</span><span class="class"> class=</span><span class="nclass">&#x22;ini input&#x22;</span><span class="class"> placeholder=</span><span class="nclass">&#x22;Email&#x22;</span><span class="tag">&#x3E;</span></div>
+                    <div class="ml-4"><span class="tag">&#x3C;/div&#x3E;</span></div>
+                  <div><span class="tag">&#x3C;/div&#x3E;</span></div>
+                  <div><span class="tag">&#x3C;div</span> <span class="class"> class=</span><span class="nclass">&#x22;ini form&#x22;</span><span class="tag">&#x3E;</span></div>
+                    <div class="ml-4"><span class="tag">&#x3C;div</span> <span class="class"> class=</span>&#x22;icon left&#x22;<span class="tag">&#x3E;</span></div>
+                      <div class="ml-5">&#x3C;i <span class="class"> class=</span><span class="nclass">&#x22;material-icons&#x22;</span><span class="tag">&#x3E;</span>vpn_key<span class="tag">&#x3C;/i&#x3E;</span></div>
+                      <div class="ml-5"><span class="tag">&#x3C;input</span><span class="class">type=&#x22;password&#x22;</span><span class="class"> class=</span><span class="nclass">&#x22;ini input&#x22;</span><span class="class"> placeholder=</span><span class="nclass">&#x22;Password&#x22;</span><span class="tag">&#x3E;</span></div>
+                    <div class="ml-4"><span class="tag">&#x3C;/div&#x3E;</span></div>
+                  <div><span class="tag">&#x3C;/div&#x3E;</span></div>
                 </div>
                 <textarea cols="100" rows="100" class="hidden"></textarea>
             </div>

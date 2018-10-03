@@ -13,6 +13,7 @@
 					<li><router-link to="/documentation/elements/image">Image</router-link></li>
 					<li><router-link to="/documentation/elements/card">Card</router-link></li>
 					<li><router-link to="/documentation/elements/menu">Menu</router-link></li>
+					<li><router-link to="/documentation/elements/menu">Step</router-link></li>
 				</ul>
 			</li>
 			<li>
@@ -20,7 +21,12 @@
 					Form
 				</a>
 				<ul class="collapse">
+					<li><router-link to="/documentation/form/general">General</router-link></li>
 					<li><router-link to="/documentation/form/input">Input</router-link></li>
+					<li><router-link to="/documentation/form/textarea">Textarea</router-link></li>
+					<li><router-link to="/documentation/form/checkbox">Checkbox</router-link></li>
+					<li><router-link to="/documentation/form/radio">Radio</router-link></li>
+					<li><router-link to="/documentation/form/select">Select</router-link></li>
 				</ul>
 			</li>
 			<li>

@@ -42,7 +42,17 @@ img{
 *::after {
     box-sizing: border-box;
 }
-
+.ini{
+    .button[disabled], .input[disabled],
+    .textarea[disabled], .select[disabled],
+    .button:active[disabled], .input:active[disabled],
+    .textarea:active[disabled], .select:active[disabled]{
+        cursor: not-allowed;
+        background: #f7f7f7 !important;
+        opacity: 0.7;
+        border-color: #f7f7f7 !important;
+    }
+}
 .hidden{
     display: none;
 }
@@ -1412,4 +1422,105 @@ img.ini.thumbnail{
         display: flow-root;
         font-size: 14px;
     }
+}
+/*
+===============================================================
+    INI FORM
+===============================================================
+*/
+.ini.form{
+  margin-bottom: 1rem;
+  label{
+      display: block;
+      color: black;
+      font-size: 14px;
+      font-weight: 700;
+      margin-bottom: 0.3rem;
+    }
+    .ini.input,.ini.textarea{
+      width: 100% !important;
+    }
+    .icon.right,.icon.left{
+        position: relative !important;
+        i{
+            position: absolute;
+            line-height: 1;
+            top: 7px;
+            margin: 0;
+            opacity: .6;
+            font-size: 1.4rem;
+        }
+    }
+    .icon.right{
+        .ini.input{
+            padding-right: 2rem !important;
+        }
+        i{
+            right: 7px;
+        }
+    }
+    .icon.left{
+        .ini.input{
+            padding-left: 2rem !important;
+        }
+        i{
+            left: 7px;
+        }
+    }
+}
+.ini.textarea{
+    height: auto !important;
+}
+.ini.input,.ini.textarea{
+    max-width: 100% !important;
+    background: white !important;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif !important;
+    padding: 0.6rem !important;
+    border: 1px solid rgba(34,36,38,.15) !important;
+    border-radius: .28571429rem !important;
+    height: 36px;
+}
+.ini.input::placeholder{
+    opacity: 0.5;
+}
+.ini.input:active,.ini.input:focus,
+.ini.textarea:active,.ini.textarea:focus,
+{
+    outline: none !important;
+    border: 1px solid rgba(0, 65, 111, 0.48) !important;
+}
+.ini.input.rouneded{
+    border-radius: 2rem !important;
+}
+.ini.checkbox {
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: lightgray;
+    height: 25px;
+    width: 25px;
+}
+.ini.checkbox:focus{
+    outline: none !important;
+}
+.ini.checkbox:checked {
+  background: #2aa1c0;
+}
+
+.ini.checkbox:after {
+    content: '';
+    position: relative;
+    left: 43%;
+    top: 19%;
+    width: 24%;
+    height: 50%;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    display: none;
+}
+
+.ini.checkbox:checked:after {
+  display: block;
 }
