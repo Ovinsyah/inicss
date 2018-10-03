@@ -823,7 +823,8 @@ h6 {
 
 .ini.navbar.fixed {
   position: sticky;
-  top: 0; }
+  top: 0;
+  z-index: 990; }
 
 @media (min-width: 768px) {
   .ini.navbar .ini.hamburger {
@@ -1212,14 +1213,14 @@ img.ini.thumbnail {
 ===============================================================
 */
 .ini.form {
-  margin-bottom: 1rem; }
-  .ini.form label {
+  margin-bottom: .6rem; }
+  .ini.form > label {
     display: block;
     color: black;
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 0.3rem; }
-  .ini.form .ini.input, .ini.form .ini.textarea {
+  .ini.form .ini.input, .ini.form .ini.textarea, .ini.form .select {
     width: 100% !important; }
   .ini.form .icon.right, .ini.form .icon.left {
     position: relative !important; }
@@ -1238,11 +1239,21 @@ img.ini.thumbnail {
     padding-left: 2rem !important; }
   .ini.form .icon.left i {
     left: 7px; }
+  .ini.form > .checkbox, .ini.form > .radio, .ini.form > .toggle, .ini.form > .slider {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 1rem; }
+    .ini.form > .checkbox label, .ini.form > .radio label, .ini.form > .toggle label, .ini.form > .slider label {
+      font-size: 14px;
+      margin: 0px 0px 0px 5px !important;
+      cursor: pointer; }
+  .ini.form > .checkbox:last-child, .ini.form > .radio:last-child {
+    margin-right: 0; }
 
 .ini.textarea {
   height: auto !important; }
 
-.ini.input, .ini.textarea {
+.ini.input, .ini.textarea, .ini.select {
   max-width: 100% !important;
   background: white !important;
   font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif !important;
@@ -1255,41 +1266,91 @@ img.ini.thumbnail {
   opacity: 0.5; }
 
 .ini.input:active, .ini.input:focus,
-.ini.textarea:active, .ini.textarea:focus {
+.ini.textarea:active, .ini.textarea:focus,
+.ini.select:active, .ini.select:focus {
   outline: none !important;
   border: 1px solid rgba(0, 65, 111, 0.48) !important; }
 
 .ini.input.rouneded {
   border-radius: 2rem !important; }
 
-.ini.checkbox {
+.ini.checkbox, .ini.radio, .ini.toggle, .ini.slider {
   cursor: pointer;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   background: lightgray;
-  height: 25px;
-  width: 25px; }
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  margin: 0; }
 
-.ini.checkbox:focus {
+.ini.radio, .ini.toggle, .ini.slider {
+  border-radius: 50%; }
+
+.ini.checkbox:focus, .ini.radio:focus, .ini.toggle:focus, .ini.slider:focus {
   outline: none !important; }
 
-.ini.checkbox:checked {
-  background: #2aa1c0; }
+.ini.checkbox:checked, .ini.radio:checked, .ini.toggle:checked, .ini.slider:checked {
+  background: #2ac0c0;
+  transition: all .7s; }
 
-.ini.checkbox:after {
+.ini.checkbox:after, .ini.radio:after {
   content: '';
   position: relative;
+  top: 23%;
   left: 43%;
-  top: 19%;
-  width: 24%;
-  height: 50%;
+  width: 18%;
+  height: 44%;
   border: solid #fff;
   border-width: 0 2px 2px 0;
   transform: rotate(45deg);
   display: none; }
 
-.ini.checkbox:checked:after {
+.ini.checkbox:checked:after, .ini.radio:checked:after, .ini.toggle:checked:after, .ini.toggle:checked:after {
   display: block; }
+
+.ini.toggle {
+  width: 50px !important;
+  border-radius: 2rem !important;
+  position: relative; }
+
+.ini.toggle:after, .ini.slider:after {
+  content: '';
+  position: absolute;
+  display: block;
+  box-shadow: rgba(34, 36, 38, 0.15) 0px 1px 2px 0px, rgba(34, 36, 38, 0.15) 0px 0px 0px 1px inset;
+  width: 1.26rem;
+  height: 1.26rem;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.05)) white;
+  border-radius: 50%;
+  transition: all .7s;
+  left: 0;
+  -webkit-transform: translate(0); }
+
+.ini.toggle:checked:after, .ini.slider:checked:after {
+  left: 100%;
+  -webkit-transform: translate(-100%);
+  transition: all .7s; }
+
+.ini.slider {
+  width: 50px !important;
+  border-radius: 0 !important;
+  position: relative;
+  background: transparent !important; }
+
+.ini.slider::before {
+  content: '';
+  height: 4px;
+  background: #2ac0c0;
+  width: 50px;
+  position: absolute;
+  top: calc(50% - 2px);
+  opacity: .3;
+  transition: all .7s; }
+
+.ini.slider:checked:before {
+  opacity: 1;
+  transition: all .7s; }
 
 /*# sourceMappingURL=ini.css.map */

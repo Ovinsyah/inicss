@@ -13,7 +13,6 @@
 					<li><router-link to="/documentation/elements/image">Image</router-link></li>
 					<li><router-link to="/documentation/elements/card">Card</router-link></li>
 					<li><router-link to="/documentation/elements/menu">Menu</router-link></li>
-					<li><router-link to="/documentation/elements/menu">Step</router-link></li>
 				</ul>
 			</li>
 			<li>
@@ -27,6 +26,7 @@
 					<li><router-link to="/documentation/form/checkbox">Checkbox</router-link></li>
 					<li><router-link to="/documentation/form/radio">Radio</router-link></li>
 					<li><router-link to="/documentation/form/select">Select</router-link></li>
+					<li><router-link to="/documentation/form/file">File</router-link></li>
 				</ul>
 			</li>
 			<li>
@@ -45,6 +45,14 @@
 				</a>
 				<ul class="collapse">
 					<li><router-link to="/documentation/layout/container">Container</router-link></li>
+				</ul>
+			</li>
+			<li>
+				<a class="openCollapse">
+					Collection
+				</a>
+				<ul class="collapse">
+					<li><router-link to="/documentation/collection/step">Step</router-link></li>
 				</ul>
 			</li>
 		</ul>

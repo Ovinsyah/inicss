@@ -16,6 +16,7 @@ import DocFormTextarea from './views/documentation/form/Textarea.vue'
 import DocFormCheckbox from './views/documentation/form/Checkbox.vue'
 import DocFormRadio from './views/documentation/form/Radio.vue'
 import DocFormSelect from './views/documentation/form/Select.vue'
+import DocFormFile from './views/documentation/form/File.vue'
 
 import DocGridFlex from './views/documentation/grids/Flexible.vue'
 import DocGridSize from './views/documentation/grids/Size.vue'
@@ -24,98 +25,103 @@ import DocLayCon from './views/documentation/layout/Container.vue'
 Vue.use(Router)
 
 export default new Router({
-  mode: 'history',
+  mode: "history",
   hash: false,
   routes: [
     {
-      path: '/',
-      name: 'home',
+      path: "/",
+      name: "home",
       component: Home
     },
     {
-      path: '/documentation',
-      name: 'documentation',
+      path: "/documentation",
+      name: "documentation",
       component: Doc
     },
     {
-      path: '/documentation/elements/button',
-      name: 'button',
+      path: "/documentation/elements/button",
+      name: "button",
       component: DocElButton
     },
     {
-      path: '/documentation/elements/modal',
-      name: 'modal',
+      path: "/documentation/elements/modal",
+      name: "modal",
       component: DocElModal
     },
     {
-      path: '/documentation/elements/card',
-      name: 'card',
+      path: "/documentation/elements/card",
+      name: "card",
       component: DocElCard
     },
     {
-      path: '/documentation/elements/image',
-      name: 'image',
+      path: "/documentation/elements/image",
+      name: "image",
       component: DocElImage
     },
     {
-      path: '/documentation/elements/menu',
-      name: 'menu',
+      path: "/documentation/elements/menu",
+      name: "menu",
       component: DocElMenu
     },
     {
-      path: '/documentation/elements/navbar',
-      name: 'navbar',
+      path: "/documentation/elements/navbar",
+      name: "navbar",
       component: DocElNavbar
     },
     {
-      path: '/documentation/elements/table',
-      name: 'table',
+      path: "/documentation/elements/table",
+      name: "table",
       component: DocElTable
     },
     {
-      path: '/documentation/form/general',
-      name: 'general',
+      path: "/documentation/form/general",
+      name: "general",
       component: DocFormGeneral
     },
     {
-      path: '/documentation/form/input',
-      name: 'input',
+      path: "/documentation/form/input",
+      name: "input",
       component: DocFormInput
     },
     {
-      path: '/documentation/form/textarea',
-      name: 'textarea',
+      path: "/documentation/form/textarea",
+      name: "textarea",
       component: DocFormTextarea
     },
     {
-      path: '/documentation/form/checkbox',
-      name: 'checkbox',
+      path: "/documentation/form/checkbox",
+      name: "checkbox",
       component: DocFormCheckbox
     },
     {
-      path: '/documentation/form/radio',
-      name: 'radio',
+      path: "/documentation/form/radio",
+      name: "radio",
       component: DocFormRadio
     },
     {
-      path: '/documentation/form/select',
-      name: 'select',
+      path: "/documentation/form/select",
+      name: "select",
       component: DocFormSelect
     },
     {
-      path: '/documentation/grids/flexible',
-      name: 'grid flexible',
+      path: "/documentation/form/file",
+      name: "file",
+      component: DocFormFile
+    },
+    {
+      path: "/documentation/grids/flexible",
+      name: "grid flexible",
       component: DocGridFlex
     },
     {
-      path: '/documentation/grids/size',
-      name: 'grid size',
+      path: "/documentation/grids/size",
+      name: "grid size",
       component: DocGridSize
     },
     {
-      path: '/documentation/layout/container',
-      name: 'container',
+      path: "/documentation/layout/container",
+      name: "container",
       component: DocLayCon
     }
   ]
-})
+});
