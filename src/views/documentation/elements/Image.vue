@@ -22,8 +22,8 @@
               <textarea cols="100" rows="100" class="hidden">&#x3C;img src=&#x22;...&#x22; alt=&#x22;image&#x22; /&#x3E;</textarea>
           </div>
 
-          <h4 class="mt-3"><i>Rounded Image</i></h4>
-          <div class="mb-3">Gambar pada ini css dapat dibuat memiliki sisi <i>rounded</i></div>
+          <h4 class="mt-3">Rounded Image</h4>
+          <div class="mb-3">Gambar pada ini css dapat dibuat memiliki sisi rounded</div>
           <div class="example image-rounded">
               <img class="ini rounded" src="/assets/img/image.png" alt="image" />
           </div>
@@ -37,7 +37,7 @@
               <textarea cols="100" rows="100" class="hidden">&#x3C;img class=&#x22;ini rounded&#x22; src=&#x22;/assets/img/image.png&#x22; alt=&#x22;image&#x22; /&#x3E;</textarea>
           </div>
 
-          <h4 class="mt-3"><i>Circle Image</i></h4>
+          <h4 class="mt-3">Circle Image</h4>
           <div class="mb-3">Gambar pada ini css dapat dibuat memiliki bentuk lingkaran</div>
           <div class="example image-circle">
               <img class="ini circle" src="/assets/img/image.png" alt="image" />
@@ -52,8 +52,8 @@
               <textarea cols="100" rows="100" class="hidden">&#x3C;img class=&#x22;ini circle&#x22; src=&#x22;/assets/img/image.png&#x22; alt=&#x22;image&#x22; /&#x3E;</textarea>
           </div>
 
-          <h4 class="mt-3"><i>Thumbnail Image</i></h4>
-          <div class="mb-3">Gambar pada ini css dapat dibuat memiliki bentuk <i>thumbnail</i></div>
+          <h4 class="mt-3">Thumbnail Image</h4>
+          <div class="mb-3">Gambar pada ini css dapat dibuat memiliki bentuk thumbnail</div>
           <div class="example image-thumbnail">
               <img class="ini thumbnail" src="/assets/img/image.png" alt="image" />
           </div>
