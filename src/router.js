@@ -8,7 +8,7 @@ import DocElModal from './views/documentation/elements/Modal.vue'
 import DocElNavbar from './views/documentation/elements/Navbar.vue'
 import DocElTable from './views/documentation/elements/Table.vue'
 import DocElImage from './views/documentation/elements/Image.vue'
-import DocElMenu from './views/documentation/elements/Menu.vue'
+import DocElTabs from './views/documentation/elements/Tabs.vue'
 import DocElCard from './views/documentation/elements/Card.vue'
 
 import DocFormGeneral from './views/documentation/form/General.vue'
@@ -65,9 +65,9 @@ export default new Router({
       component: DocElImage
     },
     {
-      path: "/documentation/elements/menu",
-      name: "menu",
-      component: DocElMenu
+      path: "/documentation/elements/tabs",
+      name: "tabs",
+      component: DocElTabs
     },
     {
       path: "/documentation/elements/navbar",

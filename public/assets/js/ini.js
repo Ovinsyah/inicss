@@ -50,3 +50,26 @@ $(document).on("click", ".openDropdown", function() {
     $(this).toggleClass('active');
     $(this).parent().toggleClass('active');
 });
+window.onclick = function (event) {
+    if (!event.target.matches(".openDropdown")) {
+        $(".openDropdown").each(function () {
+            $(this).removeClass("active");
+            $(this).parent().removeClass("active");
+        })
+    }
+}
+$(document).on("click", ".openTab", function () {
+    let target = $(this).attr("data-target");
+    let type = $(this).closest(".ini.tabs");
+    let header = $(type).find(".tab.header li");
+    let content = $(type).find(".tab.body .content");
+    $(content).each(function () {
+        $(this).removeClass('active');
+    });
+    $(header).each(function() {
+      $(this).removeClass("active");
+    });
+    $(this).addClass("active");
+    $(target).addClass("active");
+    
+});

@@ -955,12 +955,14 @@ h6 {
     padding-left: 20px;
     max-height: 0px;
     transition: max-height 0.3s; }
-    .ini.menu.vertical .collapse a {
+    .ini.menu.vertical .collapse li {
       display: block;
       padding: 7px;
       cursor: pointer;
       color: #797979;
       font-size: 14px; }
+    .ini.menu.vertical .collapse li:hover, .ini.menu.vertical .collapse a:hover {
+      color: #2ac0c0; }
 
 /*
 ===============================================================
@@ -1599,5 +1601,65 @@ img.ini.thumbnail {
   -moz-transform: scaleY(1);
   -o-transform: scaleY(1);
   transform: scaleY(1); }
+
+/*
+===============================================================
+    INI TABS
+===============================================================
+*/
+.ini.tabs.horizontal .tab.header ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  margin: 0; }
+  .ini.tabs.horizontal .tab.header ul li {
+    flex: 1;
+    padding: .7rem;
+    margin-right: .2rem;
+    cursor: pointer;
+    text-align: center; }
+  .ini.tabs.horizontal .tab.header ul li:last-child {
+    margin-right: 0; }
+  .ini.tabs.horizontal .tab.header ul li.active, .ini.tabs.horizontal .tab.header ul li:hover {
+    background: #2ac0c0;
+    color: white;
+    border-radius: .18rem; }
+.ini.tabs.horizontal .tab.body {
+  padding: .5rem;
+  margin-top: .8rem; }
+  .ini.tabs.horizontal .tab.body .content {
+    display: none; }
+  .ini.tabs.horizontal .tab.body .content.active {
+    display: block; }
+
+.ini.tabs.vertical {
+  display: flex; }
+  .ini.tabs.vertical .tab.header {
+    flex: 1;
+    max-width: fit-content;
+    margin-right: 1rem; }
+    .ini.tabs.vertical .tab.header ul {
+      list-style: none;
+      padding: 0;
+      margin: 0; }
+      .ini.tabs.vertical .tab.header ul li {
+        padding: .7rem;
+        margin: 0 .2rem .2rem 0;
+        cursor: pointer;
+        text-align: center;
+        min-width: 8rem; }
+      .ini.tabs.vertical .tab.header ul li:last-child {
+        margin-right: 0; }
+      .ini.tabs.vertical .tab.header ul li.active, .ini.tabs.vertical .tab.header ul li:hover {
+        background: #2ac0c0;
+        color: white;
+        border-radius: .18rem; }
+  .ini.tabs.vertical .tab.body {
+    flex: 1;
+    padding: .5rem; }
+    .ini.tabs.vertical .tab.body .content {
+      display: none; }
+    .ini.tabs.vertical .tab.body .content.active {
+      display: block; }
 
 /*# sourceMappingURL=ini.css.map */

@@ -13,7 +13,7 @@
 					<li><router-link to="/documentation/elements/navbar">Navbar</router-link></li>
 					<li><router-link to="/documentation/elements/image">Image</router-link></li>
 					<li><router-link to="/documentation/elements/card">Card</router-link></li>
-					<li><router-link to="/documentation/elements/menu">Menu</router-link></li>
+					<li><router-link to="/documentation/elements/tabs">Tabs</router-link></li>
 				</ul>
 			</li>
 			<li>

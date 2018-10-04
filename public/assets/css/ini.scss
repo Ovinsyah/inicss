@@ -19,6 +19,8 @@ $gray-nd-color: #6b6b6b;
 $midnight-color: #2c3e50;
 $midnight-nd-color: #516982;
 
+$blue-inicss-color : #2ac0c0;
+
 $text-color : #464646;
 $text-nd-color : #797979;
 body {
@@ -1118,12 +1120,15 @@ h6 {
         padding-left: 20px;
         max-height: 0px;
         transition: max-height 0.3s;
-        a{
+        li{
             display:block;
             padding: 7px;
             cursor: pointer; 
             color: $text-nd-color;
             font-size: 14px;
+        }
+        li:hover,a:hover{
+            color: $blue-inicss-color;
         }
     }
 }
@@ -1632,7 +1637,7 @@ img.ini.thumbnail{
     outline: none !important;
 }
 .ini.checkbox:checked,.ini.radio:checked,.ini.toggle:checked,.ini.slider:checked  {
-    background: #2ac0c0;
+    background: $blue-inicss-color;
     transition: all .7s;
 }
 .ini.checkbox:after,.ini.radio:after {
@@ -1684,7 +1689,7 @@ img.ini.thumbnail{
 .ini.slider::before{
     content: '';
     height: 4px;
-    background: #2ac0c0;
+    background: $blue-inicss-color;
     width: 50px;
     position: absolute;
     top: calc(50% - 2px);
@@ -1795,7 +1800,7 @@ img.ini.thumbnail{
 }
 //ex style
 .ini.button.upload{
-    background: #2ac0c0;
+    background: $blue-inicss-color;
     padding: 5px 10px;
     color: white;
 }
@@ -1825,17 +1830,17 @@ img.ini.thumbnail{
     .ini.button{
         display: flex;
     }
-
+    
     .ini.button:after{
         content: "expand_more";
         font-family: 'Material Icons';
         margin-left: 5px;
     }
-
+    
     .ini.button.active:after{
         content: "expand_less";
     }
-
+    
     .menu{
         background: #fff;
         border: 1px solid #f5f5f5;
@@ -1857,12 +1862,12 @@ img.ini.thumbnail{
         -o-transform-origin: top;
         transform-origin: top;
     }
-
+    
     .item{
         display: block;
         padding: .5rem 2rem;
     }
-
+    
     .item:hover{
         background: #f5f5f5;
     }
@@ -1879,4 +1884,82 @@ img.ini.thumbnail{
     -moz-transform: scaleY(1);
     -o-transform: scaleY(1);
     transform: scaleY(1);
+}
+/*
+===============================================================
+    INI TABS
+===============================================================
+*/
+.ini.tabs.horizontal{
+    .tab.header{
+        ul{
+            list-style: none;
+            padding: 0;
+            display: flex;
+            margin: 0;
+            li{
+                flex: 1;
+                padding: .7rem;
+                margin-right: .2rem;
+                cursor: pointer;
+                text-align: center;
+            }
+            li:last-child{
+                margin-right: 0;
+            }
+            li.active,li:hover{
+                background: $blue-inicss-color;
+                color: white;
+                border-radius: .18rem;
+            }
+        }
+    }
+    .tab.body{
+        padding: .5rem;
+        margin-top: .8rem;
+        .content{
+            display: none;
+        }
+        .content.active{
+            display: block;
+        }
+    }
+}
+.ini.tabs.vertical{
+    display: flex;
+    .tab.header{
+        flex: 1;
+        max-width: fit-content;
+        margin-right: 1rem;
+        ul{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            li{
+                padding: .7rem;
+                margin: 0 .2rem .2rem 0;
+                cursor: pointer;
+                text-align: center;
+                min-width: 8rem;
+            }
+            li:last-child{
+                margin-right: 0;
+            }
+            li.active,li:hover{
+                background: $blue-inicss-color;
+                color: white;
+                border-radius: .18rem;
+            }
+        }
+    }
+    .tab.body{
+        flex: 1;
+        padding: .5rem;
+        .content{
+            display: none;
+        }
+        .content.active{
+            display: block;
+        }
+    }
 }
