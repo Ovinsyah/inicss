@@ -1600,7 +1600,107 @@ img.ini.thumbnail {
   -webkit-transform: scaleY(1);
   -moz-transform: scaleY(1);
   -o-transform: scaleY(1);
-  transform: scaleY(1); }
+  transform: scaleY(1);
+  transform-origin: top; }
+
+.ini.dropdown-icon {
+  position: relative; }
+  .ini.dropdown-icon .menu {
+    background: #fff;
+    border: 1px solid #f5f5f5;
+    position: absolute;
+    font-size: 14px;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    min-width: 100%;
+    width: max-content;
+    width: -moz-max-content;
+    width: -o-max-content;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+    -webkit-transform: scaleY(0);
+    -moz-transform: scaleY(0);
+    -o-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: top;
+    -moz-transform-origin: top;
+    -o-transform-origin: top;
+    transform-origin: top; }
+  .ini.dropdown-icon .item {
+    display: block;
+    padding: .5rem 2rem; }
+  .ini.dropdown-icon .item:hover {
+    background: #f5f5f5; }
+  .ini.dropdown-icon .material-icons {
+    color: #fff;
+    top: 8px;
+    padding: 5px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px; }
+  .ini.dropdown-icon .ini.button {
+    padding-right: 0;
+    padding-left: 0; }
+  .ini.dropdown-icon .ini.button.blue .material-icons {
+    background: #2980b9; }
+  .ini.dropdown-icon .ini.button.o-blue .material-icons {
+    color: #2980b9; }
+  .ini.dropdown-icon .ini.button.inicss .material-icons {
+    background: #fc732b; }
+  .ini.dropdown-icon .ini.button.o-inicss .material-icons {
+    color: #fc732b; }
+  .ini.dropdown-icon .ini.button.red .material-icons {
+    background: #e74c3c; }
+  .ini.dropdown-icon .ini.button.o-red .material-icons {
+    color: #e74c3c; }
+  .ini.dropdown-icon .ini.button.gray .material-icons {
+    background: #7f8c8d; }
+  .ini.dropdown-icon .ini.button.o-gray .material-icons {
+    color: #7f8c8d; }
+  .ini.dropdown-icon .ini.button.black .material-icons {
+    background: #000; }
+  .ini.dropdown-icon .ini.button.o-black .material-icons {
+    color: #000; }
+  .ini.dropdown-icon .ini.button.orange .material-icons {
+    background: #f39c12; }
+  .ini.dropdown-icon .ini.button.o-orange .material-icons {
+    color: #f39c12; }
+  .ini.dropdown-icon .ini.button.carrot .material-icons {
+    background: #e67e22; }
+  .ini.dropdown-icon .ini.button.o-carrot .material-icons {
+    color: #e67e22; }
+  .ini.dropdown-icon .ini.button.purple .material-icons {
+    background: #9b59b6; }
+  .ini.dropdown-icon .ini.button.o-purple .material-icons {
+    color: #9b59b6; }
+  .ini.dropdown-icon .ini.button.midnight .material-icons {
+    background: #2c3e50; }
+  .ini.dropdown-icon .ini.button.o-midnight .material-icons {
+    color: #2c3e50; }
+  .ini.dropdown-icon .ini.button.green .material-icons {
+    background: #2ecc71; }
+  .ini.dropdown-icon .ini.button.o-green .material-icons {
+    color: #2ecc71; }
+  .ini.dropdown-icon .ini.button.o-white .material-icons {
+    color: white; }
+  .ini.dropdown-icon .text {
+    margin-right: 15px;
+    margin-left: 15px; }
+
+.ini.dropdown-icon.active .menu {
+  opacity: 1;
+  height: auto;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+  -webkit-transform: scaleY(1);
+  -moz-transform: scaleY(1);
+  -o-transform: scaleY(1);
+  transform: scaleY(1);
+  transform-origin: top; }
 
 /*
 ===============================================================

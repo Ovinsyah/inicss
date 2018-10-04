@@ -10,61 +10,61 @@
           <h4 class="mt-3">Responsive Image</h4>
           <div class="mb-3">Gambar pada inicss telah dibuat dengan max-width: 100%, sehingga gambar mengikuti ukuran elemen penampungnya</div>
           <div class="example">
-              <img src="/assets/img/image.png" alt="image" />
+            <img src="/assets/img/image.png" alt="image" />
           </div>
           <div class="code">
-              <div class="ini align right">
-                  <button class="ini button copy onCopy">Copy</button>
-              </div>
-              <div class="area selected">
-                  <div><span class="tag">&#x3C;img</span><span class="class"> src=</span> <span class="nclass">&#x22;...&#x22; alt=&#x22;image&#x22;</span> <span class="tag"> /&#x3E;</span></div>
-              </div>
-              <textarea cols="100" rows="100" class="hidden">&#x3C;img src=&#x22;...&#x22; alt=&#x22;image&#x22; /&#x3E;</textarea>
+            <div class="ini align right">
+              <button class="ini button copy onCopy">Copy</button>
+            </div>
+            <div class="area selected">
+              <div><span class="tag">&#x3C;img</span><span class="class"> src=</span> <span class="nclass">&#x22;...&#x22; alt=&#x22;image&#x22;</span> <span class="tag"> /&#x3E;</span></div>
+            </div>
+            <textarea cols="100" rows="100" class="hidden">&#x3C;img src=&#x22;...&#x22; alt=&#x22;image&#x22; /&#x3E;</textarea>
           </div>
 
           <h4 class="mt-3">Rounded Image</h4>
           <div class="mb-3">Gambar pada ini css dapat dibuat memiliki sisi rounded</div>
           <div class="example image-rounded">
-              <img class="ini rounded" src="/assets/img/image.png" alt="image" />
+            <img class="ini rounded" src="/assets/img/image.png" alt="image" />
           </div>
           <div class="code">
-              <div class="ini align right">
-                  <button class="ini button copy onCopy">Copy</button>
-              </div>
-              <div class="area selected">
-                  <div><span class="tag">&#x3C;img <span class="class"> class=</span> <span class="nclass">"ini-rounded"</span> </span><span class="class"> src=</span> <span class="nclass">"..." alt=&#x22;image&#x22;</span> <span class="tag"> /&#x3E;</span></div>
-              </div>
-              <textarea cols="100" rows="100" class="hidden">&#x3C;img class=&#x22;ini rounded&#x22; src=&#x22;/assets/img/image.png&#x22; alt=&#x22;image&#x22; /&#x3E;</textarea>
+            <div class="ini align right">
+              <button class="ini button copy onCopy">Copy</button>
+            </div>
+            <div class="area selected">
+              <div><span class="tag">&#x3C;img <span class="class"> class=</span> <span class="nclass">"ini-rounded"</span> </span><span class="class"> src=</span> <span class="nclass">"..." alt=&#x22;image&#x22;</span> <span class="tag"> /&#x3E;</span></div>
+            </div>
+            <textarea cols="100" rows="100" class="hidden">&#x3C;img class=&#x22;ini rounded&#x22; src=&#x22;/assets/img/image.png&#x22; alt=&#x22;image&#x22; /&#x3E;</textarea>
           </div>
 
           <h4 class="mt-3">Circle Image</h4>
           <div class="mb-3">Gambar pada ini css dapat dibuat memiliki bentuk lingkaran</div>
           <div class="example image-circle">
-              <img class="ini circle" src="/assets/img/image.png" alt="image" />
+            <img class="ini circle" src="/assets/img/image.png" alt="image" />
           </div>
           <div class="code">
-              <div class="ini align right">
-                  <button class="ini button copy onCopy">Copy</button>
-              </div>
-              <div class="area selected">
-                  <div><span class="tag">&#x3C;img <span class="class"> class=</span> <span class="nclass">"ini-circle"</span> </span><span class="class"> src=</span> <span class="nclass">"..." alt=&#x22;image&#x22;</span> <span class="tag"> /&#x3E;</span></div>
-              </div>
-              <textarea cols="100" rows="100" class="hidden">&#x3C;img class=&#x22;ini circle&#x22; src=&#x22;/assets/img/image.png&#x22; alt=&#x22;image&#x22; /&#x3E;</textarea>
+            <div class="ini align right">
+              <button class="ini button copy onCopy">Copy</button>
+            </div>
+            <div class="area selected">
+              <div><span class="tag">&#x3C;img <span class="class"> class=</span> <span class="nclass">"ini-circle"</span> </span><span class="class"> src=</span> <span class="nclass">"..." alt=&#x22;image&#x22;</span> <span class="tag"> /&#x3E;</span></div>
+            </div>
+            <textarea cols="100" rows="100" class="hidden">&#x3C;img class=&#x22;ini circle&#x22; src=&#x22;/assets/img/image.png&#x22; alt=&#x22;image&#x22; /&#x3E;</textarea>
           </div>
 
           <h4 class="mt-3">Thumbnail Image</h4>
           <div class="mb-3">Gambar pada ini css dapat dibuat memiliki bentuk thumbnail</div>
           <div class="example image-thumbnail">
-              <img class="ini thumbnail" src="/assets/img/image.png" alt="image" />
+            <img class="ini thumbnail" src="/assets/img/image.png" alt="image" />
           </div>
           <div class="code">
-              <div class="ini align right">
-                  <button class="ini button copy onCopy">Copy</button>
-              </div>
-              <div class="area selected">
-                  <div><span class="tag">&#x3C;img <span class="class"> class=</span> <span class="nclass">"ini thumbnail"</span> </span><span class="class"> src=</span> <span class="nclass">"..." alt=&#x22;image&#x22;</span> <span class="tag"> /&#x3E;</span></div>
-              </div>
-              <textarea cols="100" rows="100" class="hidden">&#x3C;img class=&#x22;ini thumbnail&#x22; src=&#x22;/assets/img/image.png&#x22; alt=&#x22;image&#x22; /&#x3E;</textarea>
+            <div class="ini align right">
+              <button class="ini button copy onCopy">Copy</button>
+            </div>
+            <div class="area selected">
+              <div><span class="tag">&#x3C;img <span class="class"> class=</span> <span class="nclass">"ini thumbnail"</span> </span><span class="class"> src=</span> <span class="nclass">"..." alt=&#x22;image&#x22;</span> <span class="tag"> /&#x3E;</span></div>
+            </div>
+            <textarea cols="100" rows="100" class="hidden">&#x3C;img class=&#x22;ini thumbnail&#x22; src=&#x22;/assets/img/image.png&#x22; alt=&#x22;image&#x22; /&#x3E;</textarea>
           </div>
         </div>
       </div>
