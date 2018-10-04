@@ -93,41 +93,53 @@
           </div>
           <div class="area selected">
             <div>
-              <div>&#x3C;div class=&#x22;ini dropdown&#x22;&#x3E;</div>
-              <div class="ml-4">&#x3C;button class=&#x22;ini button blue&#x22;&#x3E;Dropdown&#x3C;/button&#x3E;</div>
-              <div class="ml-4">&#x3C;div class=&#x22;menu&#x22;&#x3E;</div>
-              <div class="ml-5">&#x3C;a class=&#x22;item&#x22; href=&#x22;#&#x22;&#x3E;Item One &#x3C;/a&#x3E;</div>
-              <div class="ml-5">&#x3C;a class=&#x22;item&#x22; href=&#x22;#&#x22;&#x3E;Item Two&#x3C;/a&#x3E;</div>
-              <div class="ml-5">&#x3C;a class=&#x22;item&#x22; href=&#x22;#&#x22;&#x3E;Item Three&#x3C;/a&#x3E;</div>
-              <div class="ml-4">&#x3C;/div&#x3E;</div>
+              <div>&#x3C;div class=&#x22;ini dropdown-icon&#x22;&#x3E;</div>
+                <div class="ml-4">&#x3C;button class=&#x22;ini button blue openDropdown&#x22;&#x3E;</div>
+                  <div class="ml-5">&#x3C;span class=&#x22;text&#x22;&#x3E;Dropdown Blue&#x3C;/span&#x3E;</div>
+                  <div class="ml-5">&#x3C;i class=&#x22;material-icons&#x22;&#x3E;arrow_drop_down&#x3C;/i&#x3E;</div>
+                <div class="ml-4">&#x3C;/button&#x3E;</div>
+                <div class="ml-4">&#x3C;div class=&#x22;menu&#x22;&#x3E;</div>
+                  <div class="ml-5">&#x3C;a class=&#x22;item&#x22; href=&#x22;#&#x22;&#x3E;Item One &#x3C;/a&#x3E;</div>
+                  <div class="ml-5">&#x3C;a class=&#x22;item&#x22; href=&#x22;#&#x22;&#x3E;Item Two&#x3C;/a&#x3E;</div>
+                  <div class="ml-5">&#x3C;a class=&#x22;item&#x22; href=&#x22;#&#x22;&#x3E;Item Three&#x3C;/a&#x3E;</div>
+                <div class="ml-4">&#x3C;/div&#x3E;</div>
               <div>&#x3C;/div&#x3E;</div>
-              <div>&#x3C;div class=&#x22;ini dropdown&#x22;&#x3E;</div>
-              <div class="ml-4">&#x3C;button class=&#x22;ini button black&#x22;&#x3E;Dropdown&#x3C;/button&#x3E;</div>
-              <div class="ml-4">&#x3C;div class=&#x22;menu&#x22;&#x3E;</div>
-              <div class="ml-5">&#x3C;a class=&#x22;item&#x22; href=&#x22;#&#x22;&#x3E;Item One &#x3C;/a&#x3E;</div>
-              <div class="ml-5">&#x3C;a class=&#x22;item&#x22; href=&#x22;#&#x22;&#x3E;Item Two&#x3C;/a&#x3E;</div>
-              <div class="ml-5">&#x3C;a class=&#x22;item&#x22; href=&#x22;#&#x22;&#x3E;Item Three&#x3C;/a&#x3E;</div>
-              <div class="ml-4">&#x3C;/div&#x3E;</div>
+              <div>&#x3C;div class=&#x22;ini dropdown-icon&#x22;&#x3E;</div>
+                <div class="ml-4">&#x3C;button class=&#x22;ini button black openDropdown&#x22;&#x3E;</div>
+                  <div class="ml-5">&#x3C;span class=&#x22;text&#x22;&#x3E;Dropdown black&#x3C;/span&#x3E;</div>
+                  <div class="ml-5">&#x3C;i class=&#x22;material-icons&#x22;&#x3E;expand_more&#x3C;/i&#x3E;</div>
+                <div class="ml-4">&#x3C;/button&#x3E;</div>
+                <div class="ml-4">&#x3C;div class=&#x22;menu&#x22;&#x3E;</div>
+                  <div class="ml-5">&#x3C;a class=&#x22;item&#x22; href=&#x22;#&#x22;&#x3E;Item One &#x3C;/a&#x3E;</div>
+                  <div class="ml-5">&#x3C;a class=&#x22;item&#x22; href=&#x22;#&#x22;&#x3E;Item Two&#x3C;/a&#x3E;</div>
+                  <div class="ml-5">&#x3C;a class=&#x22;item&#x22; href=&#x22;#&#x22;&#x3E;Item Three&#x3C;/a&#x3E;</div>
+                <div class="ml-4">&#x3C;/div&#x3E;</div>
               <div>&#x3C;/div&#x3E;</div>
-              <div>&#x3C;div class=&#x22;ini dropdown&#x22;&#x3E;</div>
-              <div class="ml-4">&#x3C;button class=&#x22;ini button red&#x22;&#x3E;Dropdown&#x3C;/button&#x3E;</div>
-              <div class="ml-4">&#x3C;div class=&#x22;menu&#x22;&#x3E;</div>
-              <div class="ml-5">&#x3C;a class=&#x22;item&#x22; href=&#x22;#&#x22;&#x3E;Item One &#x3C;/a&#x3E;</div>
-              <div class="ml-5">&#x3C;a class=&#x22;item&#x22; href=&#x22;#&#x22;&#x3E;Item Two&#x3C;/a&#x3E;</div>
-              <div class="ml-5">&#x3C;a class=&#x22;item&#x22; href=&#x22;#&#x22;&#x3E;Item Three&#x3C;/a&#x3E;</div>
-              <div class="ml-4">&#x3C;/div&#x3E;</div>
+              <div>&#x3C;div class=&#x22;ini dropdown-icon&#x22;&#x3E;</div>
+                <div class="ml-4">&#x3C;button class=&#x22;ini button red openDropdown&#x22;&#x3E;</div>
+                  <div class="ml-5">&#x3C;i class=&#x22;material-icons&#x22;&#x3E;arrow_drop_down&#x3C;/i&#x3E;</div>
+                  <div class="ml-5">&#x3C;span class=&#x22;text&#x22;&#x3E;Dropdown Red&#x3C;/span&#x3E;</div>
+                <div class="ml-4">&#x3C;/button&#x3E;</div>
+                <div class="ml-4">&#x3C;div class=&#x22;menu&#x22;&#x3E;</div>
+                  <div class="ml-5">&#x3C;a class=&#x22;item&#x22; href=&#x22;#&#x22;&#x3E;Item One &#x3C;/a&#x3E;</div>
+                  <div class="ml-5">&#x3C;a class=&#x22;item&#x22; href=&#x22;#&#x22;&#x3E;Item Two&#x3C;/a&#x3E;</div>
+                  <div class="ml-5">&#x3C;a class=&#x22;item&#x22; href=&#x22;#&#x22;&#x3E;Item Three&#x3C;/a&#x3E;</div>
+                <div class="ml-4">&#x3C;/div&#x3E;</div>
               <div>&#x3C;/div&#x3E;</div>
             </div>
           </div>
           <textarea cols="100" rows="100" class="hidden">
-            &#x3C;div class=&#x22;ini dropdown&#x22;&#x3E;
-            &#x3C;button class=&#x22;ini button blue&#x22;&#x3E;Dropdown&#x3C;/button&#x3E;
-            &#x3C;div class=&#x22;menu&#x22;&#x3E;
-            &#x3C;a class=&#x22;item&#x22; href=&#x22;#&#x22;&#x3E;Item One &#x3C;/a&#x3E;
-            &#x3C;a class=&#x22;item&#x22; href=&#x22;#&#x22;&#x3E;Item Two&#x3C;/a&#x3E;
-            &#x3C;a class=&#x22;item&#x22; href=&#x22;#&#x22;&#x3E;Item Three&#x3C;/a&#x3E;
-            &#x3C;/div&#x3E;
-          &#x3C;/div&#x3E;</textarea>
+&#x3C;div class=&#x22;ini dropdown-icon&#x22;&#x3E;
+  &#x3C;button class=&#x22;ini button blue openDropdown&#x22;&#x3E;
+    &#x3C;span class=&#x22;text&#x22;&#x3E;Dropdown Blue&#x3C;/span&#x3E;
+    &#x3C;i class=&#x22;material-icons&#x22;&#x3E;arrow_drop_down&#x3C;/i&#x3E;
+  &#x3C;/button&#x3E;
+  &#x3C;div class=&#x22;menu&#x22;&#x3E;
+    &#x3C;a class=&#x22;item&#x22; href=&#x22;#&#x22;&#x3E;Item One &#x3C;/a&#x3E;
+    &#x3C;a class=&#x22;item&#x22; href=&#x22;#&#x22;&#x3E;Item Two&#x3C;/a&#x3E;
+    &#x3C;a class=&#x22;item&#x22; href=&#x22;#&#x22;&#x3E;Item Three&#x3C;/a&#x3E;
+  &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;</textarea>
         </div>
       </div>
     </div>
