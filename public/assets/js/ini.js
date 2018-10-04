@@ -47,5 +47,6 @@ $(document).on("change", ".uploadImageMultiple", function() {
     }
 });
 $(document).on("click", ".openDropdown", function() {
-
+    $(this).toggleClass('active');
+    $(this).parent().toggleClass('active');
 });
