@@ -12,11 +12,11 @@ $(document).on('click', '.openCollapse', function () {
     $(this).toggleClass('active');
     $(this).parent().children('.collapse').toggleClass('active');
 });
-$(document).on('click', '#openHamburger', function () {
+$(document).on('click', '.openHamburger', function () {
+    let target = $(this).attr("data-target");
     $(this).toggleClass('active');
-    $('.ini.navbar .ini.menus').toggleClass('active');
+    $(target).toggleClass("active");
 });
-
 $(document).on("change", ".uploadImage", function() {
     let target = $(this);
     let input = this;
@@ -28,7 +28,6 @@ $(document).on("change", ".uploadImage", function() {
         reader.readAsDataURL(input.files[0]);
     }
 });
-
 $(document).on("change", ".uploadImageMultiple", function() {
     let target = $(this);
     var files = event.target.files; //FileList object
@@ -46,4 +45,7 @@ $(document).on("change", ".uploadImageMultiple", function() {
         });
         picReader.readAsDataURL(file);
     }
+});
+$(document).on("click", ".openDropdown", function() {
+
 });

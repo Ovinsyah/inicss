@@ -29,6 +29,7 @@ body {
     color: $text-color;
     // font-family: 'Roboto', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
 }
 a {
     text-decoration: none;
@@ -41,6 +42,9 @@ img{
 *::before,
 *::after {
     box-sizing: border-box;
+}
+.overflow-hidden{
+    overflow: hidden;
 }
 .ini{
     .button[disabled], .input[disabled],
@@ -668,13 +672,13 @@ img{
 
 @media (min-width: 576px) {
     .ini.container {
-        max-width: 540px;
+        max-width: 700px;
     }
 }
 
 @media (min-width: 768px) {
     .ini.container {
-        max-width: 720px;
+        max-width: 900px;
     }
 }
 
@@ -818,7 +822,7 @@ img{
     position: fixed;
     top: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.9);
     height: 100%;
     width: 100%;
     z-index: 998;
@@ -860,7 +864,7 @@ img{
     background:white;
 }
 .ini.modal .header{
-    border-bottom: 1px solid #ccc;    
+    border-bottom: 1px solid #dcdcdc;    
 }
 .ini.modal h1,
 h1,
@@ -879,7 +883,11 @@ h6 {
     .header,.action,.content {
         padding: 10px 20px;
     }
+    .content{
+        padding: 1.5rem;
+    }
     .action {
+        border-top: 1px solid #dcdcdc;
         justify-content: flex-end;
         button{
             margin: 0px 5px;
@@ -910,10 +918,10 @@ h6 {
 */
 .ini.navbar{
     display: flex;
-    padding: 1rem 2rem;
+    padding: .5rem 1rem;
     box-shadow: 0 2px 0 0 #f5f5f5;
     margin-bottom: 1rem;
-    background: white;
+    background: #f1f1f1;
     img{
         vertical-align: top!important;
         height: 30px;
@@ -950,21 +958,46 @@ h6 {
     .menu.right{
         text-align: right;
     }
+    //Menu side
+    .ini.menus.side.active{
+        height: 100vh;
+        position: absolute;
+        background: white;
+        top: 0;
+        left: 0 !important;
+        z-index: 996;
+    }
+    @media (max-width: 575px) {
+        .ini.menus.side.active{
+            width: 250px;
+        }
+    }
+    @media (min-width: 576px) {
+        .ini.menus.side.active{
+            width: 80%;
+        }
+    }
 }
-.ini.navbar.fixed{
+.ini.navbar.sticky{
     position: sticky;
     top: 0;
     z-index: 990;
 }
+.ini.navbar.fixed{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 990;
+}
 @media (min-width: 768px) {
-    .ini.navbar{
+    .ini.navbar.responsive{
         .ini.hamburger{
             display: none;
         }
     }
 }
 @media (max-width: 767px) {
-    .ini.navbar{
+    .ini.navbar.responsive{
         display: block;
         .navbar.brand{
             display: inline-block;
@@ -973,6 +1006,9 @@ h6 {
             display: none !important;
             box-shadow: 0 8px 16px rgba(10,10,10,.1);
             padding: 12px;
+        }
+        .ini.menus.side{
+            left: -60%;
         }
         .ini.menus.active{
             display: block !important;
@@ -1165,7 +1201,16 @@ h6 {
     transition: all 0.3s;
     background: $inicss-nd-color;
 }
+.ini.button.o-inicss {
+    border: 1px solid $inicss-color;
+    color: $inicss-color;
+}
 
+.ini.button.o-inicss:hover {
+    transition: all 0.3s;
+    background: $inicss-color;
+    color: white;
+}
 .ini.button.red {
     border: 1px solid $red-color;
     background: $red-color;
@@ -1397,6 +1442,44 @@ h6 {
 
 /*
 ===============================================================
+    INI PAGINATION
+===============================================================
+*/
+.ini.pagination{
+    text-align: right;
+    font-size: 14px;
+    margin-top: .5rem;
+    ul{
+        list-style: none;
+        padding: 0;
+        li{
+            display: inline-block;
+            border: 1px solid #e2e2e2;
+            border-right: none;
+            min-width: 2.3rem;
+            text-align: center;
+            padding: .4rem;
+            transition: all .3s;
+        }
+        li:first-child{
+            border-radius: 5px 0px 0px 5px;
+        }
+        li:last-child{
+            border-radius: 0px 5px 5px 0px;
+            border-right: 1px solid #e2e2e2;
+        }
+        .active{
+            background: #cecece;
+        }
+        li:hover{
+            background: #cecece;
+            transition: all .3s;
+        }
+    }
+
+}
+/*
+===============================================================
     INI IMAGE
 ===============================================================
 */
@@ -1501,6 +1584,9 @@ img.ini.thumbnail{
     >.checkbox:last-child,>.radio:last-child{
         margin-right: 0;
     }
+}
+.ini.form:last-child{
+    margin-bottom: 0;
 }
 .ini.textarea{
     height: auto !important;
