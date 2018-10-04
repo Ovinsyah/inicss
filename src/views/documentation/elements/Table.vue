@@ -33,7 +33,7 @@
                     <button class="ini button copy onCopy">Copy</button>
                 </div>
                 <div class="area selected">
-                  <div><span class="tag"><span class="tag">&#x3C;table</span></span> <span class="class"> class=</span><span class="nclass">&#x22;ini table&#x22;&#x3E;</span>&#x22</div>
+                  <div><span class="tag"><span class="tag">&#x3C;table</span></span> <span class="class"> class=</span><span class="nclass">&#x22;ini table&#x22;</span><span class="tag">&#x3E;</span></div>
                   <div class="ml-4"><span class="tag">&#x3C;thead</span>&#x3E;</div>
                   <div class="ml-5"><span class="tag">&#x3C;tr&#x3E;</span></div>
                   <div class="ml-6"><span class="tag">&#x3C;th&#x3E;</span>No<span class="tag">&#x3C;/th&#x3E;</span></div>
@@ -136,7 +136,7 @@
                     <button class="ini button copy onCopy">Copy</button>
                 </div>
                 <div class="area selected">
-                    <div><span class="tag"><span class="tag">&#x3C;table</span></span> <span class="class"> class=</span><span class="nclass">&#x22;ini table striped&#x22;&#x3E;</span>&#x22</div>
+                    <div><span class="tag"><span class="tag">&#x3C;table</span></span> <span class="class"> class=</span><span class="nclass">&#x22;ini table striped&#x22;</span><span class="tag">&#x3E;</span></div>
                   <div class="ml-4"><span class="tag">&#x3C;thead</span>&#x3E;</div>
                   <div class="ml-5"><span class="tag">&#x3C;tr&#x3E;</span></div>
                   <div class="ml-6"><span class="tag">&#x3C;th&#x3E;</span>No<span class="tag">&#x3C;/th&#x3E;</span></div>
@@ -239,7 +239,7 @@
                     <button class="ini button copy onCopy">Copy</button>
                 </div>
                 <div class="area selected">
-                    <div><span class="tag"><span class="tag">&#x3C;table</span></span> <span class="class"> class=</span><span class="nclass">&#x22;ini table bordered&#x22;&#x3E;</span>&#x22</div>
+                    <div><span class="tag"><span class="tag">&#x3C;table</span></span> <span class="class"> class=</span><span class="nclass">&#x22;ini table bordered&#x22;</span><span class="tag">&#x3E;</span></div>
                   <div class="ml-4"><span class="tag">&#x3C;thead</span>&#x3E;</div>
                   <div class="ml-5"><span class="tag">&#x3C;tr&#x3E;</span></div>
                   <div class="ml-6"><span class="tag">&#x3C;th&#x3E;</span>No<span class="tag">&#x3C;/th&#x3E;</span></div>
@@ -355,9 +355,11 @@
                 </table>
                 <div class="ini pagination">
                     <ul>
-                        <li>1</li>
-                        <li>2</li>
-                        <li>3</li>
+                        <li><a href=""><i class="material-icons">chevron_left</i></a></li>
+                        <li class="active"><a href="">1</a></li>
+                        <li><a href="">2</a></li>
+                        <li><a href="">3</a></li>
+                        <li><a href=""><i class="material-icons">chevron_right</i></a></li>
                     </ul>
                 </div>
             </div>
@@ -366,42 +368,59 @@
                     <button class="ini button copy onCopy">Copy</button>
                 </div>
                 <div class="area selected">
-                    <div><span class="tag"><span class="tag">&#x3C;table</span></span> <span class="class"> class=</span><span class="nclass">&#x22;ini table bordered&#x22;&#x3E;</span>&#x22</div>
-                  <div class="ml-4"><span class="tag">&#x3C;thead</span>&#x3E;</div>
-                  <div class="ml-5"><span class="tag">&#x3C;tr&#x3E;</span></div>
-                  <div class="ml-6"><span class="tag">&#x3C;th&#x3E;</span>No<span class="tag">&#x3C;/th&#x3E;</span></div>
-                  <div class="ml-6"><span class="tag">&#x3C;th&#x3E;</span>Name<span class="tag">&#x3C;/th&#x3E;</span></div>
-                  <div class="ml-6"><span class="tag">&#x3C;th&#x3E;</span>Email<span class="tag">&#x3C;/th&#x3E;</span></div>
-                  <div class="ml-6"><span class="tag">&#x3C;th&#x3E;</span>Phone<span class="tag">&#x3C;/th&#x3E;</span></div>
-                  <div class="ml-5"><span class="tag">&#x3C;/tr&#x3E;</span></div>
-                  <div class="ml-4"><span class="tag">&#x3C;/thead&#x3E;</span></div>
-                  <div class="ml-4"><span class="tag">&#x3C;tbody</span>&#x3E;</div>
-                  <div class="ml-5"><span class="tag">&#x3C;tr&#x3E;</span></div>
-                  <div class="ml-6"><span class="tag">&#x3C;td&#x3E;</span>1<span class="tag">&#x3C;/td&#x3E;</span></div>
-                  <div class="ml-6"><span class="tag">&#x3C;td&#x3E;</span>Udin<span class="tag">&#x3C;/td&#x3E;</span></div>
-                  <div class="ml-6"><span class="tag">&#x3C;td&#x3E;</span>ini_udin@mail.com<span class="tag">&#x3C;/td&#x3E;</span></div>
-                  <div class="ml-6"><span class="tag">&#x3C;td&#x3E;</span>+62 812-3456-7890<span class="tag">&#x3C;/td&#x3E;</span></div>
-                  <div class="ml-5"><span class="tag">&#x3C;/tr&#x3E;</span></div>
-                  <div class="ml-5"><span class="tag">&#x3C;tr&#x3E;</span></div>
-                  <div class="ml-6"><span class="tag">&#x3C;td&#x3E;</span>2<span class="tag">&#x3C;/td&#x3E;</span></div>
-                  <div class="ml-6"><span class="tag">&#x3C;td&#x3E;</span>Ucok<span class="tag">&#x3C;/td&#x3E;</span></div>
-                  <div class="ml-6"><span class="tag">&#x3C;td&#x3E;</span>ini_ucok@mail.com<span class="tag">&#x3C;/td&#x3E;</span></div>
-                  <div class="ml-6"><span class="tag">&#x3C;td&#x3E;</span>+62 812-3456-7891<span class="tag">&#x3C;/td&#x3E;</span></div>
-                  <div class="ml-5"><span class="tag">&#x3C;/tr&#x3E;</span></div>
-                  <div class="ml-5"><span class="tag">&#x3C;tr&#x3E;</span></div>
-                  <div class="ml-6"><span class="tag">&#x3C;td&#x3E;</span>1<span class="tag">&#x3C;/td&#x3E;</span></div>
-                  <div class="ml-6"><span class="tag">&#x3C;td&#x3E;</span>Upik<span class="tag">&#x3C;/td&#x3E;</span></div>
-                  <div class="ml-6"><span class="tag">&#x3C;td&#x3E;</span>ini_upik@mail.com<span class="tag">&#x3C;/td&#x3E;</span></div>
-                  <div class="ml-6"><span class="tag">&#x3C;td&#x3E;</span>+62 812-3456-7893<span class="tag">&#x3C;/td&#x3E;</span></div>
-                  <div class="ml-5"><span class="tag">&#x3C;/tr&#x3E;</span></div>
-                  <div class="ml-5"><span class="tag">&#x3C;tr&#x3E;</span></div>
-                  <div class="ml-6"><span class="tag">&#x3C;td&#x3E;</span>1<span class="tag">&#x3C;/td&#x3E;</span></div>
-                  <div class="ml-6"><span class="tag">&#x3C;td&#x3E;</span>Ucup<span class="tag">&#x3C;/td&#x3E;</span></div>
-                  <div class="ml-6"><span class="tag">&#x3C;td&#x3E;</span>ini_ucup@mail.com<span class="tag">&#x3C;/td&#x3E;</span></div>
-                  <div class="ml-6"><span class="tag">&#x3C;td&#x3E;</span>+62 812-3456-78903<span class="tag">&#x3C;/td&#x3E;</span></div>
-                  <div class="ml-5"><span class="tag">&#x3C;/tr&#x3E;</span></div>
-                  <div class="ml-4"><span class="tag">&#x3C;/tbody&#x3E;</span></div>
-                  <div><span class="tag">&#x3C;/table&#x3E;</span></div>
+                    <div><span class="tag">&#x3C;div</span><span class="class"> class=</span><span class="nclass">&#x22;ini form grids&#x22;</span><span class="tag">&#x3E;</span></div>
+                        <div class="ml-4"><span class="tag">&#x3C;div</span> <span class="class"> class=</span><span class="nclass">&#x22;grid&#x22;</span><span class="tag">&#x3E;</span></div>
+                            <div class="ml-5"><span class="tag">&#x3C;div</span> <span class="class"> class=</span><span class="nclass">&#x22;icon right&#x22;</span><span class="tag">&#x3E;</span></div>
+                                <div class="ml-6"><span class="tag">&#x3C;i</span><span class="class"> class=</span><span class="nclass">&#x22;material-icons&#x22;</span>&#x3E;search&#x3C;<span class="tag">/i&#x3E;</span></div>
+                                <div class="ml-6"><span class="tag">&#x3C;input</span><span class="class"> type=</span><span class="nclass">&#x22;text&#x22;</span><span class="class"> class=</span><span class="nclass">&#x22;ini input rouneded&#x22;</span><span class="class"> placeholder=</span><span class="nclass">&#x22;Search&#x22;</span><span class="tag">&#x3E;</span></div>
+                            <div class="ml-5"><span class="tag">&#x3C;/div&#x3E;</span></div>
+                        <div class="ml-4"><span class="tag">&#x3C;/div&#x3E;</span></div>
+                        <div class="ml-4"><span class="tag">&#x3C;div</span> <span class="class"> class=</span><span class="nclass">&#x22;grid ini width fit-content&#x22;</span><span class="tag">&#x3E;</span></div>
+                            <div class="ml-5"><span class="tag">&#x3C;select</span><span class="class"> class=</span><span class="nclass">&#x22;ini select&#x22;</span><span class="tag">&#x3E;</span></div>
+                                <div class="ml-6"><span class="tag">&#x3C;option</span> <span class="class"> class=</span>&#x22;hidden&#x22;&#x3E;Show<span class="tag">&#x3C;/option&#x3E;</span></div>
+                                <div class="ml-6"><span class="tag">&#x3C;option</span>&#x3E;10<span class="tag">&#x3C;/option&#x3E;</span></div>
+                                <div class="ml-6"><span class="tag">&#x3C;option</span>&#x3E;25<span class="tag">&#x3C;/option&#x3E;</span></div>
+                                <div class="ml-6"><span class="tag">&#x3C;option</span>&#x3E;50<span class="tag">&#x3C;/option&#x3E;</span></div>
+                                <div class="ml-6"><span class="tag">&#x3C;option</span>&#x3E;100<span class="tag">&#x3C;/option&#x3E;</span></div>
+                            <div class="ml-5"><span class="tag">&#x3C;/select&#x3E;</span></div>
+                        <div class="ml-4"><span class="tag">&#x3C;/div&#x3E;</span></div>
+                    <div><span class="tag">&#x3C;/div&#x3E;</span></div>
+                    <div><span class="tag">&#x3C;table</span><span class="class"> class=</span><span class="nclass">&#x22;ini table bordered&#x22;</span><span class="tag">&#x3E;</span></div>
+                    <div class="ml-4"><span class="tag">&#x3C;thead</span>&#x3E;</div>
+                    <div class="ml-5"><span class="tag">&#x3C;tr&#x3E;</span></div>
+                    <div class="ml-6"><span class="tag">&#x3C;th&#x3E;</span>No<span class="tag">&#x3C;/th&#x3E;</span></div>
+                    <div class="ml-6"><span class="tag">&#x3C;th&#x3E;</span>Name<span class="tag">&#x3C;/th&#x3E;</span></div>
+                    <div class="ml-6"><span class="tag">&#x3C;th&#x3E;</span>Email<span class="tag">&#x3C;/th&#x3E;</span></div>
+                    <div class="ml-6"><span class="tag">&#x3C;th&#x3E;</span>Phone<span class="tag">&#x3C;/th&#x3E;</span></div>
+                    <div class="ml-5"><span class="tag">&#x3C;/tr&#x3E;</span></div>
+                    <div class="ml-4"><span class="tag">&#x3C;/thead&#x3E;</span></div>
+                    <div class="ml-4"><span class="tag">&#x3C;tbody</span>&#x3E;</div>
+                    <div class="ml-5"><span class="tag">&#x3C;tr&#x3E;</span></div>
+                    <div class="ml-6"><span class="tag">&#x3C;td&#x3E;</span>1<span class="tag">&#x3C;/td&#x3E;</span></div>
+                    <div class="ml-6"><span class="tag">&#x3C;td&#x3E;</span>Udin<span class="tag">&#x3C;/td&#x3E;</span></div>
+                    <div class="ml-6"><span class="tag">&#x3C;td&#x3E;</span>ini_udin@mail.com<span class="tag">&#x3C;/td&#x3E;</span></div>
+                    <div class="ml-6"><span class="tag">&#x3C;td&#x3E;</span>+62 812-3456-7890<span class="tag">&#x3C;/td&#x3E;</span></div>
+                    <div class="ml-5"><span class="tag">&#x3C;/tr&#x3E;</span></div>
+                    <div class="ml-5"><span class="tag">&#x3C;tr&#x3E;</span></div>
+                    <div class="ml-6"><span class="tag">&#x3C;td&#x3E;</span>2<span class="tag">&#x3C;/td&#x3E;</span></div>
+                    <div class="ml-6"><span class="tag">&#x3C;td&#x3E;</span>Ucok<span class="tag">&#x3C;/td&#x3E;</span></div>
+                    <div class="ml-6"><span class="tag">&#x3C;td&#x3E;</span>ini_ucok@mail.com<span class="tag">&#x3C;/td&#x3E;</span></div>
+                    <div class="ml-6"><span class="tag">&#x3C;td&#x3E;</span>+62 812-3456-7891<span class="tag">&#x3C;/td&#x3E;</span></div>
+                    <div class="ml-5"><span class="tag">&#x3C;/tr&#x3E;</span></div>
+                    <div class="ml-5"><span class="tag">&#x3C;tr&#x3E;</span></div>
+                    <div class="ml-6"><span class="tag">&#x3C;td&#x3E;</span>1<span class="tag">&#x3C;/td&#x3E;</span></div>
+                    <div class="ml-6"><span class="tag">&#x3C;td&#x3E;</span>Upik<span class="tag">&#x3C;/td&#x3E;</span></div>
+                    <div class="ml-6"><span class="tag">&#x3C;td&#x3E;</span>ini_upik@mail.com<span class="tag">&#x3C;/td&#x3E;</span></div>
+                    <div class="ml-6"><span class="tag">&#x3C;td&#x3E;</span>+62 812-3456-7893<span class="tag">&#x3C;/td&#x3E;</span></div>
+                    <div class="ml-5"><span class="tag">&#x3C;/tr&#x3E;</span></div>
+                    <div class="ml-5"><span class="tag">&#x3C;tr&#x3E;</span></div>
+                    <div class="ml-6"><span class="tag">&#x3C;td&#x3E;</span>1<span class="tag">&#x3C;/td&#x3E;</span></div>
+                    <div class="ml-6"><span class="tag">&#x3C;td&#x3E;</span>Ucup<span class="tag">&#x3C;/td&#x3E;</span></div>
+                    <div class="ml-6"><span class="tag">&#x3C;td&#x3E;</span>ini_ucup@mail.com<span class="tag">&#x3C;/td&#x3E;</span></div>
+                    <div class="ml-6"><span class="tag">&#x3C;td&#x3E;</span>+62 812-3456-78903<span class="tag">&#x3C;/td&#x3E;</span></div>
+                    <div class="ml-5"><span class="tag">&#x3C;/tr&#x3E;</span></div>
+                    <div class="ml-4"><span class="tag">&#x3C;/tbody&#x3E;</span></div>
+                    <div><span class="tag">&#x3C;/table&#x3E;</span></div>
                 </div>
                 <textarea cols="100" rows="100" class="hidden">
 &#x3C;table class=&#x22;ini table bordered&#x22;&#x3E;

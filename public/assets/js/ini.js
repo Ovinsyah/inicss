@@ -12,9 +12,10 @@ $(document).on('click', '.openCollapse', function () {
     $(this).toggleClass('active');
     $(this).parent().children('.collapse').toggleClass('active');
 });
-$(document).on('click', '#openHamburger', function () {
+$(document).on('click', '.openHamburger', function () {
+    let target = $(this).attr("data-target");
     $(this).toggleClass('active');
-    $('.ini.navbar .ini.menus').toggleClass('active');
+    $(target).toggleClass("active");
 });
 
 $(document).on("change", ".uploadImage", function() {
