@@ -7,6 +7,7 @@
 				</a>
 				<ul class="collapse">
 					<li><router-link to="/documentation/elements/button">Button</router-link></li>
+					<li><router-link to="/documentation/elements/dropdown">Dropdown</router-link></li>
 					<li><router-link to="/documentation/elements/modal">Modal</router-link></li>
 					<li><router-link to="/documentation/elements/table">Table</router-link></li>
 					<li><router-link to="/documentation/elements/navbar">Navbar</router-link></li>

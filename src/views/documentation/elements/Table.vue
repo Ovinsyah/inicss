@@ -325,16 +325,15 @@
                             <input type="text" class="ini input rouneded" placeholder="Search">
                         </div>
                     </div>
-                    <div class="grid">
-                        
+                    <div class="grid ini width fit-content">
+                        <select class="ini select">
+                            <option class="hidden">Show</option>
+                            <option>10</option>
+                            <option>25</option>
+                            <option>50</option>
+                            <option>100</option>
+                        </select>
                     </div>
-                    <select class="ini select">
-                        <option class="hidden">Select Show</option>
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                    </select>
                 </div>
                 <table class="ini table">
                   <thead>
@@ -354,6 +353,13 @@
                     </tr>
                   </tbody>
                 </table>
+                <div class="ini pagination">
+                    <ul>
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                    </ul>
+                </div>
             </div>
             <div class="code">
                 <div class="ini align right">

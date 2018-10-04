@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from './views/Home.vue'
 import Doc from './views/Documentation.vue'
 import DocElButton from './views/documentation/elements/Button.vue'
+import DocElDropdown from './views/documentation/elements/Dropdown.vue'
 import DocElModal from './views/documentation/elements/Modal.vue'
 import DocElNavbar from './views/documentation/elements/Navbar.vue'
 import DocElTable from './views/documentation/elements/Table.vue'
@@ -42,6 +43,11 @@ export default new Router({
       path: "/documentation/elements/button",
       name: "button",
       component: DocElButton
+    },
+    {
+      path: "/documentation/elements/dropdown",
+      name: "dropdown",
+      component: DocElDropdown
     },
     {
       path: "/documentation/elements/modal",
