@@ -4,7 +4,8 @@ body {
   width: 100%;
   height: 100%;
   color: #464646;
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px; }
 
 a {
   text-decoration: none;
@@ -17,6 +18,9 @@ img {
 *::before,
 *::after {
   box-sizing: border-box; }
+
+.overflow-hidden {
+  overflow: hidden; }
 
 .ini .button[disabled], .ini .input[disabled],
 .ini .textarea[disabled], .ini .select[disabled],
@@ -599,10 +603,10 @@ img {
 
 @media (min-width: 576px) {
   .ini.container {
-    max-width: 540px; } }
+    max-width: 700px; } }
 @media (min-width: 768px) {
   .ini.container {
-    max-width: 720px; } }
+    max-width: 900px; } }
 @media (min-width: 992px) {
   .ini.container {
     max-width: 960px; } }
@@ -714,7 +718,7 @@ img {
   position: fixed;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.9);
   height: 100%;
   width: 100%;
   z-index: 998;
@@ -750,7 +754,7 @@ img {
   background: white; }
 
 .ini.modal .header {
-  border-bottom: 1px solid #ccc; }
+  border-bottom: 1px solid #dcdcdc; }
 
 .ini.modal h1,
 h1,
@@ -765,7 +769,10 @@ h6 {
   display: flex; }
 .ini.modal .header, .ini.modal .action, .ini.modal .content {
   padding: 10px 20px; }
+.ini.modal .content {
+  padding: 1.5rem; }
 .ini.modal .action {
+  border-top: 1px solid #dcdcdc;
   justify-content: flex-end; }
   .ini.modal .action button {
     margin: 0px 5px; }
@@ -789,10 +796,10 @@ h6 {
 */
 .ini.navbar {
   display: flex;
-  padding: 1rem 2rem;
+  padding: .5rem 1rem;
   box-shadow: 0 2px 0 0 #f5f5f5;
   margin-bottom: 1rem;
-  background: white; }
+  background: #f1f1f1; }
   .ini.navbar img {
     vertical-align: top !important;
     height: 30px; }
@@ -820,33 +827,54 @@ h6 {
     text-align: center; }
   .ini.navbar .menu.right {
     text-align: right; }
+  .ini.navbar .ini.menus.side.active {
+    height: 100vh;
+    position: absolute;
+    background: white;
+    top: 0;
+    left: 0 !important;
+    z-index: 996; }
+  @media (max-width: 575px) {
+    .ini.navbar .ini.menus.side.active {
+      width: 250px; } }
+  @media (min-width: 576px) {
+    .ini.navbar .ini.menus.side.active {
+      width: 80%; } }
 
-.ini.navbar.fixed {
+.ini.navbar.sticky {
   position: sticky;
   top: 0;
   z-index: 990; }
 
+.ini.navbar.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 990; }
+
 @media (min-width: 768px) {
-  .ini.navbar .ini.hamburger {
+  .ini.navbar.responsive .ini.hamburger {
     display: none; } }
 @media (max-width: 767px) {
-  .ini.navbar {
+  .ini.navbar.responsive {
     display: block; }
-    .ini.navbar .navbar.brand {
+    .ini.navbar.responsive .navbar.brand {
       display: inline-block; }
-    .ini.navbar .ini.menus {
+    .ini.navbar.responsive .ini.menus {
       display: none !important;
       box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
       padding: 12px; }
-    .ini.navbar .ini.menus.active {
+    .ini.navbar.responsive .ini.menus.side {
+      left: -60%; }
+    .ini.navbar.responsive .ini.menus.active {
       display: block !important; }
-    .ini.navbar .ini.hamburger {
+    .ini.navbar.responsive .ini.hamburger {
       display: inline-block;
       float: right; }
-    .ini.navbar .menu {
+    .ini.navbar.responsive .menu {
       text-align: left !important;
       line-height: normal !important; }
-      .ini.navbar .menu a {
+      .ini.navbar.responsive .menu a {
         padding: .5rem 0.6rem .5rem 0rem !important;
         display: block; } }
 /*
@@ -1001,6 +1029,15 @@ h6 {
 .ini.button.inicss:hover {
   transition: all 0.3s;
   background: #e86520; }
+
+.ini.button.o-inicss {
+  border: 1px solid #fc732b;
+  color: #fc732b; }
+
+.ini.button.o-inicss:hover {
+  transition: all 0.3s;
+  background: #fc732b;
+  color: white; }
 
 .ini.button.red {
   border: 1px solid #e74c3c;
@@ -1190,6 +1227,37 @@ h6 {
 
 /*
 ===============================================================
+    INI PAGINATION
+===============================================================
+*/
+.ini.pagination {
+  text-align: right;
+  font-size: 14px;
+  margin-top: .5rem; }
+  .ini.pagination ul {
+    list-style: none;
+    padding: 0; }
+    .ini.pagination ul li {
+      display: inline-block;
+      border: 1px solid #e2e2e2;
+      border-right: none;
+      min-width: 2.3rem;
+      text-align: center;
+      padding: .4rem;
+      transition: all .3s; }
+    .ini.pagination ul li:first-child {
+      border-radius: 5px 0px 0px 5px; }
+    .ini.pagination ul li:last-child {
+      border-radius: 0px 5px 5px 0px;
+      border-right: 1px solid #e2e2e2; }
+    .ini.pagination ul .active {
+      background: #cecece; }
+    .ini.pagination ul li:hover {
+      background: #cecece;
+      transition: all .3s; }
+
+/*
+===============================================================
     INI IMAGE
 ===============================================================
 */
@@ -1269,6 +1337,9 @@ img.ini.thumbnail {
       cursor: pointer; }
   .ini.form > .checkbox:last-child, .ini.form > .radio:last-child {
     margin-right: 0; }
+
+.ini.form:last-child {
+  margin-bottom: 0; }
 
 .ini.textarea {
   height: auto !important; }
@@ -1477,5 +1548,56 @@ img.ini.thumbnail {
   width: fit-content;
   min-width: fit-content;
   max-width: fit-content; }
+
+/*
+===============================================================
+    INI DROPDOWN
+===============================================================
+*/
+.ini.dropdown .ini.button {
+  display: flex; }
+.ini.dropdown .ini.button:after {
+  content: "expand_more";
+  font-family: 'Material Icons';
+  margin-left: 5px; }
+.ini.dropdown .ini.button.active:after {
+  content: "expand_less"; }
+.ini.dropdown .menu {
+  background: #fff;
+  border: 1px solid #f5f5f5;
+  position: absolute;
+  font-size: 14px;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+  -webkit-transform: scaleY(0);
+  -moz-transform: scaleY(0);
+  -o-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: top;
+  -moz-transform-origin: top;
+  -o-transform-origin: top;
+  transform-origin: top; }
+.ini.dropdown .item {
+  display: block;
+  padding: .5rem 2rem; }
+.ini.dropdown .item:hover {
+  background: #f5f5f5; }
+
+.ini.dropdown.active .menu {
+  opacity: 1;
+  height: auto;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+  -webkit-transform: scaleY(1);
+  -moz-transform: scaleY(1);
+  -o-transform: scaleY(1);
+  transform: scaleY(1); }
 
 /*# sourceMappingURL=ini.css.map */
