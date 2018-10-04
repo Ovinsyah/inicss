@@ -50,6 +50,85 @@
             &#x3C;/div&#x3E;
           &#x3C;/div&#x3E;</textarea>
         </div>
+
+        <h4 class="mt-3">Dropdown with Different Icon and split button dropdown, with material icons</h4>
+        <div class="example dropdown-icon">
+          <div class="ini dropdown-icon">
+            <button class="ini button blue openDropdown">
+              <span class="text">Dropdown Blue</span>
+              <i class="material-icons">arrow_drop_down</i>
+            </button>
+            <div class="menu">
+              <a class="item" href="#">Item One </a>
+              <a class="item" href="#">Item Two</a>
+              <a class="item" href="#">Item Three</a>
+            </div>
+          </div>
+          <div class="ini dropdown-icon">
+            <button class="ini button black openDropdown">
+              <span class="text">Dropdown black</span>
+              <i class="material-icons">expand_more</i>
+            </button>
+            <div class="menu">
+              <a class="item" href="#">Item One </a>
+              <a class="item" href="#">Item Two</a>
+              <a class="item" href="#">Item Three</a>
+            </div>
+          </div>
+          <div class="ini dropdown-icon">
+            <button class="ini button red openDropdown">
+              <i class="material-icons">arrow_drop_down</i>
+              <span class="text">Dropdown Red</span>
+            </button>
+            <div class="menu">
+              <a class="item" href="#">Item One </a>
+              <a class="item" href="#">Item Two</a>
+              <a class="item" href="#">Item Three</a>
+            </div>
+          </div>
+        </div>
+        <div class="code">
+          <div class="ini align right">
+            <button class="ini button copy onCopy">Copy</button>
+          </div>
+          <div class="area selected">
+            <div>
+              <div>&#x3C;div class=&#x22;ini dropdown&#x22;&#x3E;</div>
+              <div class="ml-4">&#x3C;button class=&#x22;ini button blue&#x22;&#x3E;Dropdown&#x3C;/button&#x3E;</div>
+              <div class="ml-4">&#x3C;div class=&#x22;menu&#x22;&#x3E;</div>
+              <div class="ml-5">&#x3C;a class=&#x22;item&#x22; href=&#x22;#&#x22;&#x3E;Item One &#x3C;/a&#x3E;</div>
+              <div class="ml-5">&#x3C;a class=&#x22;item&#x22; href=&#x22;#&#x22;&#x3E;Item Two&#x3C;/a&#x3E;</div>
+              <div class="ml-5">&#x3C;a class=&#x22;item&#x22; href=&#x22;#&#x22;&#x3E;Item Three&#x3C;/a&#x3E;</div>
+              <div class="ml-4">&#x3C;/div&#x3E;</div>
+              <div>&#x3C;/div&#x3E;</div>
+              <div>&#x3C;div class=&#x22;ini dropdown&#x22;&#x3E;</div>
+              <div class="ml-4">&#x3C;button class=&#x22;ini button black&#x22;&#x3E;Dropdown&#x3C;/button&#x3E;</div>
+              <div class="ml-4">&#x3C;div class=&#x22;menu&#x22;&#x3E;</div>
+              <div class="ml-5">&#x3C;a class=&#x22;item&#x22; href=&#x22;#&#x22;&#x3E;Item One &#x3C;/a&#x3E;</div>
+              <div class="ml-5">&#x3C;a class=&#x22;item&#x22; href=&#x22;#&#x22;&#x3E;Item Two&#x3C;/a&#x3E;</div>
+              <div class="ml-5">&#x3C;a class=&#x22;item&#x22; href=&#x22;#&#x22;&#x3E;Item Three&#x3C;/a&#x3E;</div>
+              <div class="ml-4">&#x3C;/div&#x3E;</div>
+              <div>&#x3C;/div&#x3E;</div>
+              <div>&#x3C;div class=&#x22;ini dropdown&#x22;&#x3E;</div>
+              <div class="ml-4">&#x3C;button class=&#x22;ini button red&#x22;&#x3E;Dropdown&#x3C;/button&#x3E;</div>
+              <div class="ml-4">&#x3C;div class=&#x22;menu&#x22;&#x3E;</div>
+              <div class="ml-5">&#x3C;a class=&#x22;item&#x22; href=&#x22;#&#x22;&#x3E;Item One &#x3C;/a&#x3E;</div>
+              <div class="ml-5">&#x3C;a class=&#x22;item&#x22; href=&#x22;#&#x22;&#x3E;Item Two&#x3C;/a&#x3E;</div>
+              <div class="ml-5">&#x3C;a class=&#x22;item&#x22; href=&#x22;#&#x22;&#x3E;Item Three&#x3C;/a&#x3E;</div>
+              <div class="ml-4">&#x3C;/div&#x3E;</div>
+              <div>&#x3C;/div&#x3E;</div>
+            </div>
+          </div>
+          <textarea cols="100" rows="100" class="hidden">
+            &#x3C;div class=&#x22;ini dropdown&#x22;&#x3E;
+            &#x3C;button class=&#x22;ini button blue&#x22;&#x3E;Dropdown&#x3C;/button&#x3E;
+            &#x3C;div class=&#x22;menu&#x22;&#x3E;
+            &#x3C;a class=&#x22;item&#x22; href=&#x22;#&#x22;&#x3E;Item One &#x3C;/a&#x3E;
+            &#x3C;a class=&#x22;item&#x22; href=&#x22;#&#x22;&#x3E;Item Two&#x3C;/a&#x3E;
+            &#x3C;a class=&#x22;item&#x22; href=&#x22;#&#x22;&#x3E;Item Three&#x3C;/a&#x3E;
+            &#x3C;/div&#x3E;
+          &#x3C;/div&#x3E;</textarea>
+        </div>
       </div>
     </div>
   </div>
