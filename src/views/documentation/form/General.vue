@@ -64,6 +64,15 @@
                 </div>
               </div>
               <div class="ini form">
+                <label>Image</label>
+                <div class="ini upload file multiple">
+                  <input type="file" accept="image/*" multiple id="uploadMultiple" class="hidden uploadImageMultiple">
+                  <div class="view many images">
+                    <label for="uploadMultiple" class="ini button multiple">+</label>
+                  </div>
+                </div>
+              </div>
+              <div class="ini form">
                 <label>Description</label>
                 <textarea rows="6" class="ini textarea" placeholder="Description"></textarea>
               </div>

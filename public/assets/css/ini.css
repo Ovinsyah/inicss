@@ -974,13 +974,15 @@ h6 {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  background-image: none; }
+  background-image: none;
+  transition: all 0.3s; }
 
 .ini.button.blue {
   background: #2980b9;
   border: 1px solid #2980b9; }
 
 .ini.button.blue:hover {
+  transition: all 0.3s;
   background: #276994; }
 
 .ini.button.o-blue {
@@ -988,6 +990,7 @@ h6 {
   color: #2980b9; }
 
 .ini.button.o-blue:hover {
+  transition: all 0.3s;
   background: #2980b9;
   color: white; }
 
@@ -996,6 +999,7 @@ h6 {
   background: #fc732b; }
 
 .ini.button.inicss:hover {
+  transition: all 0.3s;
   background: #e86520; }
 
 .ini.button.red {
@@ -1003,6 +1007,7 @@ h6 {
   background: #e74c3c; }
 
 .ini.button.red:hover {
+  transition: all 0.3s;
   background: #c73c2d; }
 
 .ini.button.o-red {
@@ -1010,6 +1015,7 @@ h6 {
   color: #e74c3c; }
 
 .ini.button.o-red:hover {
+  transition: all 0.3s;
   background: #e74c3c;
   color: white; }
 
@@ -1018,6 +1024,7 @@ h6 {
   background: #7f8c8d; }
 
 .ini.button.gray:hover {
+  transition: all 0.3s;
   background: #6b6b6b; }
 
 .ini.button.o-gray {
@@ -1025,6 +1032,7 @@ h6 {
   color: #7f8c8d; }
 
 .ini.button.o-gray:hover {
+  transition: all 0.3s;
   background: #7f8c8d;
   color: white; }
 
@@ -1033,6 +1041,7 @@ h6 {
   background: #000; }
 
 .ini.button.black:hover {
+  transition: all 0.3s;
   background: #505050; }
 
 .ini.button.o-black {
@@ -1040,6 +1049,7 @@ h6 {
   color: #000; }
 
 .ini.button.o-black:hover {
+  transition: all 0.3s;
   background: #000;
   color: white; }
 
@@ -1048,6 +1058,7 @@ h6 {
   background: #f39c12; }
 
 .ini.button.orange:hover {
+  transition: all 0.3s;
   background: #e29214; }
 
 .ini.button.o-orange {
@@ -1055,6 +1066,7 @@ h6 {
   color: #f39c12; }
 
 .ini.button.o-orange:hover {
+  transition: all 0.3s;
   background: #f39c12;
   color: white; }
 
@@ -1063,6 +1075,7 @@ h6 {
   background: #e67e22; }
 
 .ini.button.carrot:hover {
+  transition: all 0.3s;
   background: #da6c0b; }
 
 .ini.button.o-carrot {
@@ -1070,6 +1083,7 @@ h6 {
   color: #e67e22; }
 
 .ini.button.o-carrot:hover {
+  transition: all 0.3s;
   background: #e67e22;
   color: white; }
 
@@ -1078,6 +1092,7 @@ h6 {
   background: #9b59b6; }
 
 .ini.button.purple:hover {
+  transition: all 0.3s;
   background: #8135a0; }
 
 .ini.button.o-purple {
@@ -1085,6 +1100,7 @@ h6 {
   color: #9b59b6; }
 
 .ini.button.o-purple:hover {
+  transition: all 0.3s;
   background: #9b59b6;
   color: white; }
 
@@ -1093,6 +1109,7 @@ h6 {
   background: #2c3e50; }
 
 .ini.button.midnight:hover {
+  transition: all 0.3s;
   background: #516982; }
 
 .ini.button.o-midnight {
@@ -1100,6 +1117,7 @@ h6 {
   color: #2c3e50; }
 
 .ini.button.o-midnight:hover {
+  transition: all 0.3s;
   background: #2c3e50;
   color: white; }
 
@@ -1108,6 +1126,7 @@ h6 {
   background: #2ecc71; }
 
 .ini.button.green:hover {
+  transition: all 0.3s;
   background: #18b159; }
 
 .ini.button.o-green {
@@ -1115,6 +1134,7 @@ h6 {
   color: #2ecc71; }
 
 .ini.button.o-green:hover {
+  transition: all 0.3s;
   background: #2ecc71;
   color: white; }
 
@@ -1174,10 +1194,10 @@ h6 {
 ===============================================================
 */
 img.ini.rounded {
-  border-radius: 5%; }
+  border-radius: 5% !important; }
 
 img.ini.circle {
-  border-radius: 100%; }
+  border-radius: 100% !important; }
 
 img.ini.thumbnail {
   padding: 0.5rem;
@@ -1352,5 +1372,100 @@ img.ini.thumbnail {
 .ini.slider:checked:before {
   opacity: 1;
   transition: all .7s; }
+
+/*
+===============================================================
+    INI UPLOAD FILE
+===============================================================
+*/
+.ini.upload.file {
+  max-width: max-content; }
+  .ini.upload.file .view.image {
+    height: 150px;
+    width: 150px;
+    object-fit: cover; }
+  .ini.upload.file .ini.button.upload {
+    width: 100%;
+    display: block; }
+
+.ini.upload.file.hover {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .ini.upload.file.hover .ini.button.upload {
+    position: absolute;
+    opacity: 0;
+    width: 80%; }
+
+.ini.upload.file.hover:hover .view.image {
+  filter: brightness(60%); }
+.ini.upload.file.hover:hover .ini.button.upload {
+  opacity: 1;
+  transition: all .3s; }
+
+.ini.upload.file.multiple {
+  display: inline-block !important; }
+  .ini.upload.file.multiple .ini.button.multiple {
+    background: #e8e8e8;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #bbbbbb;
+    font-size: 4rem;
+    padding-bottom: 1rem;
+    border-radius: 0; }
+  .ini.upload.file.multiple .view.many.images {
+    display: inline-flex;
+    float: left;
+    margin: 0 .5rem .5rem 0;
+    justify-content: center;
+    align-items: center; }
+    .ini.upload.file.multiple .view.many.images img {
+      height: 100px;
+      width: 100px;
+      object-fit: cover;
+      transition: all .3s; }
+  .ini.upload.file.multiple .view.many.images:last-child {
+    margin: 0 0 .5rem 0; }
+  .ini.upload.file.multiple .deleteImage {
+    position: absolute;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    opacity: 0;
+    transition: all .3s; }
+  .ini.upload.file.multiple .view.many.images:hover img {
+    filter: brightness(40%);
+    transition: all .3s; }
+  .ini.upload.file.multiple .view.many.images:hover .deleteImage {
+    opacity: 1;
+    transition: all .3s; }
+
+/*
+===============================================================
+    INI BORDER
+===============================================================
+*/
+.ini.rounded {
+  border-radius: 1rem; }
+
+.ini.circle {
+  border-radius: 50%; }
+
+.ini.button.upload {
+  background: #2ac0c0;
+  padding: 5px 10px;
+  color: white; }
+
+.ini.button.upload.hover {
+  opacity: .5; }
+
+.ini.button.upload:hover {
+  background: #1d9e9e;
+  transition: all 0.3s; }
 
 /*# sourceMappingURL=ini.css.map */
