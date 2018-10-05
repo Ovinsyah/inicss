@@ -22,10 +22,14 @@ img {
 .overflow-hidden {
   overflow: hidden; }
 
-.ini .button[disabled], .ini .input[disabled],
-.ini .textarea[disabled], .ini .select[disabled],
-.ini .button:active[disabled], .ini .input:active[disabled],
-.ini .textarea:active[disabled], .ini .select:active[disabled] {
+.ini .button[disabled],
+.ini .input[disabled],
+.ini .textarea[disabled],
+.ini .select[disabled],
+.ini .button:active[disabled],
+.ini .input:active[disabled],
+.ini .textarea:active[disabled],
+.ini .select:active[disabled] {
   cursor: not-allowed;
   background: #f7f7f7 !important;
   opacity: 0.7;
@@ -158,10 +162,54 @@ img {
   padding-right: 10px;
   padding-left: 10px; }
 
-.grid.xsmall-1, .grid.xsmall-2, .grid.xsmall-3, .grid.xsmall-4, .grid.xsmall-5, .grid.xsmall-6, .grid.xsmall-7, .grid.xsmall-8, .grid.xsmall-9, .grid.xsmall-10, .grid.xsmall-11, .grid.xsmall-12,
-.grid.small-1, .grid.small-2, .grid.small-3, .grid.small-4, .grid.small-5, .grid.small-6, .grid.small-7, .grid.small-8, .grid.small-9, .grid.small-10, .grid.small-11, .grid.small-12,
-.grid.large-1, .grid.large-2, .grid.large-3, .grid.large-4, .grid.large-5, .grid.large-6, .grid.large-7, .grid.large-8, .grid.large-9, .grid.large-10, .grid.large-11, .grid.large-12,
-.grid.xlarge-1, .grid.xlarge-2, .grid.xlarge-3, .grid.xlarge-4, .grid.xlarge-5, .grid.xlarge-6, .grid.xlarge-7, .grid.xlarge-8, .grid.xlarge-9, .grid.xlarge-10, .grid.xlarge-11, .grid.xlarge-12 {
+.grid.xsmall-1,
+.grid.xsmall-2,
+.grid.xsmall-3,
+.grid.xsmall-4,
+.grid.xsmall-5,
+.grid.xsmall-6,
+.grid.xsmall-7,
+.grid.xsmall-8,
+.grid.xsmall-9,
+.grid.xsmall-10,
+.grid.xsmall-11,
+.grid.xsmall-12,
+.grid.small-1,
+.grid.small-2,
+.grid.small-3,
+.grid.small-4,
+.grid.small-5,
+.grid.small-6,
+.grid.small-7,
+.grid.small-8,
+.grid.small-9,
+.grid.small-10,
+.grid.small-11,
+.grid.small-12,
+.grid.large-1,
+.grid.large-2,
+.grid.large-3,
+.grid.large-4,
+.grid.large-5,
+.grid.large-6,
+.grid.large-7,
+.grid.large-8,
+.grid.large-9,
+.grid.large-10,
+.grid.large-11,
+.grid.large-12,
+.grid.xlarge-1,
+.grid.xlarge-2,
+.grid.xlarge-3,
+.grid.xlarge-4,
+.grid.xlarge-5,
+.grid.xlarge-6,
+.grid.xlarge-7,
+.grid.xlarge-8,
+.grid.xlarge-9,
+.grid.xlarge-10,
+.grid.xlarge-11,
+.grid.xlarge-12 {
   width: 100%;
   flex-basis: auto;
   -ms-flex-positive: auto;
@@ -708,7 +756,8 @@ img {
     INI MODAL
 ===============================================================
 */
-.closeModal, .openModal {
+.closeModal,
+.openModal {
   cursor: pointer; }
 
 .ini.overflow.hidden {
@@ -765,9 +814,12 @@ h5,
 h6 {
   margin: 0; }
 
-.ini.modal .header, .ini.modal .action {
+.ini.modal .header,
+.ini.modal .action {
   display: flex; }
-.ini.modal .header, .ini.modal .action, .ini.modal .content {
+.ini.modal .header,
+.ini.modal .action,
+.ini.modal .content {
   padding: 10px 20px; }
 .ini.modal .content {
   padding: 1.5rem; }
@@ -816,10 +868,14 @@ h6 {
     display: flex;
     justify-content: center;
     align-items: center; }
-  .ini.navbar .menu.left, .ini.navbar .menu.right, .ini.navbar .menu.center {
+  .ini.navbar .menu.left,
+  .ini.navbar .menu.right,
+  .ini.navbar .menu.center {
     flex: 1;
     line-height: 30px; }
-    .ini.navbar .menu.left a, .ini.navbar .menu.right a, .ini.navbar .menu.center a {
+    .ini.navbar .menu.left a,
+    .ini.navbar .menu.right a,
+    .ini.navbar .menu.center a {
       padding: .5rem 1rem; }
   .ini.navbar .menu.left {
     text-align: left; }
@@ -961,7 +1017,8 @@ h6 {
       cursor: pointer;
       color: #797979;
       font-size: 14px; }
-    .ini.menu.vertical .collapse li:hover, .ini.menu.vertical .collapse a:hover {
+    .ini.menu.vertical .collapse li:hover,
+    .ini.menu.vertical .collapse a:hover {
       color: #2ac0c0; }
 
 /*
@@ -1203,7 +1260,8 @@ h6 {
   text-align: left;
   border-spacing: 0;
   font-size: 14px; }
-  .ini.table thead tr th, .ini.table tbody tr td {
+  .ini.table thead tr th,
+  .ini.table tbody tr td {
     padding: .78571429em .78571429em; }
   .ini.table thead {
     border-spacing: 0;
@@ -1222,7 +1280,8 @@ h6 {
   .ini.table.bordered tbody tr td {
     border: 0px solid #eaeaea;
     border-width: 0px 1px 1px 0px; }
-  .ini.table.bordered tbody tr td:last-child, .ini.table.bordered thead tr th:last-child {
+  .ini.table.bordered tbody tr td:last-child,
+  .ini.table.bordered thead tr th:last-child {
     border-right: none; }
   .ini.table.bordered tbody tr:last-child td {
     border-bottom: none; }
@@ -1310,11 +1369,15 @@ img.ini.thumbnail {
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 0.3rem; }
-  .ini.form .ini.input, .ini.form .ini.textarea, .ini.form .select {
+  .ini.form .ini.input,
+  .ini.form .ini.textarea,
+  .ini.form .select {
     width: 100% !important; }
-  .ini.form .icon.right, .ini.form .icon.left {
+  .ini.form .icon.right,
+  .ini.form .icon.left {
     position: relative !important; }
-    .ini.form .icon.right i, .ini.form .icon.left i {
+    .ini.form .icon.right i,
+    .ini.form .icon.left i {
       position: absolute;
       line-height: 1;
       top: 7px;
@@ -1329,15 +1392,22 @@ img.ini.thumbnail {
     padding-left: 2rem !important; }
   .ini.form .icon.left i {
     left: 7px; }
-  .ini.form > .checkbox, .ini.form > .radio, .ini.form > .toggle, .ini.form > .slider {
+  .ini.form > .checkbox,
+  .ini.form > .radio,
+  .ini.form > .toggle,
+  .ini.form > .slider {
     display: inline-flex;
     align-items: center;
     margin-right: 1rem; }
-    .ini.form > .checkbox label, .ini.form > .radio label, .ini.form > .toggle label, .ini.form > .slider label {
+    .ini.form > .checkbox label,
+    .ini.form > .radio label,
+    .ini.form > .toggle label,
+    .ini.form > .slider label {
       font-size: 14px;
       margin: 0px 0px 0px 5px !important;
       cursor: pointer; }
-  .ini.form > .checkbox:last-child, .ini.form > .radio:last-child {
+  .ini.form > .checkbox:last-child,
+  .ini.form > .radio:last-child {
     margin-right: 0; }
 
 .ini.form:last-child {
@@ -1346,10 +1416,12 @@ img.ini.thumbnail {
 .ini.textarea {
   height: auto !important; }
 
-.ini.input, .ini.textarea, .ini.select {
+.ini.input,
+.ini.textarea,
+.ini.select {
   max-width: 100% !important;
   background: white !important;
-  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif !important;
+  font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif !important;
   padding: 0.6rem !important;
   border: 1px solid rgba(34, 36, 38, 0.15) !important;
   border-radius: .28571429rem !important;
@@ -1358,16 +1430,22 @@ img.ini.thumbnail {
 .ini.input::placeholder {
   opacity: 0.5; }
 
-.ini.input:active, .ini.input:focus,
-.ini.textarea:active, .ini.textarea:focus,
-.ini.select:active, .ini.select:focus {
+.ini.input:active,
+.ini.input:focus,
+.ini.textarea:active,
+.ini.textarea:focus,
+.ini.select:active,
+.ini.select:focus {
   outline: none !important;
   border: 1px solid rgba(0, 65, 111, 0.48) !important; }
 
 .ini.input.rouneded {
   border-radius: 2rem !important; }
 
-.ini.checkbox, .ini.radio, .ini.toggle, .ini.slider {
+.ini.checkbox,
+.ini.radio,
+.ini.toggle,
+.ini.slider {
   cursor: pointer;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -1378,17 +1456,26 @@ img.ini.thumbnail {
   display: inline-block;
   margin: 0; }
 
-.ini.radio, .ini.toggle, .ini.slider {
+.ini.radio,
+.ini.toggle,
+.ini.slider {
   border-radius: 50%; }
 
-.ini.checkbox:focus, .ini.radio:focus, .ini.toggle:focus, .ini.slider:focus {
+.ini.checkbox:focus,
+.ini.radio:focus,
+.ini.toggle:focus,
+.ini.slider:focus {
   outline: none !important; }
 
-.ini.checkbox:checked, .ini.radio:checked, .ini.toggle:checked, .ini.slider:checked {
+.ini.checkbox:checked,
+.ini.radio:checked,
+.ini.toggle:checked,
+.ini.slider:checked {
   background: #2ac0c0;
   transition: all .7s; }
 
-.ini.checkbox:after, .ini.radio:after {
+.ini.checkbox:after,
+.ini.radio:after {
   content: '';
   position: relative;
   top: 23%;
@@ -1400,7 +1487,10 @@ img.ini.thumbnail {
   transform: rotate(45deg);
   display: none; }
 
-.ini.checkbox:checked:after, .ini.radio:checked:after, .ini.toggle:checked:after, .ini.toggle:checked:after {
+.ini.checkbox:checked:after,
+.ini.radio:checked:after,
+.ini.toggle:checked:after,
+.ini.toggle:checked:after {
   display: block; }
 
 .ini.toggle {
@@ -1408,7 +1498,8 @@ img.ini.thumbnail {
   border-radius: 2rem !important;
   position: relative; }
 
-.ini.toggle:after, .ini.slider:after {
+.ini.toggle:after,
+.ini.slider:after {
   content: '';
   position: absolute;
   display: block;
@@ -1421,7 +1512,8 @@ img.ini.thumbnail {
   left: 0;
   -webkit-transform: translate(0); }
 
-.ini.toggle:checked:after, .ini.slider:checked:after {
+.ini.toggle:checked:after,
+.ini.slider:checked:after {
   left: 100%;
   -webkit-transform: translate(-100%);
   transition: all .7s; }
@@ -1600,8 +1692,7 @@ img.ini.thumbnail {
   -webkit-transform: scaleY(1);
   -moz-transform: scaleY(1);
   -o-transform: scaleY(1);
-  transform: scaleY(1);
-  transform-origin: top; }
+  transform: scaleY(1); }
 
 .ini.dropdown-icon {
   position: relative; }
@@ -1637,7 +1728,7 @@ img.ini.thumbnail {
   .ini.dropdown-icon .material-icons {
     color: #fff;
     top: 8px;
-    padding: 5px;
+    padding: 4px;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px; }
   .ini.dropdown-icon .ini.button {
@@ -1700,6 +1791,9 @@ img.ini.thumbnail {
   -moz-transform: scaleY(1);
   -o-transform: scaleY(1);
   transform: scaleY(1);
+  -webkit-transform-origin: top;
+  -moz-transform-origin: top;
+  -o-transform-origin: top;
   transform-origin: top; }
 
 /*
@@ -1720,7 +1814,8 @@ img.ini.thumbnail {
     text-align: center; }
   .ini.tabs.horizontal .tab.header ul li:last-child {
     margin-right: 0; }
-  .ini.tabs.horizontal .tab.header ul li.active, .ini.tabs.horizontal .tab.header ul li:hover {
+  .ini.tabs.horizontal .tab.header ul li.active,
+  .ini.tabs.horizontal .tab.header ul li:hover {
     background: #2ac0c0;
     color: white;
     border-radius: .18rem; }
@@ -1750,7 +1845,8 @@ img.ini.thumbnail {
         min-width: 8rem; }
       .ini.tabs.vertical .tab.header ul li:last-child {
         margin-right: 0; }
-      .ini.tabs.vertical .tab.header ul li.active, .ini.tabs.vertical .tab.header ul li:hover {
+      .ini.tabs.vertical .tab.header ul li.active,
+      .ini.tabs.vertical .tab.header ul li:hover {
         background: #2ac0c0;
         color: white;
         border-radius: .18rem; }

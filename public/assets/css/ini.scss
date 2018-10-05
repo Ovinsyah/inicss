@@ -18,50 +18,58 @@ $gray-color: #7f8c8d;
 $gray-nd-color: #6b6b6b;
 $midnight-color: #2c3e50;
 $midnight-nd-color: #516982;
-
-$blue-inicss-color : #2ac0c0;
-
-$text-color : #464646;
-$text-nd-color : #797979;
+$blue-inicss-color: #2ac0c0;
+$text-color: #464646;
+$text-nd-color: #797979;
 body {
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
-    color: $text-color;
-    // font-family: 'Roboto', sans-serif;
+    color: $text-color; // font-family: 'Roboto', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
 }
+
 a {
     text-decoration: none;
-    color:$text-color;
+    color: $text-color;
 }
-img{
+
+img {
     max-width: 100%;
 }
+
 *,
 *::before,
 *::after {
     box-sizing: border-box;
 }
-.overflow-hidden{
+
+.overflow-hidden {
     overflow: hidden;
 }
-.ini{
-    .button[disabled], .input[disabled],
-    .textarea[disabled], .select[disabled],
-    .button:active[disabled], .input:active[disabled],
-    .textarea:active[disabled], .select:active[disabled]{
+
+.ini {
+    .button[disabled],
+    .input[disabled],
+    .textarea[disabled],
+    .select[disabled],
+    .button:active[disabled],
+    .input:active[disabled],
+    .textarea:active[disabled],
+    .select:active[disabled] {
         cursor: not-allowed;
         background: #f7f7f7 !important;
         opacity: 0.7;
         border-color: #f7f7f7 !important;
     }
 }
-.hidden{
+
+.hidden {
     display: none;
 }
+
 /*
 ===============================================================
     INI POSITION
@@ -128,129 +136,177 @@ img{
 }
 
 //responsive
-.grid-12{
+.grid-12 {
     flex: none;
     width: 100%;
     padding-right: 10px;
     padding-left: 10px;
 }
-.grid-11{
+
+.grid-11 {
     flex: none;
     width: 91.666667%;
     padding-right: 10px;
     padding-left: 10px;
 }
-.grid-10{
+
+.grid-10 {
     flex: none;
     width: 83.333333%;
     padding-right: 10px;
     padding-left: 10px;
 }
 
-.grid-9{
+.grid-9 {
     flex: none;
     width: 75%;
     padding-right: 10px;
     padding-left: 10px;
 }
 
-.grid-8{
+.grid-8 {
     flex: none;
     width: 66.666667%;
     padding-right: 10px;
     padding-left: 10px;
 }
 
-.grid-7{
+.grid-7 {
     flex: none;
     width: 58.333333%;
     padding-right: 10px;
     padding-left: 10px;
 }
 
-.grid-6{
+.grid-6 {
     flex: none;
     width: 50%;
     padding-right: 10px;
     padding-left: 10px;
 }
 
-.grid-5{
+.grid-5 {
     flex: none;
     width: 41.666667%;
     padding-right: 10px;
     padding-left: 10px;
 }
 
-.grid-4{
+.grid-4 {
     flex: none;
     width: 33.333333%;
     padding-right: 10px;
     padding-left: 10px;
 }
 
-.grid-3{
+.grid-3 {
     flex: none;
     width: 25%;
     padding-right: 10px;
     padding-left: 10px;
 }
 
-.grid-2{
+.grid-2 {
     flex: none;
     width: 16.666667%;
     padding-right: 10px;
     padding-left: 10px;
 }
 
-.grid-1{
+.grid-1 {
     flex: none;
     width: 8.333333%;
     padding-right: 10px;
     padding-left: 10px;
 }
+
 //Set Grid Out Size
-.grid.xsmall-1,.grid.xsmall-2,.grid.xsmall-3,.grid.xsmall-4,.grid.xsmall-5,.grid.xsmall-6,.grid.xsmall-7,.grid.xsmall-8,.grid.xsmall-9,.grid.xsmall-10,.grid.xsmall-11,.grid.xsmall-12,
-.grid.small-1,.grid.small-2,.grid.small-3,.grid.small-4,.grid.small-5,.grid.small-6,.grid.small-7,.grid.small-8,.grid.small-9,.grid.small-10,.grid.small-11,.grid.small-12,
-.grid.large-1,.grid.large-2,.grid.large-3,.grid.large-4,.grid.large-5,.grid.large-6,.grid.large-7,.grid.large-8,.grid.large-9,.grid.large-10,.grid.large-11,.grid.large-12,
-.grid.xlarge-1,.grid.xlarge-2,.grid.xlarge-3,.grid.xlarge-4,.grid.xlarge-5,.grid.xlarge-6,.grid.xlarge-7,.grid.xlarge-8,.grid.xlarge-9,.grid.xlarge-10,.grid.xlarge-11,.grid.xlarge-12,
-{
+.grid.xsmall-1,
+.grid.xsmall-2,
+.grid.xsmall-3,
+.grid.xsmall-4,
+.grid.xsmall-5,
+.grid.xsmall-6,
+.grid.xsmall-7,
+.grid.xsmall-8,
+.grid.xsmall-9,
+.grid.xsmall-10,
+.grid.xsmall-11,
+.grid.xsmall-12,
+.grid.small-1,
+.grid.small-2,
+.grid.small-3,
+.grid.small-4,
+.grid.small-5,
+.grid.small-6,
+.grid.small-7,
+.grid.small-8,
+.grid.small-9,
+.grid.small-10,
+.grid.small-11,
+.grid.small-12,
+.grid.large-1,
+.grid.large-2,
+.grid.large-3,
+.grid.large-4,
+.grid.large-5,
+.grid.large-6,
+.grid.large-7,
+.grid.large-8,
+.grid.large-9,
+.grid.large-10,
+.grid.large-11,
+.grid.large-12,
+.grid.xlarge-1,
+.grid.xlarge-2,
+.grid.xlarge-3,
+.grid.xlarge-4,
+.grid.xlarge-5,
+.grid.xlarge-6,
+.grid.xlarge-7,
+.grid.xlarge-8,
+.grid.xlarge-9,
+.grid.xlarge-10,
+.grid.xlarge-11,
+.grid.xlarge-12,
+    {
     width: 100%;
     flex-basis: auto;
     -ms-flex-positive: auto;
     flex-grow: inherit;
 }
+
 //Extra small
 @media (min-width: 0px) {
-    .grid.xsmall-1{
+    .grid.xsmall-1 {
         -ms-flex: 0 0 8.333333%;
         flex: 0 0 8.333333%;
         max-width: 8.333333%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    .grid.xsmall-2{
+    .grid.xsmall-2 {
         -ms-flex: 0 0 16.666667%;
         flex: 0 0 16.666667%;
         max-width: 16.666667%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    .grid.xsmall-3{
+    .grid.xsmall-3 {
         -ms-flex: 0 0 25%;
         flex: 0 0 25%;
         max-width: 25%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    .grid.xsmall-4{
+    .grid.xsmall-4 {
         -ms-flex: 0 0 33.333333%;
         flex: 0 0 33.333333%;
         max-width: 33.333333%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    .grid.xsmall-5{
+    .grid.xsmall-5 {
         -ms-flex: 0 0 41.666667%;
         -ms-flex: 0 0 41.666667%;
         flex: 0 0 41.666667%;
@@ -258,49 +314,49 @@ img{
         padding-right: 10px;
         padding-left: 10px;
     }
-    .grid.xsmall-6{
+    .grid.xsmall-6 {
         -ms-flex: 0 0 50%;
         flex: 0 0 50%;
         max-width: 50%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    .grid.xsmall-7{
+    .grid.xsmall-7 {
         -ms-flex: 0 0 58.333333%;
         flex: 0 0 58.333333%;
         max-width: 58.333333%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    .grid.xsmall-8{
+    .grid.xsmall-8 {
         -ms-flex: 0 0 66.666667%;
         flex: 0 0 66.666667%;
         max-width: 66.666667%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    .grid.xsmall-9{
+    .grid.xsmall-9 {
         -ms-flex: 0 0 75%;
         flex: 0 0 75%;
         max-width: 75%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    .grid.xsmall-10{
+    .grid.xsmall-10 {
         -ms-flex: 0 0 83.333333%;
         flex: 0 0 83.333333%;
         max-width: 83.333333%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    .grid.xsmall-11{
+    .grid.xsmall-11 {
         -ms-flex: 0 0 91.666667%;
         flex: 0 0 91.666667%;
         max-width: 91.666667%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    .grid.xsmall-12{
+    .grid.xsmall-12 {
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
         max-width: 100%;
@@ -308,37 +364,38 @@ img{
         padding-left: 10px;
     }
 }
+
 //small
 @media (min-width: 576px) {
-    .grid.small-1{
+    .grid.small-1 {
         -ms-flex: 0 0 8.333333%;
         flex: 0 0 8.333333%;
         max-width: 8.333333%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    .grid.small-2{
+    .grid.small-2 {
         -ms-flex: 0 0 16.666667%;
         flex: 0 0 16.666667%;
         max-width: 16.666667%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    .grid.small-3{
+    .grid.small-3 {
         -ms-flex: 0 0 25%;
         flex: 0 0 25%;
         max-width: 25%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    .grid.small-4{
+    .grid.small-4 {
         -ms-flex: 0 0 33.333333%;
         flex: 0 0 33.333333%;
         max-width: 33.333333%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    .grid.small-5{
+    .grid.small-5 {
         -ms-flex: 0 0 41.666667%;
         -ms-flex: 0 0 41.666667%;
         flex: 0 0 41.666667%;
@@ -346,49 +403,49 @@ img{
         padding-right: 10px;
         padding-left: 10px;
     }
-    .grid.small-6{
+    .grid.small-6 {
         -ms-flex: 0 0 50%;
         flex: 0 0 50%;
         max-width: 50%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    .grid.small-7{
+    .grid.small-7 {
         -ms-flex: 0 0 58.333333%;
         flex: 0 0 58.333333%;
         max-width: 58.333333%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    .grid.small-8{
+    .grid.small-8 {
         -ms-flex: 0 0 66.666667%;
         flex: 0 0 66.666667%;
         max-width: 66.666667%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    .grid.small-9{
+    .grid.small-9 {
         -ms-flex: 0 0 75%;
         flex: 0 0 75%;
         max-width: 75%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    .grid.small-10{
+    .grid.small-10 {
         -ms-flex: 0 0 83.333333%;
         flex: 0 0 83.333333%;
         max-width: 83.333333%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    .grid.small-11{
+    .grid.small-11 {
         -ms-flex: 0 0 91.666667%;
         flex: 0 0 91.666667%;
         max-width: 91.666667%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    .grid.small-12{
+    .grid.small-12 {
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
         max-width: 100%;
@@ -399,264 +456,263 @@ img{
 
 //medium
 @media (min-width: 768px) {
-    .grid.medium-1{
+    .grid.medium-1 {
         -ms-flex: 0 0 8.333333%;
         flex: 0 0 8.333333%;
         max-width: 8.333333%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    .grid.medium-2{
+    .grid.medium-2 {
         -ms-flex: 0 0 16.666667%;
         flex: 0 0 16.666667%;
         max-width: 16.666667%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    .grid.medium-3{
+    .grid.medium-3 {
         -ms-flex: 0 0 25%;
         flex: 0 0 25%;
         max-width: 25%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    .grid.medium-4{
+    .grid.medium-4 {
         -ms-flex: 0 0 33.333333%;
         flex: 0 0 33.333333%;
         max-width: 33.333333%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    .grid.medium-5{
+    .grid.medium-5 {
         -ms-flex: 0 0 41.666667%;
         flex: 0 0 41.666667%;
         max-width: 41.666667%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    .grid.medium-6{
+    .grid.medium-6 {
         -ms-flex: 0 0 50%;
         flex: 0 0 50%;
         max-width: 50%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    .grid.medium-7{
+    .grid.medium-7 {
         -ms-flex: 0 0 58.333333%;
         flex: 0 0 58.333333%;
         max-width: 58.333333%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    .grid.medium-8{
+    .grid.medium-8 {
         -ms-flex: 0 0 66.666667%;
         flex: 0 0 66.666667%;
         max-width: 66.666667%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    .grid.medium-9{
+    .grid.medium-9 {
         -ms-flex: 0 0 75%;
         flex: 0 0 75%;
         max-width: 75%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    .grid.medium-10{
+    .grid.medium-10 {
         -ms-flex: 0 0 83.333333%;
         flex: 0 0 83.333333%;
         max-width: 83.333333%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    .grid.medium-11{
+    .grid.medium-11 {
         -ms-flex: 0 0 91.666667%;
         flex: 0 0 91.666667%;
         max-width: 91.666667%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    .grid.medium-12{
+    .grid.medium-12 {
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
         max-width: 100%;
         padding-right: 10px;
         padding-left: 10px;
     }
-    } //large
-    @media (min-width: 992px) {
-        .grid.large-1{
-            -ms-flex: 0 0 8.333333%;
-            flex: 0 0 8.333333%;
-            max-width: 8.333333%;
-            padding-right: 10px;
-            padding-left: 10px;
-        }
-        .grid.large-2{
-            -ms-flex: 0 0 16.666667%;
-            flex: 0 0 16.666667%;
-            max-width: 16.666667%;
-            padding-right: 10px;
-            padding-left: 10px;
-        }
-        .grid.large-3{
-            -ms-flex: 0 0 25%;
-            flex: 0 0 25%;
-            max-width: 25%;
-            padding-right: 10px;
-            padding-left: 10px;
-        }
-        .grid.large-4{
-            -ms-flex: 0 0 33.333333%;
-            flex: 0 0 33.333333%;
-            max-width: 33.333333%;
-            padding-right: 10px;
-            padding-left: 10px;
-        }
-        .grid.large-5{
-            -ms-flex: 0 0 41.666667%;
-            flex: 0 0 41.666667%;
-            max-width: 41.666667%;
-            padding-right: 10px;
-            padding-left: 10px;
-        }
-        .grid.large-6{
-            -ms-flex: 0 0 50%;
-            flex: 0 0 50%;
-            max-width: 50%;
-            padding-right: 10px;
-            padding-left: 10px;
-        }
-        .grid.large-7{
-            -ms-flex: 0 0 58.333333%;
-            flex: 0 0 58.333333%;
-            max-width: 58.333333%;
-            padding-right: 10px;
-            padding-left: 10px;
-        }
-        .grid.large-8{
-            -ms-flex: 0 0 66.666667%;
-            flex: 0 0 66.666667%;
-            max-width: 66.666667%;
-            padding-right: 10px;
-            padding-left: 10px;
-        }
-        .grid.large-9{
-            -ms-flex: 0 0 75%;
-            flex: 0 0 75%;
-            max-width: 75%;
-            padding-right: 10px;
-            padding-left: 10px;
-        }
-        .grid.large-10{
-            -ms-flex: 0 0 83.333333%;
-            flex: 0 0 83.333333%;
-            max-width: 83.333333%;
-            padding-right: 10px;
-            padding-left: 10px;
-        }
-        .grid.large-11{
-            -ms-flex: 0 0 91.666667%;
-            flex: 0 0 91.666667%;
-            max-width: 91.666667%;
-            padding-right: 10px;
-            padding-left: 10px;
-        }
-        .grid.large-12{
-            -ms-flex: 0 0 100%;
-            flex: 0 0 100%;
-            max-width: 100%;
-            padding-right: 10px;
-            padding-left: 10px;
-        }
+} //large
+@media (min-width: 992px) {
+    .grid.large-1 {
+        -ms-flex: 0 0 8.333333%;
+        flex: 0 0 8.333333%;
+        max-width: 8.333333%;
+        padding-right: 10px;
+        padding-left: 10px;
     }
-    //extra large
-    @media (min-width: 1200px) {
-        .grid.xlarge-1{
-            -ms-flex: 0 0 8.333333%;
-            flex: 0 0 8.333333%;
-            max-width: 8.333333%;
-            padding-right: 10px;
-            padding-left: 10px;
-        }
-        .grid.xlarge-2{
-            -ms-flex: 0 0 16.666667%;
-            flex: 0 0 16.666667%;
-            max-width: 16.666667%;
-            padding-right: 10px;
-            padding-left: 10px;
-        }
-        .grid.xlarge-3{
-            -ms-flex: 0 0 25%;
-            flex: 0 0 25%;
-            max-width: 25%;
-            padding-right: 10px;
-            padding-left: 10px;
-        }
-        .grid.xlarge-4{
-            -ms-flex: 0 0 33.333333%;
-            flex: 0 0 33.333333%;
-            max-width: 33.333333%;
-            padding-right: 10px;
-            padding-left: 10px;
-        }
-        .grid.xlarge-5{
-            -ms-flex: 0 0 41.666667%;
-            flex: 0 0 41.666667%;
-            max-width: 41.666667%;
-            padding-right: 10px;
-            padding-left: 10px;
-        }
-        .grid.xlarge-6{
-            -ms-flex: 0 0 50%;
-            flex: 0 0 50%;
-            max-width: 50%;
-            padding-right: 10px;
-            padding-left: 10px;
-        }
-        .grid.xlarge-7{
-            -ms-flex: 0 0 58.333333%;
-            flex: 0 0 58.333333%;
-            max-width: 58.333333%;
-            padding-right: 10px;
-            padding-left: 10px;
-        }
-        .grid.xlarge-8{
-            -ms-flex: 0 0 66.666667%;
-            flex: 0 0 66.666667%;
-            max-width: 66.666667%;
-            padding-right: 10px;
-            padding-left: 10px;
-        }
-        .grid.xlarge-9{
-            -ms-flex: 0 0 75%;
-            flex: 0 0 75%;
-            max-width: 75%;
-            padding-right: 10px;
-            padding-left: 10px;
-        }
-        .grid.xlarge-10{
-            -ms-flex: 0 0 83.333333%;
-            flex: 0 0 83.333333%;
-            max-width: 83.333333%;
-            padding-right: 10px;
-            padding-left: 10px;
-        }
-        .grid.xlarge-11{
-            -ms-flex: 0 0 91.666667%;
-            flex: 0 0 91.666667%;
-            max-width: 91.666667%;
-            padding-right: 10px;
-            padding-left: 10px;
-        }
-        .grid.xlarge-12{
-            -ms-flex: 0 0 100%;
-            flex: 0 0 100%;
-            max-width: 100%;
-            padding-right: 10px;
-            padding-left: 10px;
-        }
+    .grid.large-2 {
+        -ms-flex: 0 0 16.666667%;
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%;
+        padding-right: 10px;
+        padding-left: 10px;
     }
+    .grid.large-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .grid.large-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .grid.large-5 {
+        -ms-flex: 0 0 41.666667%;
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .grid.large-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .grid.large-7 {
+        -ms-flex: 0 0 58.333333%;
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .grid.large-8 {
+        -ms-flex: 0 0 66.666667%;
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .grid.large-9 {
+        -ms-flex: 0 0 75%;
+        flex: 0 0 75%;
+        max-width: 75%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .grid.large-10 {
+        -ms-flex: 0 0 83.333333%;
+        flex: 0 0 83.333333%;
+        max-width: 83.333333%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .grid.large-11 {
+        -ms-flex: 0 0 91.666667%;
+        flex: 0 0 91.666667%;
+        max-width: 91.666667%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .grid.large-12 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+} //extra large
+@media (min-width: 1200px) {
+    .grid.xlarge-1 {
+        -ms-flex: 0 0 8.333333%;
+        flex: 0 0 8.333333%;
+        max-width: 8.333333%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .grid.xlarge-2 {
+        -ms-flex: 0 0 16.666667%;
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .grid.xlarge-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .grid.xlarge-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .grid.xlarge-5 {
+        -ms-flex: 0 0 41.666667%;
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .grid.xlarge-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .grid.xlarge-7 {
+        -ms-flex: 0 0 58.333333%;
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .grid.xlarge-8 {
+        -ms-flex: 0 0 66.666667%;
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .grid.xlarge-9 {
+        -ms-flex: 0 0 75%;
+        flex: 0 0 75%;
+        max-width: 75%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .grid.xlarge-10 {
+        -ms-flex: 0 0 83.333333%;
+        flex: 0 0 83.333333%;
+        max-width: 83.333333%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .grid.xlarge-11 {
+        -ms-flex: 0 0 91.666667%;
+        flex: 0 0 91.666667%;
+        max-width: 91.666667%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .grid.xlarge-12 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
 
 /*
 ===============================================================
@@ -713,6 +769,7 @@ img{
 .ini.display.inline-block {
     display: inline-block
 }
+
 /*
 ===============================================================
     INI BACKGROUND
@@ -726,6 +783,7 @@ img{
 .ini.background.red {
     background: $red-color;
 }
+
 .ini.background.inicss {
     background: $inicss-color;
 }
@@ -761,11 +819,13 @@ img{
 .ini.background.green {
     background: $green-color;
 }
+
 /*
 ===============================================================
     INI COLOR
 ===============================================================
 */
+
 .ini.color.blue {
     background: $blue-color;
 }
@@ -809,18 +869,23 @@ img{
 .ini.color.green {
     background: $green-color;
 }
+
 /*
 ===============================================================
     INI MODAL
 ===============================================================
 */
-.closeModal,.openModal{
+
+.closeModal,
+.openModal {
     cursor: pointer;
 }
-.ini.overflow.hidden{
+
+.ini.overflow.hidden {
     overflow: hidden;
 }
-.ini.modals{
+
+.ini.modals {
     position: fixed;
     top: 0;
     left: 0;
@@ -832,42 +897,46 @@ img{
     opacity: 0;
     transition: all 0.3s;
     padding: 0rem 1rem;
-    .ini.modal{
+    .ini.modal {
         transform: scaleX(0.8) scaleY(0.8);
         transition: all 0.2s;
-        margin:2rem auto;
-    }
-    //size modal
-    .ini.modal.small{
+        margin: 2rem auto;
+    } //size modal
+    .ini.modal.small {
         max-width: 540px;
     }
-    .ini.modal.medium{
+    .ini.modal.medium {
         max-width: 720px;
     }
-    .ini.modal.large{
+    .ini.modal.large {
         max-width: 1080px;
     }
 }
-.ini.modals.active{
+
+.ini.modals.active {
     visibility: visible;
     opacity: 1;
     transition: all 0.3s;
-    .ini.modal{
+    .ini.modal {
         transform: scaleX(1) scaleY(1);
         transition: all 0.2s;
     }
 }
-.ini.modals.centered{
+
+.ini.modals.centered {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.ini.modal{
-    background:white;
+
+.ini.modal {
+    background: white;
 }
-.ini.modal .header{
-    border-bottom: 1px solid #dcdcdc;    
+
+.ini.modal .header {
+    border-bottom: 1px solid #dcdcdc;
 }
+
 .ini.modal h1,
 h1,
 h2,
@@ -878,26 +947,29 @@ h6 {
     margin: 0;
 }
 
-.ini.modal{
-    .header,.action {
+.ini.modal {
+    .header,
+    .action {
         display: flex;
     }
-    .header,.action,.content {
+    .header,
+    .action,
+    .content {
         padding: 10px 20px;
     }
-    .content{
+    .content {
         padding: 1.5rem;
     }
     .action {
         border-top: 1px solid #dcdcdc;
         justify-content: flex-end;
-        button{
+        button {
             margin: 0px 5px;
         }
-        button:first-child{
+        button:first-child {
             margin-left: 0;
         }
-        button:last-child{
+        button:last-child {
             margin-right: 0;
         }
     }
@@ -907,61 +979,65 @@ h6 {
         color: #000;
     }
 }
+
 @media (max-width: 575px) {
-    .ini.modal{
+    .ini.modal {
         min-width: 100%;
         max-width: 100%;
     }
 }
+
 /*
 ===============================================================
     INI NAVBAR
 ===============================================================
 */
-.ini.navbar{
+
+.ini.navbar {
     display: flex;
     padding: .5rem 1rem;
     box-shadow: 0 2px 0 0 #f5f5f5;
     margin-bottom: 1rem;
     background: #f1f1f1;
-    img{
-        vertical-align: top!important;
+    img {
+        vertical-align: top !important;
         height: 30px;
     }
-    .ini.menus{
+    .ini.menus {
         display: inline-flex;
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .navbar.brand{
-        padding:0px 10px;
+    .navbar.brand {
+        padding: 0px 10px;
         font-size: 20px;
-        line-height:30px;
+        line-height: 30px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .menu.left,.menu.right,.menu.center{
+    .menu.left,
+    .menu.right,
+    .menu.center {
         flex: 1;
-        line-height:30px;
-        a{
+        line-height: 30px;
+        a {
             // font-weight: 600;
             padding: .5rem 1rem;
         }
     }
-    .menu.left{
+    .menu.left {
         text-align: left;
     }
-    .menu.center{
+    .menu.center {
         text-align: center;
     }
-    .menu.right{
+    .menu.right {
         text-align: right;
-    }
-    //Menu side
-    .ini.menus.side.active{
+    } //Menu side
+    .ini.menus.side.active {
         height: 100vh;
         position: absolute;
         background: white;
@@ -970,70 +1046,76 @@ h6 {
         z-index: 996;
     }
     @media (max-width: 575px) {
-        .ini.menus.side.active{
+        .ini.menus.side.active {
             width: 250px;
         }
     }
     @media (min-width: 576px) {
-        .ini.menus.side.active{
+        .ini.menus.side.active {
             width: 80%;
         }
     }
 }
-.ini.navbar.sticky{
+
+.ini.navbar.sticky {
     position: sticky;
     top: 0;
     z-index: 990;
 }
-.ini.navbar.fixed{
+
+.ini.navbar.fixed {
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 990;
 }
+
 @media (min-width: 768px) {
-    .ini.navbar.responsive{
-        .ini.hamburger{
+    .ini.navbar.responsive {
+        .ini.hamburger {
             display: none;
         }
     }
 }
+
 @media (max-width: 767px) {
-    .ini.navbar.responsive{
+    .ini.navbar.responsive {
         display: block;
-        .navbar.brand{
+        .navbar.brand {
             display: inline-block;
         }
-        .ini.menus{
+        .ini.menus {
             display: none !important;
-            box-shadow: 0 8px 16px rgba(10,10,10,.1);
+            box-shadow: 0 8px 16px rgba(10, 10, 10, .1);
             padding: 12px;
         }
-        .ini.menus.side{
+        .ini.menus.side {
             left: -60%;
         }
-        .ini.menus.active{
+        .ini.menus.active {
             display: block !important;
         }
-        .ini.hamburger{
+        .ini.hamburger {
             display: inline-block;
             float: right;
         }
-        .menu{
+        .menu {
             text-align: left !important;
             line-height: normal !important;
-            a{
+            a {
                 padding: .5rem 0.6rem .5rem 0rem !important;
                 display: block;
             }
         }
     }
 }
+
 /*
 ===============================================================
     INI HAMBURGER
 ===============================================================
 */
+
 .ini.hamburger span {
     height: 2px;
     width: 25px;
@@ -1092,62 +1174,69 @@ h6 {
     INI ACCORDION
 ===============================================================
 */
-.ini.menu.vertical{
+
+.ini.menu.vertical {
     list-style: none;
     padding-left: 0;
     margin: 0;
-    > li > a{
-        display:block;
+    >li>a {
+        display: block;
         padding: 10px;
         cursor: pointer;
         font-weight: 600;
     }
-    .openCollapse::after{
+    .openCollapse::after {
         font-family: 'Material Icons';
         content: "expand_more";
         float: right;
     }
-    .openCollapse.active::after{
+    .openCollapse.active::after {
         content: "expand_less";
     }
-    .collapse.active{
+    .collapse.active {
         max-height: 999px;
         transition: max-height 0.5s;
     }
-    .collapse{
+    .collapse {
         list-style: none;
         overflow: hidden;
         padding-left: 20px;
         max-height: 0px;
         transition: max-height 0.3s;
-        li{
-            display:block;
+        li {
+            display: block;
             padding: 7px;
-            cursor: pointer; 
+            cursor: pointer;
             color: $text-nd-color;
             font-size: 14px;
         }
-        li:hover,a:hover{
+        li:hover,
+        a:hover {
             color: $blue-inicss-color;
         }
     }
 }
+
 /*
 ===============================================================
     INI TEXT
 ===============================================================
 */
-.ini.bold{
+
+.ini.bold {
     font-weight: bold;
 }
-.ini.color.white{
+
+.ini.color.white {
     color: white;
 }
+
 /*
 ===============================================================
     INI BUTTON
 ===============================================================
 */
+
 .ini.button {
     color: white;
     padding: 6px 15px;
@@ -1206,6 +1295,7 @@ h6 {
     transition: all 0.3s;
     background: $inicss-nd-color;
 }
+
 .ini.button.o-inicss {
     border: 1px solid $inicss-color;
     color: $inicss-color;
@@ -1216,6 +1306,7 @@ h6 {
     background: $inicss-color;
     color: white;
 }
+
 .ini.button.red {
     border: 1px solid $red-color;
     background: $red-color;
@@ -1341,6 +1432,7 @@ h6 {
     background: $purple-color;
     color: white;
 }
+
 .ini.button.midnight {
     border: 1px solid $midnight-color;
     background: $midnight-color;
@@ -1387,60 +1479,69 @@ h6 {
     border: 1px solid white;
     color: white;
 }
+
 /*
 ===============================================================
     display
 ===============================================================
 */
+
 @media (max-width: 575px) {
-    .ini.hide.down-small{
+    .ini.hide.down-small {
         display: none;
     }
 }
+
 @media (min-width: 576px) {
-    .ini.hide.down-small{
+    .ini.hide.down-small {
         display: show;
     }
 }
+
 /*
 ===============================================================
     INI TABLE
 ===============================================================
 */
-.ini.table{
+
+.ini.table {
     width: 100%;
     background: #fff;
     text-align: left;
     border-spacing: 0;
     font-size: 14px;
-    thead tr th,tbody tr td{
+    thead tr th,
+    tbody tr td {
         padding: .78571429em .78571429em;
     }
-    thead{
+    thead {
         border-spacing: 0;
         background: #e4e4e4;
     }
-    tbody tr td{
-        border-bottom: 1px solid #ececec; 
+    tbody tr td {
+        border-bottom: 1px solid #ececec;
     }
 }
-.ini.table.striped tbody tr:nth-of-type(odd){
+
+.ini.table.striped tbody tr:nth-of-type(odd) {
     background: #f7f7f7;
 }
-.ini.table.bordered{
+
+.ini.table.bordered {
     border: 1px solid #eaeaea;
     border-radius: 3px;
-    thead tr th{
+    thead tr th {
         border-right: 1px solid #fff;
     }
-    tbody tr td{
+    tbody tr td {
         border: 0px solid #eaeaea;
         border-width: 0px 1px 1px 0px;
     }
-    tbody tr td:last-child,thead tr th:last-child{
+    tbody tr td:last-child,
+    thead tr th:last-child {
         border-right: none;
     }
-    tbody tr:last-child td{
+    tbody tr:last-child td {
         border-bottom: none;
     }
 }
@@ -1450,14 +1551,15 @@ h6 {
     INI PAGINATION
 ===============================================================
 */
-.ini.pagination{
+
+.ini.pagination {
     text-align: right;
     font-size: 14px;
     margin-top: .5rem;
-    ul{
+    ul {
         list-style: none;
         padding: 0;
-        li{
+        li {
             display: inline-block;
             border: 1px solid #e2e2e2;
             border-right: none;
@@ -1466,37 +1568,38 @@ h6 {
             padding: .4rem;
             transition: all .3s;
         }
-        li:first-child{
+        li:first-child {
             border-radius: 5px 0px 0px 5px;
         }
-        li:last-child{
+        li:last-child {
             border-radius: 0px 5px 5px 0px;
             border-right: 1px solid #e2e2e2;
         }
-        .active{
+        .active {
             background: #cecece;
         }
-        li:hover{
+        li:hover {
             background: #cecece;
             transition: all .3s;
         }
     }
-
 }
+
 /*
 ===============================================================
     INI IMAGE
 ===============================================================
 */
-img.ini.rounded{
+
+img.ini.rounded {
     border-radius: 5% !important;
 }
 
-img.ini.circle{
+img.ini.circle {
     border-radius: 100% !important;
 }
 
-img.ini.thumbnail{
+img.ini.thumbnail {
     padding: 0.5rem;
     border: 1px solid #f5f5f5;
 }
@@ -1506,52 +1609,58 @@ img.ini.thumbnail{
     INI CARD
 ===============================================================
 */
-.ini.card{
+
+.ini.card {
     .card.content,
-    {
+        {
         padding: 0.5rem;
         border: 1px solid #f5f5f5;
         display: flow-root;
     }
-    .card.title{
+    .card.title {
         font-size: 1.5rem;
         font-weight: bold;
     }
-    .card.subtitle{
+    .card.subtitle {
         font-size: 14px;
         color: #cccccc;
     }
-    .card.text{
+    .card.text {
         margin-top: 0.5rem;
         font-size: 14px;
     }
-    .card.footer{
+    .card.footer {
         padding: 1rem 0.5rem;
         border: 1px solid #f5f5f5;
         display: flow-root;
         font-size: 14px;
     }
 }
+
 /*
 ===============================================================
     INI FORM
 ===============================================================
 */
-.ini.form{
+
+.ini.form {
     margin-bottom: .6rem;
-    >label{
+    >label {
         display: block;
         color: black;
         font-size: 14px;
         font-weight: 700;
         margin-bottom: 0.3rem;
     }
-    .ini.input,.ini.textarea,.select{
+    .ini.input,
+    .ini.textarea,
+    .select {
         width: 100% !important;
     }
-    .icon.right,.icon.left{
+    .icon.right,
+    .icon.left {
         position: relative !important;
-        i{
+        i {
             position: absolute;
             line-height: 1;
             top: 7px;
@@ -1560,66 +1669,84 @@ img.ini.thumbnail{
             font-size: 1.4rem;
         }
     }
-    .icon.right{
-        .ini.input{
+    .icon.right {
+        .ini.input {
             padding-right: 2rem !important;
         }
-        i{
+        i {
             right: 7px;
         }
     }
-    .icon.left{
-        .ini.input{
+    .icon.left {
+        .ini.input {
             padding-left: 2rem !important;
         }
-        i{
+        i {
             left: 7px;
         }
     }
-    >.checkbox,>.radio,>.toggle,>.slider{
+    >.checkbox,
+    >.radio,
+    >.toggle,
+    >.slider {
         display: inline-flex;
         align-items: center;
         margin-right: 1rem;
-        label{
+        label {
             font-size: 14px;
             margin: 0px 0px 0px 5px !important;
             cursor: pointer;
         }
     }
-    >.checkbox:last-child,>.radio:last-child{
+    >.checkbox:last-child,
+    >.radio:last-child {
         margin-right: 0;
     }
 }
-.ini.form:last-child{
+
+.ini.form:last-child {
     margin-bottom: 0;
 }
-.ini.textarea{
+
+.ini.textarea {
     height: auto !important;
 }
-.ini.input,.ini.textarea,.ini.select{
+
+.ini.input,
+.ini.textarea,
+.ini.select {
     max-width: 100% !important;
     background: white !important;
-    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif !important;
+    font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif !important;
     padding: 0.6rem !important;
-    border: 1px solid rgba(34,36,38,.15) !important;
+    border: 1px solid rgba(34, 36, 38, .15) !important;
     border-radius: .28571429rem !important;
     height: 36px;
 }
-.ini.input::placeholder{
+
+.ini.input::placeholder {
     opacity: 0.5;
 }
-.ini.input:active,.ini.input:focus,
-.ini.textarea:active,.ini.textarea:focus,
-.ini.select:active,.ini.select:focus
-{
+
+.ini.input:active,
+.ini.input:focus,
+.ini.textarea:active,
+.ini.textarea:focus,
+.ini.select:active,
+.ini.select:focus {
     outline: none !important;
     border: 1px solid rgba(0, 65, 111, 0.48) !important;
 }
-.ini.input.rouneded{
+
+.ini.input.rouneded {
     border-radius: 2rem !important;
 }
+
 //Checkbox
-.ini.checkbox,.ini.radio,.ini.toggle,.ini.slider {
+.ini.checkbox,
+.ini.radio,
+.ini.toggle,
+.ini.slider {
     cursor: pointer;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -1630,17 +1757,30 @@ img.ini.thumbnail{
     display: inline-block;
     margin: 0;
 }
-.ini.radio,.ini.toggle,.ini.slider{
+
+.ini.radio,
+.ini.toggle,
+.ini.slider {
     border-radius: 50%;
 }
-.ini.checkbox:focus,.ini.radio:focus,.ini.toggle:focus,.ini.slider:focus{
+
+.ini.checkbox:focus,
+.ini.radio:focus,
+.ini.toggle:focus,
+.ini.slider:focus {
     outline: none !important;
 }
-.ini.checkbox:checked,.ini.radio:checked,.ini.toggle:checked,.ini.slider:checked  {
+
+.ini.checkbox:checked,
+.ini.radio:checked,
+.ini.toggle:checked,
+.ini.slider:checked {
     background: $blue-inicss-color;
     transition: all .7s;
 }
-.ini.checkbox:after,.ini.radio:after {
+
+.ini.checkbox:after,
+.ini.radio:after {
     content: '';
     position: relative;
     top: 23%;
@@ -1652,16 +1792,23 @@ img.ini.thumbnail{
     transform: rotate(45deg);
     display: none;
 }
-.ini.checkbox:checked:after,.ini.radio:checked:after,.ini.toggle:checked:after,.ini.toggle:checked:after {
+
+.ini.checkbox:checked:after,
+.ini.radio:checked:after,
+.ini.toggle:checked:after,
+.ini.toggle:checked:after {
     display: block;
 }
+
 //toggle
-.ini.toggle{
+.ini.toggle {
     width: 50px !important;
     border-radius: 2rem !important;
     position: relative;
 }
-.ini.toggle:after,.ini.slider:after{
+
+.ini.toggle:after,
+.ini.slider:after {
     content: '';
     position: absolute;
     display: block;
@@ -1674,19 +1821,23 @@ img.ini.thumbnail{
     left: 0;
     -webkit-transform: translate(0);
 }
-.ini.toggle:checked:after,.ini.slider:checked:after{
+
+.ini.toggle:checked:after,
+.ini.slider:checked:after {
     left: 100%;
     -webkit-transform: translate(-100%);
     transition: all .7s;
 }
+
 //slider
-.ini.slider{
+.ini.slider {
     width: 50px !important;
     border-radius: 0 !important;
     position: relative;
     background: transparent !important;
 }
-.ini.slider::before{
+
+.ini.slider::before {
     content: '';
     height: 4px;
     background: $blue-inicss-color;
@@ -1696,50 +1847,56 @@ img.ini.thumbnail{
     opacity: .3;
     transition: all .7s;
 }
-.ini.slider:checked:before{
-    opacity: 1; 
+
+.ini.slider:checked:before {
+    opacity: 1;
     transition: all .7s;
 }
+
 /*
 ===============================================================
     INI UPLOAD FILE
 ===============================================================
 */
-.ini.upload.file{
+
+.ini.upload.file {
     max-width: max-content;
-    .view.image{
+    .view.image {
         height: 150px;
         width: 150px;
         object-fit: cover;
     }
-    .ini.button.upload{
+    .ini.button.upload {
         width: 100%;
         display: block;
     }
 }
-.ini.upload.file.hover{
+
+.ini.upload.file.hover {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    .ini.button.upload{
+    .ini.button.upload {
         position: absolute;
         opacity: 0;
         width: 80%;
     }
 }
-.ini.upload.file.hover:hover{
-    .view.image{
+
+.ini.upload.file.hover:hover {
+    .view.image {
         filter: brightness(60%);
     }
-    .ini.button.upload{
+    .ini.button.upload {
         opacity: 1;
         transition: all .3s;
     }
 }
-.ini.upload.file.multiple{
+
+.ini.upload.file.multiple {
     display: inline-block !important;
-    .ini.button.multiple{
+    .ini.button.multiple {
         background: #e8e8e8;
         height: 100px;
         width: 100px;
@@ -1751,23 +1908,23 @@ img.ini.thumbnail{
         padding-bottom: 1rem;
         border-radius: 0;
     }
-    .view.many.images{
+    .view.many.images {
         display: inline-flex;
         float: left;
         margin: 0 .5rem .5rem 0;
         justify-content: center;
         align-items: center;
-        img{
+        img {
             height: 100px;
             width: 100px;
             object-fit: cover;
             transition: all .3s;
         }
     }
-    .view.many.images:last-child{
+    .view.many.images:last-child {
         margin: 0 0 .5rem 0;
     }
-    .deleteImage{
+    .deleteImage {
         position: absolute;
         color: white;
         font-weight: 600;
@@ -1776,72 +1933,79 @@ img.ini.thumbnail{
         opacity: 0;
         transition: all .3s;
     }
-    .view.many.images:hover{
-        img{
+    .view.many.images:hover {
+        img {
             filter: brightness(40%);
             transition: all .3s;
         }
-        .deleteImage{
+        .deleteImage {
             opacity: 1;
             transition: all .3s;
         }
     }
 }
+
 /*
 ===============================================================
     INI BORDER
 ===============================================================
 */
-.ini.rounded{
+
+.ini.rounded {
     border-radius: 1rem;
 }
-.ini.circle{
+
+.ini.circle {
     border-radius: 50%;
 }
+
 //ex style
-.ini.button.upload{
+.ini.button.upload {
     background: $blue-inicss-color;
     padding: 5px 10px;
     color: white;
 }
-.ini.button.upload.hover{
+
+.ini.button.upload.hover {
     opacity: .5;
 }
-.ini.button.upload:hover{
+
+.ini.button.upload:hover {
     background: #1d9e9e;
     transition: all 0.3s;
 }
+
 /*
 ===============================================================
     INI Width
 ===============================================================
 */
-.ini.width.fit-content{
+
+.ini.width.fit-content {
     width: fit-content;
     min-width: fit-content;
     max-width: fit-content;
 }
+
 /*
 ===============================================================
     INI DROPDOWN
 ===============================================================
 */
-.ini.dropdown{
-    .ini.button{
+
+.ini.dropdown {
+    .ini.button {
         display: flex;
     }
-    
-    .ini.button:after{
+    .ini.button:after {
         content: "expand_more";
         font-family: 'Material Icons';
         margin-left: 5px;
     }
-    
-    .ini.button.active:after{
+    .ini.button.active:after {
         content: "expand_less";
     }
-    
-    .menu{
+    .menu {
         background: #fff;
         border: 1px solid #f5f5f5;
         position: absolute;
@@ -1862,18 +2026,16 @@ img.ini.thumbnail{
         -o-transform-origin: top;
         transform-origin: top;
     }
-    
-    .item{
+    .item {
         display: block;
         padding: .5rem 2rem;
     }
-    
-    .item:hover{
+    .item:hover {
         background: #f5f5f5;
     }
 }
 
-.ini.dropdown.active .menu{
+.ini.dropdown.active .menu {
     opacity: 1;
     height: auto;
     -webkit-transition: all .2s ease;
@@ -1884,92 +2046,11 @@ img.ini.thumbnail{
     -moz-transform: scaleY(1);
     -o-transform: scaleY(1);
     transform: scaleY(1);
-<<<<<<< HEAD
-}
-/*
-===============================================================
-    INI TABS
-===============================================================
-*/
-.ini.tabs.horizontal{
-    .tab.header{
-        ul{
-            list-style: none;
-            padding: 0;
-            display: flex;
-            margin: 0;
-            li{
-                flex: 1;
-                padding: .7rem;
-                margin-right: .2rem;
-                cursor: pointer;
-                text-align: center;
-            }
-            li:last-child{
-                margin-right: 0;
-            }
-            li.active,li:hover{
-                background: $blue-inicss-color;
-                color: white;
-                border-radius: .18rem;
-            }
-        }
-    }
-    .tab.body{
-        padding: .5rem;
-        margin-top: .8rem;
-        .content{
-            display: none;
-        }
-        .content.active{
-            display: block;
-        }
-    }
-}
-.ini.tabs.vertical{
-    display: flex;
-    .tab.header{
-        flex: 1;
-        max-width: fit-content;
-        margin-right: 1rem;
-        ul{
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            li{
-                padding: .7rem;
-                margin: 0 .2rem .2rem 0;
-                cursor: pointer;
-                text-align: center;
-                min-width: 8rem;
-            }
-            li:last-child{
-                margin-right: 0;
-            }
-            li.active,li:hover{
-                background: $blue-inicss-color;
-                color: white;
-                border-radius: .18rem;
-            }
-        }
-    }
-    .tab.body{
-        flex: 1;
-        padding: .5rem;
-        .content{
-            display: none;
-        }
-        .content.active{
-            display: block;
-        }
-    }
-=======
-    transform-origin: top;
 }
 
-.ini.dropdown-icon{
+.ini.dropdown-icon {
     position: relative;
-    .menu{
+    .menu {
         background: #fff;
         border: 1px solid #f5f5f5;
         position: absolute;
@@ -1994,119 +2075,94 @@ img.ini.thumbnail{
         -o-transform-origin: top;
         transform-origin: top;
     }
-
-    .item{
+    .item {
         display: block;
         padding: .5rem 2rem;
     }
-
-    .item:hover{
+    .item:hover {
         background: #f5f5f5;
     }
-    .material-icons{
+    .material-icons {
         color: #fff;
         top: 8px;
-        padding: 5px;
+        padding: 4px;
         border-top-right-radius: 4px;
         border-bottom-right-radius: 4px;
     }
-    .ini.button{
+    .ini.button {
         padding-right: 0;
         padding-left: 0;
     }
     .ini.button.blue .material-icons {
         background: $blue-color;
     }
-
     .ini.button.o-blue .material-icons {
         color: $blue-color;
     }
-
-
     .ini.button.inicss .material-icons {
         background: $inicss-color;
     }
-
-
     .ini.button.o-inicss .material-icons {
         color: $inicss-color;
     }
-
     .ini.button.red .material-icons {
         background: $red-color;
     }
-
-
     .ini.button.o-red .material-icons {
         color: $red-color;
     }
-
     .ini.button.gray .material-icons {
         background: $gray-color;
     }
-
     .ini.button.o-gray .material-icons {
         color: $gray-color;
     }
-
     .ini.button.black .material-icons {
         background: $black-color;
     }
-
     .ini.button.o-black .material-icons {
         color: $black-color;
     }
-
     .ini.button.orange .material-icons {
         background: $orange-color;
     }
-
     .ini.button.o-orange .material-icons {
         color: $orange-color;
     }
-
     .ini.button.carrot .material-icons {
         background: $carrot-color;
     }
-
     .ini.button.o-carrot .material-icons {
         color: $carrot-color;
     }
-
     .ini.button.purple .material-icons {
         background: $purple-color;
     }
-
     .ini.button.o-purple .material-icons {
         color: $purple-color;
     }
-
     .ini.button.midnight .material-icons {
         background: $midnight-color;
     }
-
     .ini.button.o-midnight .material-icons {
         color: $midnight-color;
     }
-
     .ini.button.green .material-icons {
         background: $green-color;
     }
-
     .ini.button.o-green .material-icons {
         color: $green-color;
     }
-
     .ini.button.o-white .material-icons {
         color: white;
     }
-    .text{
+    .text {
         margin-right: 15px;
         margin-left: 15px;
     }
 }
 
-.ini.dropdown-icon.active .menu{
+.ini.dropdown-icon.active .menu {
     opacity: 1;
     height: auto;
     -webkit-transition: all .2s ease;
@@ -2117,6 +2173,91 @@ img.ini.thumbnail{
     -moz-transform: scaleY(1);
     -o-transform: scaleY(1);
     transform: scaleY(1);
+    -webkit-transform-origin: top;
+    -moz-transform-origin: top;
+    -o-transform-origin: top;
     transform-origin: top;
->>>>>>> 8aa0997b332cf4943201064062588d816cfdd39d
+}
+
+/*
+===============================================================
+    INI TABS
+===============================================================
+*/
+
+.ini.tabs.horizontal {
+    .tab.header {
+        ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            margin: 0;
+            li {
+                flex: 1;
+                padding: .7rem;
+                margin-right: .2rem;
+                cursor: pointer;
+                text-align: center;
+            }
+            li:last-child {
+                margin-right: 0;
+            }
+            li.active,
+            li:hover {
+                background: $blue-inicss-color;
+                color: white;
+                border-radius: .18rem;
+            }
+        }
+    }
+    .tab.body {
+        padding: .5rem;
+        margin-top: .8rem;
+        .content {
+            display: none;
+        }
+        .content.active {
+            display: block;
+        }
+    }
+}
+
+.ini.tabs.vertical {
+    display: flex;
+    .tab.header {
+        flex: 1;
+        max-width: fit-content;
+        margin-right: 1rem;
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            li {
+                padding: .7rem;
+                margin: 0 .2rem .2rem 0;
+                cursor: pointer;
+                text-align: center;
+                min-width: 8rem;
+            }
+            li:last-child {
+                margin-right: 0;
+            }
+            li.active,
+            li:hover {
+                background: $blue-inicss-color;
+                color: white;
+                border-radius: .18rem;
+            }
+        }
+    }
+    .tab.body {
+        flex: 1;
+        padding: .5rem;
+        .content {
+            display: none;
+        }
+        .content.active {
+            display: block;
+        }
+    }
 }
