@@ -55,13 +55,18 @@ window.onclick = function (event) {
     }
 }
 $(document).on("click", ".openDropdown", function() {
-    $(".openDropdown").each(function () {
-        $(this).removeClass("active");
-        $(this).parent().removeClass("active");
-        console.log('looping');
-    });
-    $(this).toggleClass('active');
-    $(this).parent().toggleClass('active');
+    if ($(this).hasClass("active")){
+        $(this).toggleClass('active');
+        $(this).parent().toggleClass('active');
+    }
+    else{
+        $(".openDropdown").each(function () {
+            $(this).removeClass("active");
+            $(this).parent().removeClass("active");
+        });
+        $(this).toggleClass('active');
+        $(this).parent().toggleClass('active');
+    }
 });
 $(document).on("click", ".openTab", function () {
     let target = $(this).attr("data-target");
@@ -77,4 +82,18 @@ $(document).on("click", ".openTab", function () {
     $(this).addClass("active");
     $(target).addClass("active");
     
+});
+//keyboadr esc
+$(document).on('keyup', function (evt) {
+    if (evt.keyCode == 27) {
+        $(".openDropdown").each(function() {
+          $(this).removeClass("active");
+          $(this).parent().removeClass("active");
+        });
+        $(".closeModal").each(function() {
+          let target = $(this).closest(".modals");
+          $(target).removeClass("active");
+          $("body").removeClass("overflow-hidden");
+        });
+    }
 });
