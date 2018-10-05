@@ -883,19 +883,6 @@ h6 {
     text-align: center; }
   .ini.navbar .menu.right {
     text-align: right; }
-  .ini.navbar .ini.menus.side.active {
-    height: 100vh;
-    position: absolute;
-    background: white;
-    top: 0;
-    left: 0 !important;
-    z-index: 996; }
-  @media (max-width: 575px) {
-    .ini.navbar .ini.menus.side.active {
-      width: 250px; } }
-  @media (min-width: 576px) {
-    .ini.navbar .ini.menus.side.active {
-      width: 80%; } }
 
 .ini.navbar.sticky {
   position: sticky;
@@ -920,10 +907,25 @@ h6 {
       display: none !important;
       box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
       padding: 12px; }
-    .ini.navbar.responsive .ini.menus.side {
-      left: -60%; }
     .ini.navbar.responsive .ini.menus.active {
       display: block !important; }
+    .ini.navbar.responsive .ini.menus.side {
+      height: 100vh;
+      position: fixed;
+      background: white;
+      top: 0;
+      left: -80%;
+      z-index: 996;
+      display: block !important;
+      width: 80%;
+      transition: left ease-in .5s; }
+    .ini.navbar.responsive .ini.menus.side.active {
+      left: 0%;
+      transition: left ease-out .5s; } }
+  @media (max-width: 767px) and (max-width: 575px) {
+    .ini.navbar.responsive .ini.menus.side {
+      width: 250px; } }
+@media (max-width: 767px) {
     .ini.navbar.responsive .ini.hamburger {
       display: inline-block;
       float: right; }
@@ -1803,24 +1805,23 @@ img.ini.thumbnail {
     INI TABS
 ===============================================================
 */
-.ini.tabs.horizontal .tab.header ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  margin: 0; }
-  .ini.tabs.horizontal .tab.header ul li {
-    flex: 1;
-    padding: .7rem;
-    margin-right: .2rem;
-    cursor: pointer;
-    text-align: center; }
-  .ini.tabs.horizontal .tab.header ul li:last-child {
-    margin-right: 0; }
-  .ini.tabs.horizontal .tab.header ul li.active,
-  .ini.tabs.horizontal .tab.header ul li:hover {
-    background: #2ac0c0;
-    color: white;
-    border-radius: .18rem; }
+.ini.tabs.horizontal .tab.header {
+  background: #f5f5f5; }
+  .ini.tabs.horizontal .tab.header ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin: 0; }
+    .ini.tabs.horizontal .tab.header ul li {
+      flex: 1;
+      padding: .7rem;
+      cursor: pointer;
+      text-align: center; }
+    .ini.tabs.horizontal .tab.header ul li.active,
+    .ini.tabs.horizontal .tab.header ul li:hover {
+      background: #2ac0c0;
+      color: white;
+      border-radius: .18rem; }
 .ini.tabs.horizontal .tab.body {
   padding: .5rem;
   margin-top: .8rem; }
@@ -1832,6 +1833,7 @@ img.ini.thumbnail {
 .ini.tabs.vertical {
   display: flex; }
   .ini.tabs.vertical .tab.header {
+    background: #f5f5f5;
     flex: 1;
     max-width: fit-content;
     margin-right: 1rem; }
@@ -1841,12 +1843,9 @@ img.ini.thumbnail {
       margin: 0; }
       .ini.tabs.vertical .tab.header ul li {
         padding: .7rem;
-        margin: 0 .2rem .2rem 0;
         cursor: pointer;
         text-align: center;
         min-width: 8rem; }
-      .ini.tabs.vertical .tab.header ul li:last-child {
-        margin-right: 0; }
       .ini.tabs.vertical .tab.header ul li.active,
       .ini.tabs.vertical .tab.header ul li:hover {
         background: #2ac0c0;

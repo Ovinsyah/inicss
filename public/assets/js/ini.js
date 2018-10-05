@@ -55,6 +55,11 @@ window.onclick = function (event) {
     }
 }
 $(document).on("click", ".openDropdown", function() {
+    $(".openDropdown").each(function () {
+        $(this).removeClass("active");
+        $(this).parent().removeClass("active");
+        console.log('looping');
+    });
     $(this).toggleClass('active');
     $(this).parent().toggleClass('active');
 });
