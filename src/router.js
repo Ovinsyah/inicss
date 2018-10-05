@@ -21,7 +21,13 @@ import DocFormFile from './views/documentation/form/File.vue'
 
 import DocGridFlex from './views/documentation/grids/Flexible.vue'
 import DocGridSize from './views/documentation/grids/Size.vue'
+import DocGridResponsive from './views/documentation/grids/Responsive.vue'
 import DocLayCon from './views/documentation/layout/Container.vue'
+
+import DocCollStep from './views/documentation/collection/Step.vue'
+import DocCollLoader from './views/documentation/collection/Loader.vue'
+import DocCollMessage from './views/documentation/collection/Message.vue'
+import DocCollDashboard from './views/documentation/collection/Dashboard.vue'
 
 Vue.use(Router)
 
@@ -125,9 +131,34 @@ export default new Router({
       component: DocGridSize
     },
     {
+      path: "/documentation/grids/responsive",
+      name: "grid responsive",
+      component: DocGridResponsive
+    },
+    {
       path: "/documentation/layout/container",
       name: "container",
       component: DocLayCon
+    },
+    {
+      path: "/documentation/collection/step",
+      name: "step",
+      component: DocCollStep
+    },
+    {
+      path: "/documentation/collection/loader",
+      name: "loader",
+      component: DocCollLoader
+    },
+    {
+      path: "/documentation/collection/message",
+      name: "message",
+      component: DocCollMessage
+    },
+    {
+      path: "/documentation/collection/dashboard",
+      name: "dashboard",
+      component: DocCollDashboard
     }
   ]
 });

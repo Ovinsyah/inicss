@@ -19,9 +19,6 @@
                     Template
                 </router-link>
             </div>
-            <!-- <div class="menu center">
-                <a href="">tengah</a>
-            </div> -->
             <div class="menu right">
                 <button class="ini button inicss">Download</button>
             </div>

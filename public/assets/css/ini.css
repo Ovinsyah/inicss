@@ -1816,17 +1816,56 @@ img.ini.thumbnail {
       flex: 1;
       padding: .7rem;
       cursor: pointer;
-      text-align: center; }
+      text-align: center;
+      transition: all .3s; }
     .ini.tabs.horizontal .tab.header ul li.active,
     .ini.tabs.horizontal .tab.header ul li:hover {
       background: #2ac0c0;
       color: white;
-      border-radius: .18rem; }
+      border-radius: .18rem;
+      transition: all .3s; }
+    .ini.tabs.horizontal .tab.header ul li.ini.step {
+      display: flex;
+      align-items: center;
+      position: relative;
+      background: white;
+      border: 1px solid #ececec;
+      border-right: none;
+      padding: 1.3rem 1rem; }
+      .ini.tabs.horizontal .tab.header ul li.ini.step i {
+        font-size: 38px; }
+      .ini.tabs.horizontal .tab.header ul li.ini.step div {
+        display: inline-block;
+        font-weight: bold;
+        margin-left: .5rem; }
+    .ini.tabs.horizontal .tab.header ul li.ini.step:last-child {
+      border-right: 1px solid #ececec; }
+    .ini.tabs.horizontal .tab.header ul li.ini.step::after {
+      content: '';
+      position: absolute;
+      right: -.55rem;
+      height: 1rem;
+      width: 1rem;
+      background: white;
+      transform: rotate(45deg);
+      z-index: 1;
+      border: 1px solid #ececec;
+      border-width: 1px 1px 0px 0px;
+      transition: all .3s; }
+    .ini.tabs.horizontal .tab.header ul li.ini.step:last-child::after {
+      content: none; }
+    .ini.tabs.horizontal .tab.header ul li.ini.step.active, .ini.tabs.horizontal .tab.header ul li.ini.step:hover {
+      background: #2ac0c0;
+      border-radius: 0; }
+    .ini.tabs.horizontal .tab.header ul li.ini.step.active::after, .ini.tabs.horizontal .tab.header ul li.ini.step:hover::after {
+      background: #2ac0c0;
+      transition: all .3s; }
 .ini.tabs.horizontal .tab.body {
   padding: .5rem;
   margin-top: .8rem; }
   .ini.tabs.horizontal .tab.body .content {
-    display: none; }
+    display: none;
+    min-height: 10rem; }
   .ini.tabs.horizontal .tab.body .content.active {
     display: block; }
 

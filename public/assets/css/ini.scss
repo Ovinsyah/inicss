@@ -2200,12 +2200,58 @@ img.ini.thumbnail {
                 padding: .7rem;
                 cursor: pointer;
                 text-align: center;
+                transition: all .3s;
             }
             li.active,
             li:hover {
                 background: $blue-inicss-color;
                 color: white;
                 border-radius: .18rem;
+                transition: all .3s;
+            }
+            li.ini.step{
+                display: flex;
+                align-items: center;
+                position: relative;
+                background: white;
+                border: 1px solid #ececec;
+                border-right: none;
+                padding: 1.3rem 1rem;
+                i{
+                    font-size: 38px;
+                }
+                div{
+                    display: inline-block;
+                    font-weight: bold;
+                    margin-left: .5rem;
+                }
+            }
+            li.ini.step:last-child{
+               border-right: 1px solid #ececec; 
+            }
+            li.ini.step::after{
+                content: '';
+                position: absolute;
+                right: -.55rem;
+                height: 1rem;
+                width: 1rem;
+                background: white;
+                transform: rotate(45deg);
+                z-index: 1;
+                border: 1px solid #ececec;
+                border-width: 1px 1px 0px 0px;
+                transition: all .3s;
+            }
+            li.ini.step:last-child::after{
+                content: none;
+            }
+            li.ini.step.active,li.ini.step:hover{
+                background: $blue-inicss-color;
+                border-radius: 0;
+            }
+            li.ini.step.active::after,li.ini.step:hover::after{
+                background: $blue-inicss-color;
+                transition: all .3s;
             }
         }
     }
@@ -2214,6 +2260,7 @@ img.ini.thumbnail {
         margin-top: .8rem;
         .content {
             display: none;
+            min-height: 10rem;
         }
         .content.active {
             display: block;

@@ -8,7 +8,7 @@
       <div class="ini align center mt-3">
         <div>
           <button class="ini button doc mr-2">Download v0.0.1</button>
-          <router-link to="/documentation" class="ini button doc">Documentattion</router-link>
+          <router-link to="/documentation" class="ini button doc">Documentation</router-link>
         </div>
       </div>
     </div>

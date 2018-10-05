@@ -12,10 +12,22 @@
                 <div class="ini tabs horizontal">
                     <div class="tab header">
                         <ul>
-                            <li class="openTab active" data-target="#menuh1">Menu 1</li>
-                            <li class="openTab" data-target="#menuh2">Menu 2</li>
-                            <li class="openTab" data-target="#menuh3">Menu 3</li>
-                            <li class="openTab" data-target="#menuh4">Menu 4</li>
+                            <li class="openTab active" data-target="#menuh1">
+                                <i class="material-icons">assessment</i>
+                                <div>Menu 1</div>
+                            </li>
+                            <li class="openTab" data-target="#menuh2">
+                                <i class="material-icons">assessment</i>
+                                <div>Menu 2</div>
+                            </li>
+                            <li class="openTab" data-target="#menuh3">
+                                <i class="material-icons">assessment</i>
+                                <div>Menu 3</div>
+                            </li>
+                            <li class="openTab" data-target="#menuh4">
+                                <i class="material-icons">assessment</i>
+                                <div>Menu 4</div>
+                            </li>
                         </ul>
                     </div>
                     <div class="tab body">
@@ -51,10 +63,22 @@
                 <div class="ini tabs vertical">
                     <div class="tab header">
                         <ul>
-                            <li class="openTab active" data-target="#menuv1">Menu 1</li>
-                            <li class="openTab" data-target="#menuv2">Menu 2</li>
-                            <li class="openTab" data-target="#menuv3">Menu 3</li>
-                            <li class="openTab" data-target="#menuv4">Menu 4</li>
+                            <li class="openTab active" data-target="#menuv1">
+                                <i class="material-icons">assessment</i>
+                                <div>Menu 1</div>
+                            </li>
+                            <li class="openTab" data-target="#menuv2">
+                                <i class="material-icons">assessment</i>
+                                <div>Menu 2</div>
+                            </li>
+                            <li class="openTab" data-target="#menuv3">
+                                <i class="material-icons">assessment</i>
+                                <div>Menu 3</div>
+                            </li>
+                            <li class="openTab" data-target="#menuv4">
+                                <i class="material-icons">assessment</i>
+                                <div>Menu 4</div>
+                            </li>
                         </ul>
                     </div>
                     <div class="tab body">
