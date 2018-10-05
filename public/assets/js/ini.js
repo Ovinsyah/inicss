@@ -46,10 +46,6 @@ $(document).on("change", ".uploadImageMultiple", function() {
         picReader.readAsDataURL(file);
     }
 });
-$(document).on("click", ".openDropdown", function() {
-    $(this).toggleClass('active');
-    $(this).parent().toggleClass('active');
-});
 window.onclick = function (event) {
     if (!event.target.matches(".openDropdown")) {
         $(".openDropdown").each(function () {
@@ -58,6 +54,10 @@ window.onclick = function (event) {
         })
     }
 }
+$(document).on("click", ".openDropdown", function() {
+    $(this).toggleClass('active');
+    $(this).parent().toggleClass('active');
+});
 $(document).on("click", ".openTab", function () {
     let target = $(this).attr("data-target");
     let type = $(this).closest(".ini.tabs");
