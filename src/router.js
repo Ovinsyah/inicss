@@ -26,6 +26,7 @@ import DocLayCon from './views/documentation/layout/Container.vue'
 
 import DocCollStep from './views/documentation/collection/Step.vue'
 import DocCollLoader from './views/documentation/collection/Loader.vue'
+import DocCollProgress from './views/documentation/collection/Progressbar.vue'
 import DocCollMessage from './views/documentation/collection/Message.vue'
 import DocCollDashboard from './views/documentation/collection/Dashboard.vue'
 
@@ -149,6 +150,11 @@ export default new Router({
       path: "/documentation/collection/loader",
       name: "loader",
       component: DocCollLoader
+    },
+    {
+      path: "/documentation/collection/progressbar",
+      name: "progressbar",
+      component: DocCollProgress
     },
     {
       path: "/documentation/collection/message",
