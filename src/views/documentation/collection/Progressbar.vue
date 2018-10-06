@@ -6,8 +6,8 @@
       <div class="body content">
         <h1>Progress Bar</h1>
         <div>Dokumentasi dan contoh penggunaan progress bar inicss</div>
-        <h4 class="mt-3">Default Progress Bar</h4>
         <div class="ini section">
+        <h4 class="mt-3">Default Progress Bar</h4>
           <div class="example progress">
             <div class="ini progress">
               <div class="bar" style="width: 0%;"></div>

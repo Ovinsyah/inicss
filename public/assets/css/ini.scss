@@ -2308,7 +2308,7 @@ img.ini.thumbnail {
 
 /*
 ===============================================================
-    INI TABS
+    INI PROGRESS
 ===============================================================
 */
 
@@ -2374,18 +2374,22 @@ img.ini.thumbnail {
         animation: bar-striped-animated 1.5s linear infinite;
     }
 }
-.ini.progress.simple{
+
+.ini.progress.simple {
     height: .2rem;
     font-size: 0px;
 }
-.ini.progress.small{
+
+.ini.progress.small {
     height: 1rem;
     font-size: 12px;
 }
-.ini.progress.large{
+
+.ini.progress.large {
     height: 2rem;
 }
-.ini.progress.big{
+
+.ini.progress.big {
     height: 3rem;
 }
 
@@ -2426,5 +2430,111 @@ img.ini.thumbnail {
     }
     to {
         background-position: 2rem 0;
+    }
+}
+
+/*
+===============================================================
+    INI LOADER
+===============================================================
+*/
+
+
+.ini.loader {
+    display: block;
+    height: 32px;
+    width: 32px;
+    -webkit-animation: inner 1.5s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+    animation: inner 1.5s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+}
+
+@-webkit-keyframes inner {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes loader-2-2 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.ini.loader:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    height: 32px;
+    width: 32px;
+    border: 3px solid transparent;
+    border-top: 3px solid #000;
+    border-radius: 50%;
+    -webkit-animation: outer 1.5s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+    animation: outer 1.5s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+}
+
+.ini.inverse.loader:before{
+    border-top: 3px solid #fff !important;
+}
+
+@-webkit-keyframes outer {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes outer {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.ini.loader:after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0; left: 0;
+	bottom: 0; right: 0;
+	margin: auto;
+	height: 32px;
+	width: 32px;
+    border: 3px solid #000;
+    opacity: .2;
+	border-radius: 50%;
+}
+
+.ini.inverse.loader:after{
+    border: 3px solid #fff;
+    opacity: .2;
+}
+
+.ini.overlay{
+    background: rgba(0, 0, 0, 0.85);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    
+    .loader{
+        margin: auto;
     }
 }
