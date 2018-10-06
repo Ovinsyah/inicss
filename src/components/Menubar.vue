@@ -56,6 +56,7 @@
 					<li><router-link to="/documentation/collection/step">Step</router-link></li>
 					<li><router-link to="/documentation/collection/message">Message</router-link></li>
 					<li><router-link to="/documentation/collection/loader">Loader</router-link></li>
+					<li><router-link to="/documentation/collection/progressbar">Progress Bar</router-link></li>
 					<li><router-link to="/documentation/collection/dashboard">Dashboard</router-link></li>
 				</ul>
 			</li>

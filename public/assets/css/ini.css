@@ -1854,10 +1854,12 @@ img.ini.thumbnail {
       transition: all .3s; }
     .ini.tabs.horizontal .tab.header ul li.ini.step:last-child::after {
       content: none; }
-    .ini.tabs.horizontal .tab.header ul li.ini.step.active, .ini.tabs.horizontal .tab.header ul li.ini.step:hover {
+    .ini.tabs.horizontal .tab.header ul li.ini.step.active,
+    .ini.tabs.horizontal .tab.header ul li.ini.step:hover {
       background: #2ac0c0;
       border-radius: 0; }
-    .ini.tabs.horizontal .tab.header ul li.ini.step.active::after, .ini.tabs.horizontal .tab.header ul li.ini.step:hover::after {
+    .ini.tabs.horizontal .tab.header ul li.ini.step.active::after,
+    .ini.tabs.horizontal .tab.header ul li.ini.step:hover::after {
       background: #2ac0c0;
       transition: all .3s; }
 .ini.tabs.horizontal .tab.body {
@@ -1910,10 +1912,15 @@ img.ini.thumbnail {
   border-radius: 5px;
   overflow: hidden; }
   .ini.progress .bar {
+    max-width: 100%;
     height: 100%;
     background: #2980b9;
     color: #fff;
-    text-align: center; }
+    text-align: center;
+    transition: all .5s;
+    position: relative;
+    display: grid;
+    align-content: center; }
   .ini.progress .bar.black {
     background: #000; }
   .ini.progress .bar.red {
@@ -1930,5 +1937,61 @@ img.ini.thumbnail {
     background: #7f8c8d; }
   .ini.progress .bar.midnight {
     background: #2c3e50; }
+  .ini.progress .striped {
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+    background-size: 2rem 2rem !important; }
+  .ini.progress .bar.animated:after {
+    content: '';
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: #FFFFFF;
+    border-radius: 0.28571429rem;
+    -webkit-animation: bar-animated 2.5s ease infinite;
+    animation: bar-animated 2.5s ease infinite; }
+  .ini.progress .striped-animated {
+    animation: bar-striped-animated 1.5s linear infinite; }
+
+.ini.progress.simple {
+  height: .2rem;
+  font-size: 0px; }
+
+.ini.progress.small {
+  height: 1rem;
+  font-size: 12px; }
+
+.ini.progress.large {
+  height: 2rem; }
+
+.ini.progress.big {
+  height: 3rem; }
+
+@-webkit-keyframes bar-animated {
+  0% {
+    opacity: 0.3;
+    width: 0; }
+  100% {
+    opacity: 0;
+    width: 100%; } }
+@keyframes bar-animated {
+  0% {
+    opacity: 0.3;
+    width: 0; }
+  100% {
+    opacity: 0;
+    width: 100%; } }
+@-webkit-keyframes bar-striped-animated {
+  from {
+    background-position: 0 0; }
+  to {
+    background-position: 2rem 0; } }
+@keyframes bar-striped-animated {
+  from {
+    background-position: 0 0; }
+  to {
+    background-position: 2rem 0; } }
 
 /*# sourceMappingURL=ini.css.map */
