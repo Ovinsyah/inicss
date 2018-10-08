@@ -67,6 +67,7 @@
     border: 2px solid whitesmoke;
     padding: 15px;
     margin-top: 8px;
+    overflow-y: scroll;
 }
 .code{
     background: whitesmoke;
