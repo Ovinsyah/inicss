@@ -1482,6 +1482,37 @@ h6 {
     color: white;
 }
 
+.ini.button.loader{
+    display: unset;
+    width: fit-content;
+    height: auto;
+    color: transparent !important;
+    cursor: default;
+    pointer-events: none;
+}
+
+.ini.button.loader:after,
+.ini.button.loader:before{
+    width: 20px;
+    height: 20px;
+}
+
+.ini.button.loader:before{
+    border: 3px solid #fff;
+}
+
+.ini.button.loader.inverse:before{
+    border: 3px solid #afafaf !important;
+}
+
+.ini.button.loader:after{
+    border-top: 3px solid #fff;
+}
+
+.ini.button.loader.inverse:after{
+    border-top: 3px solid #ccc !important;
+}
+
 /*
 ===============================================================
     display
@@ -2441,35 +2472,18 @@ img.ini.thumbnail {
     INI LOADER
 ===============================================================
 */
-
-
 .ini.loader {
     display: block;
     height: 32px;
     width: 32px;
-    -webkit-animation: inner 1.5s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
-    animation: inner 1.5s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+    position: relative;
 }
 
-@-webkit-keyframes inner {
-    0% {
-        -webkit-transform: rotate(0deg);
-    }
-    100% {
-        -webkit-transform: rotate(360deg);
-    }
+.ini.loader.inverse{
+    color: #fff;
 }
 
-@keyframes loader-2-2 {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
-.ini.loader:before {
+.ini.loader:after {
     content: "";
     display: block;
     position: absolute;
@@ -2483,11 +2497,11 @@ img.ini.thumbnail {
     border: 3px solid transparent;
     border-top: 3px solid #000;
     border-radius: 50%;
-    -webkit-animation: outer 1.5s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
-    animation: outer 1.5s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+    -webkit-animation: outer .9s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+    animation: outer .9s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
 }
 
-.ini.inverse.loader:before{
+.ini.inverse.loader:after{
     border-top: 3px solid #fff !important;
 }
 
@@ -2509,7 +2523,7 @@ img.ini.thumbnail {
     }
 }
 
-.ini.loader:after {
+.ini.loader:before {
 	content: "";
 	display: block;
 	position: absolute;
@@ -2523,21 +2537,31 @@ img.ini.thumbnail {
 	border-radius: 50%;
 }
 
-.ini.inverse.loader:after{
+.ini.inverse.loader:before{
     border: 3px solid #fff;
     opacity: .2;
 }
 
 .ini.overlay{
-    background: rgba(0, 0, 0, 0.85);
+    background: rgba(255, 255, 255, 0.85);
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     display: flex;
-    
+
     .loader{
         margin: auto;
     }
+}
+
+.ini.overlay.inverse{
+    background: rgba(0, 0, 0, 0.85);
+}
+
+.ini.loader.text{
+    width: auto;
+    height: auto;
+    padding-top: 3.5rem;
 }
