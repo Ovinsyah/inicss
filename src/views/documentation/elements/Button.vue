@@ -155,7 +155,7 @@
                     <div><span class="tag">&lt;button</span> <span class="class"> class=</span><span class="nclass"> &quot;ini button loader inverse o-midnight</span>&quot;<span class="tag">&gt;</span>Loading<span class="tag">&lt;/button<span class="tag">&gt;</span></span></div> 
                 </div>
                 <textarea cols="100" rows="100" class="hidden">
-&#x3C;button class=&#x22;ini button loader inverse o-blue&#x22;&#x3E;Loading&#x3C;/button&#x3E;
+&#x3C;button class=&#x22;ini button loader inverse o-blue&#x22;&#x3E;Loading 1&#x3C;/button&#x3E;
 &#x3C;button class=&#x22;ini button loader inverse o-black&#x22;&#x3E;Loading&#x3C;/button&#x3E;
 &#x3C;button class=&#x22;ini button loader inverse o-red&#x22;&#x3E;Loading&#x3C;/button&#x3E;
 &#x3C;button class=&#x22;ini button loader inverse o-green&#x22;&#x3E;Loading&#x3C;/button&#x3E;
