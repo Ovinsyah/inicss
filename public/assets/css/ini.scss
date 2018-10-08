@@ -1480,6 +1480,7 @@ h6 {
 }
 
 .ini.button.loader{
+    display: unset;
     width: fit-content;
     height: auto;
     color: transparent !important;
@@ -1497,8 +1498,16 @@ h6 {
     border: 3px solid #fff;
 }
 
+.ini.button.loader.inverse:before{
+    border: 3px solid #afafaf !important;
+}
+
 .ini.button.loader:after{
     border-top: 3px solid #fff;
+}
+
+.ini.button.loader.inverse:after{
+    border-top: 3px solid #ccc !important;
 }
 
 /*

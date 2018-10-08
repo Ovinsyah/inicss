@@ -126,6 +126,46 @@
 &#x3C;button class=&#x22;ini button loader midnight&#x22;&#x3E;Loading&#x3C;/button&#x3E;</textarea>
             </div>
           </div>
+          <h4 class="mt-3">Loading Outline Button</h4>
+          <div class="ini section">
+            <div class="example button">
+                <button class="ini button loader inverse o-blue">Loading</button>
+                <button class="ini button loader inverse o-black">Loading</button>
+                <button class="ini button loader inverse o-red">Loading</button>
+                <button class="ini button loader inverse o-green">Loading</button>
+                <button class="ini button loader inverse o-purple">Loading</button>
+                <button class="ini button loader inverse o-carrot">Loading</button>
+                <button class="ini button loader inverse o-orange">Loading</button>
+                <button class="ini button loader inverse o-gray">Loading</button>
+                <button class="ini button loader inverse o-midnight">Loading</button>
+            </div>
+            <div class="code">
+                <div class="ini align right">
+                    <button class="ini button copy onCopy">Copy</button>
+                </div>
+                <div class="area selected">
+                    <div><span class="tag">&lt;button</span> <span class="class"> class=</span><span class="nclass"> &quot;ini button loader inverse o-blue</span>&quot;<span class="tag">&gt;</span>Loading<span class="tag">&lt;/button<span class="tag">&gt;</span></span></div>
+                    <div><span class="tag">&lt;button</span> <span class="class"> class=</span><span class="nclass"> &quot;ini button loader inverse o-black</span>&quot;<span class="tag">&gt;</span>Loading<span class="tag">&lt;/button<span class="tag">&gt;</span></span></div>
+                    <div><span class="tag">&lt;button</span> <span class="class"> class=</span><span class="nclass"> &quot;ini button loader inverse o-red</span>&quot;<span class="tag">&gt;</span>Loading<span class="tag">&lt;/button<span class="tag">&gt;</span></span></div>
+                    <div><span class="tag">&lt;button</span> <span class="class"> class=</span><span class="nclass"> &quot;ini button loader inverse o-green</span>&quot;<span class="tag">&gt;</span>Loading<span class="tag">&lt;/button<span class="tag">&gt;</span></span></div>
+                    <div><span class="tag">&lt;button</span> <span class="class"> class=</span><span class="nclass"> &quot;ini button loader inverse o-purple</span>&quot;<span class="tag">&gt;</span>Loading<span class="tag">&lt;/button<span class="tag">&gt;</span></span></div>
+                    <div><span class="tag">&lt;button</span> <span class="class"> class=</span><span class="nclass"> &quot;ini button loader inverse o-carrot</span>&quot;<span class="tag">&gt;</span>Loading<span class="tag">&lt;/button<span class="tag">&gt;</span></span></div>
+                    <div><span class="tag">&lt;button</span> <span class="class"> class=</span><span class="nclass"> &quot;ini button loader inverse o-orange</span>&quot;<span class="tag">&gt;</span>Loading<span class="tag">&lt;/button<span class="tag">&gt;</span></span></div>
+                    <div><span class="tag">&lt;button</span> <span class="class"> class=</span><span class="nclass"> &quot;ini button loader inverse o-gray</span>&quot;<span class="tag">&gt;</span>Loading<span class="tag">&lt;/button<span class="tag">&gt;</span></span></div>
+                    <div><span class="tag">&lt;button</span> <span class="class"> class=</span><span class="nclass"> &quot;ini button loader inverse o-midnight</span>&quot;<span class="tag">&gt;</span>Loading<span class="tag">&lt;/button<span class="tag">&gt;</span></span></div> 
+                </div>
+                <textarea cols="100" rows="100" class="hidden">
+&#x3C;button class=&#x22;ini button loader inverse o-blue&#x22;&#x3E;Loading&#x3C;/button&#x3E;
+&#x3C;button class=&#x22;ini button loader inverse o-black&#x22;&#x3E;Loading&#x3C;/button&#x3E;
+&#x3C;button class=&#x22;ini button loader inverse o-red&#x22;&#x3E;Loading&#x3C;/button&#x3E;
+&#x3C;button class=&#x22;ini button loader inverse o-green&#x22;&#x3E;Loading&#x3C;/button&#x3E;
+&#x3C;button class=&#x22;ini button loader inverse o-purple&#x22;&#x3E;Loading&#x3C;/button&#x3E;
+&#x3C;button class=&#x22;ini button loader inverse o-carrot&#x22;&#x3E;Loading&#x3C;/button&#x3E;
+&#x3C;button class=&#x22;ini button loader inverse o-orange&#x22;&#x3E;Loading&#x3C;/button&#x3E;
+&#x3C;button class=&#x22;ini button loader inverse o-gray&#x22;&#x3E;Loading&#x3C;/button&#x3E;
+&#x3C;button class=&#x22;ini button loader inverse o-midnight&#x22;&#x3E;Loading&#x3C;/button&#x3E;</textarea>
+            </div>
+          </div>
       </div>
     </div>
   </div>
