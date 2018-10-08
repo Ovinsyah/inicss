@@ -1240,6 +1240,24 @@ h6 {
   border: 1px solid white;
   color: white; }
 
+.ini.button.loader {
+  width: fit-content;
+  height: auto;
+  color: transparent !important;
+  cursor: default;
+  pointer-events: none; }
+
+.ini.button.loader:after,
+.ini.button.loader:before {
+  width: 20px;
+  height: 20px; }
+
+.ini.button.loader:before {
+  border: 3px solid #fff; }
+
+.ini.button.loader:after {
+  border-top: 3px solid #fff; }
+
 /*
 ===============================================================
     display

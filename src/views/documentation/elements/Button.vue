@@ -86,6 +86,46 @@
 &#x3C;button class=&#x22;ini button o-midnight&#x22;&#x3E;Midnight&#x3C;/button&#x3E;</textarea>
             </div>
           </div>
+          <h4 class="mt-3">Loading Button</h4>
+          <div class="ini section">
+            <div class="example button">
+                <button class="ini button loader blue">Loading</button>
+                <button class="ini button loader black">Loading</button>
+                <button class="ini button loader red">Loading</button>
+                <button class="ini button loader green">Loading</button>
+                <button class="ini button loader purple">Loading</button>
+                <button class="ini button loader carrot">Loading</button>
+                <button class="ini button loader orange">Loading</button>
+                <button class="ini button loader gray">Loading</button>
+                <button class="ini button loader midnight">Loading</button>
+            </div>
+            <div class="code">
+                <div class="ini align right">
+                    <button class="ini button copy onCopy">Copy</button>
+                </div>
+                <div class="area selected">
+                    <div><span class="tag">&lt;button</span> <span class="class"> class=</span><span class="nclass"> &quot;ini button loader blue</span>&quot;<span class="tag">&gt;</span>Loading<span class="tag">&lt;/button<span class="tag">&gt;</span></span></div>
+                    <div><span class="tag">&lt;button</span> <span class="class"> class=</span><span class="nclass"> &quot;ini button loader black</span>&quot;<span class="tag">&gt;</span>Loading<span class="tag">&lt;/button<span class="tag">&gt;</span></span></div>
+                    <div><span class="tag">&lt;button</span> <span class="class"> class=</span><span class="nclass"> &quot;ini button loader red</span>&quot;<span class="tag">&gt;</span>Loading<span class="tag">&lt;/button<span class="tag">&gt;</span></span></div>
+                    <div><span class="tag">&lt;button</span> <span class="class"> class=</span><span class="nclass"> &quot;ini button loader green</span>&quot;<span class="tag">&gt;</span>Loading<span class="tag">&lt;/button<span class="tag">&gt;</span></span></div>
+                    <div><span class="tag">&lt;button</span> <span class="class"> class=</span><span class="nclass"> &quot;ini button loader purple</span>&quot;<span class="tag">&gt;</span>Loading<span class="tag">&lt;/button<span class="tag">&gt;</span></span></div>
+                    <div><span class="tag">&lt;button</span> <span class="class"> class=</span><span class="nclass"> &quot;ini button loader carrot</span>&quot;<span class="tag">&gt;</span>Loading<span class="tag">&lt;/button<span class="tag">&gt;</span></span></div>
+                    <div><span class="tag">&lt;button</span> <span class="class"> class=</span><span class="nclass"> &quot;ini button loader orange</span>&quot;<span class="tag">&gt;</span>Loading<span class="tag">&lt;/button<span class="tag">&gt;</span></span></div>
+                    <div><span class="tag">&lt;button</span> <span class="class"> class=</span><span class="nclass"> &quot;ini button loader gray</span>&quot;<span class="tag">&gt;</span>Loading<span class="tag">&lt;/button<span class="tag">&gt;</span></span></div>
+                    <div><span class="tag">&lt;button</span> <span class="class"> class=</span><span class="nclass"> &quot;ini button loader midnight</span>&quot;<span class="tag">&gt;</span>Loading<span class="tag">&lt;/button<span class="tag">&gt;</span></span></div> 
+                </div>
+                <textarea cols="100" rows="100" class="hidden">
+&#x3C;button class=&#x22;ini button loader blue&#x22;&#x3E;Loading&#x3C;/button&#x3E;
+&#x3C;button class=&#x22;ini button loader black&#x22;&#x3E;Loading&#x3C;/button&#x3E;
+&#x3C;button class=&#x22;ini button loader red&#x22;&#x3E;Loading&#x3C;/button&#x3E;
+&#x3C;button class=&#x22;ini button loader green&#x22;&#x3E;Loading&#x3C;/button&#x3E;
+&#x3C;button class=&#x22;ini button loader purple&#x22;&#x3E;Loading&#x3C;/button&#x3E;
+&#x3C;button class=&#x22;ini button loader carrot&#x22;&#x3E;Loading&#x3C;/button&#x3E;
+&#x3C;button class=&#x22;ini button loader orange&#x22;&#x3E;Loading&#x3C;/button&#x3E;
+&#x3C;button class=&#x22;ini button loader gray&#x22;&#x3E;Loading&#x3C;/button&#x3E;
+&#x3C;button class=&#x22;ini button loader midnight&#x22;&#x3E;Loading&#x3C;/button&#x3E;</textarea>
+            </div>
+          </div>
       </div>
     </div>
   </div>
