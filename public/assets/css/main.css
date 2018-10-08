@@ -49,10 +49,17 @@
 }
 @media (max-width: 767px) {
     .ini.wrapper .sidebar{
-        display: none;
+        min-width: 100%;
+        max-width: 100%;
+        display: block;
+        padding-right: 0;
+        background: #fbfbfb;
     }
     .ini.wrapper .body.content{
         width: 100%;
+    }
+    .ini.wrapper{
+        display: block;
     }
 }
 /* section documentation */
@@ -60,6 +67,7 @@
     border: 2px solid whitesmoke;
     padding: 15px;
     margin-top: 8px;
+    overflow-y: scroll;
 }
 .code{
     background: whitesmoke;

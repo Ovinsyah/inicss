@@ -883,6 +883,8 @@ h6 {
     text-align: center; }
   .ini.navbar .menu.right {
     text-align: right; }
+  .ini.navbar .ini.dropdown {
+    display: inline-block; }
 
 .ini.navbar.sticky {
   position: sticky;
