@@ -5,8 +5,12 @@
       <Menu/>
       <div class="body content">
           <h1>Button</h1>
-          <div>Kayak gini kalo mau pakek button bos</div>
-          <h4 class="mt-3">Default Button</h4>
+          <div class="caption">
+            <div><i class="inicss"><b>Button</b></i> merupakan elemen penting dalam sebuah desain. Karena bertindak sebagai interaksi pengguna terhadap aplikasi.</div>
+          </div>
+            <hr class="inicss">
+          <h3 class="mt-4">Default Button</h3>
+          <div><i class="inicss"><b>Button</b></i> dengan warna <i class="inicss">background</i> yang beraneka ragam.</div>
           <div class="ini section">
             <div class="example button">
                 <button class="ini button blue">Blue</button>
@@ -46,7 +50,8 @@
 &#x3C;button class=&#x22;ini button midnight&#x22;&#x3E;Midnight&#x3C;/button&#x3E;</textarea>
             </div>
           </div>
-          <h4 class="mt-3">Outline Button</h4>
+          <h3 class="mt-4">Outline Button</h3>
+          <div><i class="inicss"><b>Button</b></i> dengan warna <i class="inicss">background</i> transparan dan warna <i class="inicss">border</i> yang beraneka ragam.</div>
           <div class="ini section">
             <div class="example button">
                 <button class="ini button o-blue">Blue</button>
@@ -86,7 +91,8 @@
 &#x3C;button class=&#x22;ini button o-midnight&#x22;&#x3E;Midnight&#x3C;/button&#x3E;</textarea>
             </div>
           </div>
-          <h4 class="mt-3">Loading Button</h4>
+          <h3 class="mt-4">Loading Button</h3>
+          <div><i class="inicss"><b>Button</b></i> yang terdapat animasi <i class="inicss">loading</i> di dalamnya, dengan warna <i class="inicss">background</i> yang beraneka ragam.</div>
           <div class="ini section">
             <div class="example button">
                 <button class="ini button loader blue">Loading</button>
@@ -126,7 +132,8 @@
 &#x3C;button class=&#x22;ini button loader midnight&#x22;&#x3E;Loading&#x3C;/button&#x3E;</textarea>
             </div>
           </div>
-          <h4 class="mt-3">Loading Outline Button</h4>
+          <h3 class="mt-4">Loading Outline Button</h3>
+          <div><i class="inicss"><b>Button</b></i> yang terdapat animasi <i class="inicss">loading</i> di dalamnya, dengan warna <i class="inicss">background</i> transparan dan warna <i class="inicss">border</i> yang beraneka ragam.</div>
           <div class="ini section">
             <div class="example button">
                 <button class="ini button loader inverse o-blue">Loading</button>
@@ -168,18 +175,30 @@
           </div>
       </div>
     </div>
+    <Footer/>
   </div>
 </template>
 <script>
 // @ is an alias to /src
-import Navbar from '@/components/Navbar.vue'
-import Menu from '@/components/Menubar.vue'
+import Navbar from "@/components/Navbar.vue";
+import Footer from "@/components/Footer.vue";
+import Menu from "@/components/Menubar.vue";
 
 export default {
-  name: 'home',
+  name: "home",
   components: {
     Navbar,
+    Footer,
     Menu
+  },
+  data() {
+    return {};
+  },
+  mounted() {
+    let navbar = this.$store.state.menubar;
+    let index = navbar.findIndex(x => x.name === "button");
+    this.$store.state.menubar[index].status = true;
+    console.log(this.$store.state.menubar[index].status);
   }
-}
+};
 </script>

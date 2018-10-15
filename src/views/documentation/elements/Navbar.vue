@@ -5,8 +5,13 @@
       <Menu/>
       <div class="body content">
           <h1>Navbar</h1>
-          <div>Kayak gini kalo mau pakek Navbar bos</div>
-          <h4 class="mt-3">Default</h4>
+          <div class="caption">
+            <div>
+                <i class="inicss"><b>Navbar</b></i> merupakan navigasi yang terdapat dibagian atas aplikasi, biasanya digunakan untuk menempatkan menu-menu aplikasi.</i>.
+            </div>
+        </div>
+        <hr class="inicss">
+          <h3 class="mt-3">Default</h3>
           <div class="ini section">
             <div class="example button">
               <nav class="ini navbar">
@@ -40,12 +45,61 @@
                     <button class="ini button copy onCopy">Copy</button>
                 </div>
                 <div class="area selected">
-                  Area Selected
+                  <div>&#x3C;nav class=&#x22;ini navbar&#x22;&#x3E;</div>
+                    <div class="ml-4">&#x3C;div class=&#x22;navbar brand&#x22;&#x3E;</div>
+                        <div class="ml-5">&#x3C;a href=&#x22;&#x22;&#x3E;</div>
+                          <div class="ml-6">&#x3C;img src=&#x22;/assets/img/logo.png&#x22; alt=&#x22;&#x22;&#x3E;</div>
+                        <div class="ml-5">&#x3C;/a&#x3E;</div>
+                    <div class="ml-4">&#x3C;/div&#x3E;</div>
+                    <div class="ml-4">&#x3C;div class=&#x22;ini menus&#x22;&#x3E;</div>
+                        <div class="ml-5">&#x3C;div class=&#x22;menu left&#x22;&#x3E;</div>
+                            <div class="ml-6">&#x3C;a href=&#x22;&#x22;&#x3E;Home&#x3C;/a&#x3E;</div>
+                            <div class="ml-6">&#x3C;a href=&#x22;&#x22;&#x3E;About&#x3C;/a&#x3E;</div>
+                        <div class="ml-5">&#x3C;/div&#x3E;</div>
+                        <div class="ml-5">&#x3C;div class=&#x22;menu center&#x22;&#x3E;</div>
+                         <div class="ml-6"> &#x3C;div class=&#x22;ini form&#x22;&#x3E;</div>
+                          <div class="ml-7">  &#x3C;div class=&#x22;icon right&#x22;&#x3E;</div>
+                             <div class="ml-8"> &#x3C;i class=&#x22;material-icons&#x22;&#x3E;search&#x3C;/i&#x3E;</div>
+                             <div class="ml-8"> &#x3C;input type=&#x22;text&#x22; class=&#x22;ini input rouneded&#x22; placeholder=&#x22;Search&#x22;&#x3E;</div>
+                            <div class="ml-7">&#x3C;/div&#x3E;</div>
+                          <div class="ml-6">&#x3C;/div&#x3E;</div>
+                        <div class="ml-5">&#x3C;/div&#x3E;</div>
+                        <div class="ml-5">&#x3C;div class=&#x22;menu right&#x22;&#x3E;</div>
+                            <div class="ml-6">&#x3C;button class=&#x22;ini button o-inicss&#x22;&#x3E;Register&#x3C;/button&#x3E;</div>
+                            <div class="ml-6">&#x3C;button class=&#x22;ini button inicss&#x22;&#x3E;Login&#x3C;/button&#x3E;</div>
+                        <div class="ml-5">&#x3C;/div&#x3E;</div>
+                    <div class="ml-4">&#x3C;/div&#x3E;</div>
+                  <div>&#x3C;/nav&#x3E;</div>
                 </div>
-                <textarea cols="100" rows="100" class="hidden"></textarea>
+                <textarea cols="100" rows="100" class="hidden">
+&#x3C;nav class=&#x22;ini navbar&#x22;&#x3E;
+  &#x3C;div class=&#x22;navbar brand&#x22;&#x3E;
+      &#x3C;a href=&#x22;&#x22;&#x3E;
+        &#x3C;img src=&#x22;/assets/img/logo.png&#x22; alt=&#x22;&#x22;&#x3E;
+      &#x3C;/a&#x3E;
+  &#x3C;/div&#x3E;
+  &#x3C;div class=&#x22;ini menus&#x22;&#x3E;
+      &#x3C;div class=&#x22;menu left&#x22;&#x3E;
+          &#x3C;a href=&#x22;&#x22;&#x3E;Home&#x3C;/a&#x3E;
+          &#x3C;a href=&#x22;&#x22;&#x3E;About&#x3C;/a&#x3E;
+      &#x3C;/div&#x3E;
+      &#x3C;div class=&#x22;menu center&#x22;&#x3E;
+        &#x3C;div class=&#x22;ini form&#x22;&#x3E;
+          &#x3C;div class=&#x22;icon right&#x22;&#x3E;
+            &#x3C;i class=&#x22;material-icons&#x22;&#x3E;search&#x3C;/i&#x3E;
+            &#x3C;input type=&#x22;text&#x22; class=&#x22;ini input rouneded&#x22; placeholder=&#x22;Search&#x22;&#x3E;
+          &#x3C;/div&#x3E;
+        &#x3C;/div&#x3E;
+      &#x3C;/div&#x3E;
+      &#x3C;div class=&#x22;menu right&#x22;&#x3E;
+          &#x3C;button class=&#x22;ini button o-inicss&#x22;&#x3E;Register&#x3C;/button&#x3E;
+          &#x3C;button class=&#x22;ini button inicss&#x22;&#x3E;Login&#x3C;/button&#x3E;
+      &#x3C;/div&#x3E;
+  &#x3C;/div&#x3E;
+&#x3C;/nav&#x3E;</textarea>
             </div>
           </div>
-          <h4 class="mt-3">Responsive</h4>
+          <h3 class="mt-3">Responsive</h3>
           <div class="ini section">
             <div class="example button">
               <nav class="ini navbar responsive">
@@ -84,12 +138,71 @@
                     <button class="ini button copy onCopy">Copy</button>
                 </div>
                 <div class="area selected">
-                  Area Selected
+                  <div>&#x3C;nav class=&#x22;ini navbar responsive&#x22;&#x3E;</div>
+                    <div class="ml-4">&#x3C;div class=&#x22;navbar brand&#x22;&#x3E;</div>
+                        <div class="ml-5">&#x3C;a href=&#x22;&#x22;&#x3E;</div>
+                          <div class="ml-6">&#x3C;img src=&#x22;/assets/img/logo.png&#x22; alt=&#x22;&#x22;&#x3E;</div>
+                        <div class="ml-5">&#x3C;/a&#x3E;</div>
+                    <div class="ml-4">&#x3C;/div&#x3E;</div>
+                    <div class="ml-4">&#x3C;button class=&#x22;ini button hamburger openHamburger&#x22; data-target=&#x22;#withMenu&#x22;&#x3E;</div>
+                        <div class="ml-5">&#x3C;span&#x3E;&#x3C;/span&#x3E;</div>
+                        <div class="ml-5">&#x3C;span&#x3E;&#x3C;/span&#x3E;</div>
+                        <div class="ml-5">&#x3C;span&#x3E;&#x3C;/span&#x3E;</div>
+                    <div class="ml-4">&#x3C;/button&#x3E;</div>
+                    <div class="ml-4">&#x3C;div class=&#x22;ini menus&#x22;&#x3E;</div>
+                        <div class="ml-5">&#x3C;div class=&#x22;menu left&#x22;&#x3E;</div>
+                            <div class="ml-6">&#x3C;a href=&#x22;&#x22;&#x3E;Home&#x3C;/a&#x3E;</div>
+                            <div class="ml-6">&#x3C;a href=&#x22;&#x22;&#x3E;About&#x3C;/a&#x3E;</div>
+                        <div class="ml-5">&#x3C;/div&#x3E;</div>
+                        <div class="ml-5">&#x3C;div class=&#x22;menu center&#x22;&#x3E;</div>
+                         <div class="ml-6"> &#x3C;div class=&#x22;ini form&#x22;&#x3E;</div>
+                          <div class="ml-7">  &#x3C;div class=&#x22;icon right&#x22;&#x3E;</div>
+                             <div class="ml-8"> &#x3C;i class=&#x22;material-icons&#x22;&#x3E;search&#x3C;/i&#x3E;</div>
+                             <div class="ml-8"> &#x3C;input type=&#x22;text&#x22; class=&#x22;ini input rouneded&#x22; placeholder=&#x22;Search&#x22;&#x3E;</div>
+                            <div class="ml-7">&#x3C;/div&#x3E;</div>
+                          <div class="ml-6">&#x3C;/div&#x3E;</div>
+                        <div class="ml-5">&#x3C;/div&#x3E;</div>
+                        <div class="ml-5">&#x3C;div class=&#x22;menu right&#x22;&#x3E;</div>
+                            <div class="ml-6">&#x3C;button class=&#x22;ini button o-inicss&#x22;&#x3E;Register&#x3C;/button&#x3E;</div>
+                            <div class="ml-6">&#x3C;button class=&#x22;ini button inicss&#x22;&#x3E;Login&#x3C;/button&#x3E;</div>
+                        <div class="ml-5">&#x3C;/div&#x3E;</div>
+                    <div class="ml-4">&#x3C;/div&#x3E;</div>
+                  <div>&#x3C;/nav&#x3E;</div>
                 </div>
-                <textarea cols="100" rows="100" class="hidden"></textarea>
+                <textarea cols="100" rows="100" class="hidden">
+&#x3C;nav class=&#x22;ini navbar responsive&#x22;&#x3E;
+  &#x3C;div class=&#x22;navbar brand&#x22;&#x3E;
+    &#x3C;a href=&#x22;&#x22;&#x3E;
+      &#x3C;img src=&#x22;/assets/img/logo.png&#x22; alt=&#x22;&#x22;&#x3E;
+    &#x3C;/a&#x3E;
+  &#x3C;/div&#x3E;
+  &#x3C;button class=&#x22;ini button hamburger openHamburger&#x22; data-target=&#x22;#withMenu&#x22;&#x3E;
+      &#x3C;span&#x3E;&#x3C;/span&#x3E;
+      &#x3C;span&#x3E;&#x3C;/span&#x3E;
+      &#x3C;span&#x3E;&#x3C;/span&#x3E;
+  &#x3C;/button&#x3E;
+  &#x3C;div class=&#x22;ini menus&#x22; id=&#x22;withMenu&#x22;&#x3E;
+      &#x3C;div class=&#x22;menu left&#x22;&#x3E;
+          &#x3C;a href=&#x22;&#x22;&#x3E;Home&#x3C;/a&#x3E;
+          &#x3C;a href=&#x22;&#x22;&#x3E;About&#x3C;/a&#x3E;
+      &#x3C;/div&#x3E;
+      &#x3C;div class=&#x22;menu center&#x22;&#x3E;
+        &#x3C;div class=&#x22;ini form&#x22;&#x3E;
+          &#x3C;div class=&#x22;icon right&#x22;&#x3E;
+            &#x3C;i class=&#x22;material-icons&#x22;&#x3E;search&#x3C;/i&#x3E;
+            &#x3C;input type=&#x22;text&#x22; class=&#x22;ini input rouneded&#x22; placeholder=&#x22;Search&#x22;&#x3E;
+          &#x3C;/div&#x3E;
+        &#x3C;/div&#x3E;
+      &#x3C;/div&#x3E;
+      &#x3C;div class=&#x22;menu right&#x22;&#x3E;
+          &#x3C;button class=&#x22;ini button o-inicss&#x22;&#x3E;Register&#x3C;/button&#x3E;
+          &#x3C;button class=&#x22;ini button inicss&#x22;&#x3E;Login&#x3C;/button&#x3E;
+      &#x3C;/div&#x3E;
+  &#x3C;/div&#x3E;
+&#x3C;/nav&#x3E;</textarea>
             </div>
           </div>
-          <h4 class="mt-3">Responsive Sidemenu</h4>
+          <h3 class="mt-3">Responsive Sidemenu</h3>
           <div class="ini section">
             <div class="example button">
               <nav class="ini navbar responsive">
@@ -128,15 +241,74 @@
                     <button class="ini button copy onCopy">Copy</button>
                 </div>
                 <div class="area selected">
-                  Area Selected
+                  <div>&#x3C;nav class=&#x22;ini navbar responsive&#x22;&#x3E;</div>
+                    <div class="ml-4">&#x3C;div class=&#x22;navbar brand&#x22;&#x3E;</div>
+                        <div class="ml-5">&#x3C;a href=&#x22;&#x22;&#x3E;</div>
+                          <div class="ml-6">&#x3C;img src=&#x22;/assets/img/logo.png&#x22; alt=&#x22;&#x22;&#x3E;</div>
+                        <div class="ml-5">&#x3C;/a&#x3E;</div>
+                    <div class="ml-4">&#x3C;/div&#x3E;</div>
+                    <div class="ml-4">&#x3C;button class=&#x22;ini button hamburger openHamburger&#x22; data-target=&#x22;#withMenu&#x22;&#x3E;</div>
+                        <div class="ml-5">&#x3C;span&#x3E;&#x3C;/span&#x3E;</div>
+                        <div class="ml-5">&#x3C;span&#x3E;&#x3C;/span&#x3E;</div>
+                        <div class="ml-5">&#x3C;span&#x3E;&#x3C;/span&#x3E;</div>
+                    <div class="ml-4">&#x3C;/button&#x3E;</div>
+                    <div class="ml-4">&#x3C;div class=&#x22;ini menus side&#x22;&#x3E;</div>
+                        <div class="ml-5">&#x3C;div class=&#x22;menu left&#x22;&#x3E;</div>
+                            <div class="ml-6">&#x3C;a href=&#x22;&#x22;&#x3E;Home&#x3C;/a&#x3E;</div>
+                            <div class="ml-6">&#x3C;a href=&#x22;&#x22;&#x3E;About&#x3C;/a&#x3E;</div>
+                        <div class="ml-5">&#x3C;/div&#x3E;</div>
+                        <div class="ml-5">&#x3C;div class=&#x22;menu center&#x22;&#x3E;</div>
+                         <div class="ml-6"> &#x3C;div class=&#x22;ini form&#x22;&#x3E;</div>
+                          <div class="ml-7">  &#x3C;div class=&#x22;icon right&#x22;&#x3E;</div>
+                             <div class="ml-8"> &#x3C;i class=&#x22;material-icons&#x22;&#x3E;search&#x3C;/i&#x3E;</div>
+                             <div class="ml-8"> &#x3C;input type=&#x22;text&#x22; class=&#x22;ini input rouneded&#x22; placeholder=&#x22;Search&#x22;&#x3E;</div>
+                            <div class="ml-7">&#x3C;/div&#x3E;</div>
+                          <div class="ml-6">&#x3C;/div&#x3E;</div>
+                        <div class="ml-5">&#x3C;/div&#x3E;</div>
+                        <div class="ml-5">&#x3C;div class=&#x22;menu right&#x22;&#x3E;</div>
+                            <div class="ml-6">&#x3C;button class=&#x22;ini button o-inicss&#x22;&#x3E;Register&#x3C;/button&#x3E;</div>
+                            <div class="ml-6">&#x3C;button class=&#x22;ini button inicss&#x22;&#x3E;Login&#x3C;/button&#x3E;</div>
+                        <div class="ml-5">&#x3C;/div&#x3E;</div>
+                    <div class="ml-4">&#x3C;/div&#x3E;</div>
+                  <div>&#x3C;/nav&#x3E;</div>
                 </div>
-                <textarea cols="100" rows="100" class="hidden"></textarea>
+                <textarea cols="100" rows="100" class="hidden">
+&#x3C;nav class=&#x22;ini navbar responsive&#x22;&#x3E;
+                &#x3C;div class=&#x22;navbar brand&#x22;&#x3E;
+                  &#x3C;a href=&#x22;&#x22;&#x3E;
+                    &#x3C;img src=&#x22;/assets/img/logo.png&#x22; alt=&#x22;&#x22;&#x3E;
+                  &#x3C;/a&#x3E;
+                &#x3C;/div&#x3E;
+                &#x3C;button class=&#x22;ini button hamburger openHamburger&#x22; data-target=&#x22;#withSideMenu&#x22;&#x3E;
+                    &#x3C;span&#x3E;&#x3C;/span&#x3E;
+                    &#x3C;span&#x3E;&#x3C;/span&#x3E;
+                    &#x3C;span&#x3E;&#x3C;/span&#x3E;
+                &#x3C;/button&#x3E;
+                &#x3C;div class=&#x22;ini menus side&#x22; id=&#x22;withSideMenu&#x22;&#x3E;
+                    &#x3C;div class=&#x22;menu left&#x22;&#x3E;
+                        &#x3C;a href=&#x22;&#x22;&#x3E;Home&#x3C;/a&#x3E;
+                        &#x3C;a href=&#x22;&#x22;&#x3E;About&#x3C;/a&#x3E;
+                    &#x3C;/div&#x3E;
+                    &#x3C;div class=&#x22;menu center&#x22;&#x3E;
+                      &#x3C;div class=&#x22;ini form&#x22;&#x3E;
+                        &#x3C;div class=&#x22;icon right&#x22;&#x3E;
+                          &#x3C;i class=&#x22;material-icons&#x22;&#x3E;search&#x3C;/i&#x3E;
+                          &#x3C;input type=&#x22;text&#x22; class=&#x22;ini input rouneded&#x22; placeholder=&#x22;Search&#x22;&#x3E;
+                        &#x3C;/div&#x3E;
+                      &#x3C;/div&#x3E;
+                    &#x3C;/div&#x3E;
+                    &#x3C;div class=&#x22;menu right&#x22;&#x3E;
+                        &#x3C;button class=&#x22;ini button o-inicss&#x22;&#x3E;Register&#x3C;/button&#x3E;
+                        &#x3C;button class=&#x22;ini button inicss&#x22;&#x3E;Login&#x3C;/button&#x3E;
+                    &#x3C;/div&#x3E;
+                &#x3C;/div&#x3E;
+              &#x3C;/nav&#x3E;</textarea>
             </div>
           </div>
-          <h4 class="mt-3">Position</h4>
+          <h3 class="mt-3">Position</h3>
           <div class="ini section">
             <div class="example button">
-              <nav class="ini navbar responsive">
+              <nav class="ini navbar">
                 <div class="navbar brand">
                   <a href="">
                     <img src="/assets/img/logo.png" alt="">
@@ -150,9 +322,24 @@
                     <button class="ini button copy onCopy">Copy</button>
                 </div>
                 <div class="area selected">
-                  Area Selected
+                  <div>&#x3C;nav class=&#x22;ini navbar fixed&#x22;&#x3E;</div>
+                    <div class="ml-4">&#x3C;div class=&#x22;navbar brand&#x22;&#x3E;</div>
+                      <div class="ml-5">&#x3C;a href=&#x22;&#x22;&#x3E;</div>
+                        <div class="ml-6">&#x3C;img src=&#x22;/assets/img/logo.png&#x22; alt=&#x22;&#x22;&#x3E;</div>
+                        <div class="ml-6">Fixed</div>
+                      <div class="ml-5">&#x3C;/a&#x3E;</div>
+                    <div class="ml-4">&#x3C;/div&#x3E;</div>
+                  <div>&#x3C;/nav&#x3E;</div>
                 </div>
-                <textarea cols="100" rows="100" class="hidden"></textarea>
+                <textarea cols="100" rows="100" class="hidden">
+&#x3C;nav class=&#x22;ini navbar fixed&#x22;&#x3E;
+  &#x3C;div class=&#x22;navbar brand&#x22;&#x3E;
+    &#x3C;a href=&#x22;&#x22;&#x3E;
+      &#x3C;img src=&#x22;/assets/img/logo.png&#x22; alt=&#x22;&#x22;&#x3E;
+      Fixed
+    &#x3C;/a&#x3E;
+  &#x3C;/div&#x3E;
+&#x3C;/nav&#x3E;</textarea>
             </div>
           </div>
           <div class="ini section">
@@ -171,9 +358,25 @@
                     <button class="ini button copy onCopy">Copy</button>
                 </div>
                 <div class="area selected">
-                  Area Selected
+                  <div>&#x3C;nav class=&#x22;ini navbar sticky&#x22;&#x3E;</div>
+                    <div class="ml-4">&#x3C;div class=&#x22;navbar brand&#x22;&#x3E;</div>
+                      <div class="ml-5">&#x3C;a href=&#x22;&#x22;&#x3E;</div>
+                        <div class="ml-6">&#x3C;img src=&#x22;/assets/img/logo.png&#x22; alt=&#x22;&#x22;&#x3E;</div>
+                        <div class="ml-6">Fixed</div>
+                      <div class="ml-5">&#x3C;/a&#x3E;</div>
+                    <div class="ml-4">&#x3C;/div&#x3E;</div>
+                  <div>&#x3C;/nav&#x3E;</div>
                 </div>
-                <textarea cols="100" rows="100" class="hidden"></textarea>
+                </div>
+                <textarea cols="100" rows="100" class="hidden">
+&#x3C;nav class=&#x22;ini navbar sticky&#x22;&#x3E;
+  &#x3C;div class=&#x22;navbar brand&#x22;&#x3E;
+    &#x3C;a href=&#x22;&#x22;&#x3E;
+      &#x3C;img src=&#x22;/assets/img/logo.png&#x22; alt=&#x22;&#x22;&#x3E;
+      Fixed
+    &#x3C;/a&#x3E;
+  &#x3C;/div&#x3E;
+&#x3C;/nav&#x3E;</textarea>
             </div>
           </div>
       </div>
@@ -182,14 +385,14 @@
 </template>
 <script>
 // @ is an alias to /src
-import Navbar from '@/components/Navbar.vue'
-import Menu from '@/components/Menubar.vue'
+import Navbar from "@/components/Navbar.vue";
+import Menu from "@/components/Menubar.vue";
 
 export default {
-  name: 'home',
+  name: "home",
   components: {
     Navbar,
     Menu
   }
-}
+};
 </script>

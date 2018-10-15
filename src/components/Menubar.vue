@@ -6,7 +6,7 @@
 					Elements
 				</a>
 				<ul class="collapse">
-					<li><router-link to="/documentation/elements/button">Button</router-link></li>
+					<li v-bind:class="{ active: this.$store.state.menubar[0].status }"><router-link to="/documentation/elements/button">Button</router-link></li>
 					<li><router-link to="/documentation/elements/dropdown">Dropdown</router-link></li>
 					<li><router-link to="/documentation/elements/modal">Modal</router-link></li>
 					<li><router-link to="/documentation/elements/table">Table</router-link></li>
@@ -14,6 +14,7 @@
 					<li><router-link to="/documentation/elements/image">Image</router-link></li>
 					<li><router-link to="/documentation/elements/card">Card</router-link></li>
 					<li><router-link to="/documentation/elements/tabs">Tabs</router-link></li>
+					<li><router-link to="/documentation/elements/list">List</router-link></li>
 				</ul>
 			</li>
 			<li>
@@ -63,3 +64,13 @@
 		</ul>
 	</div>
 </template>
+<script>
+export default {
+  data() {
+    return {
+      isActive: true
+    };
+  },
+  mounted() {}
+};
+</script>

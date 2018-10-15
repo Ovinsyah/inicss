@@ -523,70 +523,70 @@
 .text-white {
   color: #fff !important;
 }
-.text-black{
+.text-black {
   color: #000 !important;
 }
-.text-bold{
+.text-bold {
   font-weight: 600;
 }
-.font-12{
+.font-12 {
   font-size: 12px;
 }
-.font-14{
+.font-14 {
   font-size: 14px;
 }
-.font-16{
+.font-16 {
   font-size: 16px;
 }
-.font-18{
+.font-18 {
   font-size: 18px;
 }
-.font-20{
+.font-20 {
   font-size: 20px;
 }
-.font-22{
+.font-22 {
   font-size: 22px;
 }
-.font-24{
+.font-24 {
   font-size: 24px;
 }
-.font-26{
+.font-26 {
   font-size: 26px;
 }
-.font-28{
+.font-28 {
   font-size: 28px;
 }
-.font-30{
+.font-30 {
   font-size: 30px;
 }
-.font-32{
+.font-32 {
   font-size: 32px;
 }
-.font-34{
+.font-34 {
   font-size: 34px;
 }
-.font-44{
+.font-44 {
   font-size: 44px;
 }
-.font-80{
+.font-80 {
   font-size: 80px !important;
 }
-.gi-2x{
+.gi-2x {
   font-size: 2em;
 }
-.gi-3x{
+.gi-3x {
   font-size: 3em;
 }
-.gi-4x{
+.gi-4x {
   font-size: 4em;
 }
-.gi-5x{
+.gi-5x {
   font-size: 5em;
 }
-.rounded-0{
+.rounded-0 {
   border-radius: 0 !important;
 }
-.cursor{
+.cursor {
   cursor: pointer;
 }
 .ml-6 {
@@ -594,4 +594,7 @@
 }
 .ml-7 {
   margin-left: 6rem !important;
+}
+.ml-8 {
+  margin-left: 7.5rem !important;
 }

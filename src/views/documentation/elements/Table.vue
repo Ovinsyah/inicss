@@ -5,8 +5,13 @@
       <Menu/>
       <div class="body content">
           <h1>Table</h1>
-          <div>Kayak gini kalo mau pakek table bos</div>
-          <h4 class="mt-3">Default Table</h4>
+          <div class="caption">
+            <div>
+                <i class="inicss"><b>Table</b></i> merupakan <i class="inicss">field</i> kolom dan baris, yang biasanya digunakan untuk menampilkan <i class="inicss">list</i> data. </i>.
+            </div>
+        </div>
+        <hr class="inicss">
+          <h3 class="mt-3">Default Table</h3>
           <div class="ini section">
             <div class="example">
                 <table class="ini table">
@@ -109,7 +114,7 @@
 &#x3C;/table&#x3E;</textarea>
             </div>
           </div>
-          <h4 class="mt-3">Striped Table</h4>
+          <h3 class="mt-3">Striped Table</h3>
           <div class="ini section">
             <div class="example">
                 <table class="ini table striped">
@@ -212,7 +217,7 @@
 &#x3C;/table&#x3E;</textarea>
             </div>
           </div>
-          <h4 class="mt-3">Bordered Table</h4>
+          <h3 class="mt-3">Bordered Table</h3>
           <div class="ini section">
             <div class="example">
                 <table class="ini table bordered">
@@ -315,7 +320,7 @@
 &#x3C;/table&#x3E;</textarea>
             </div>
           </div>
-          <h4 class="mt-3">Completed Table</h4>
+          <h3 class="mt-3">Completed Table</h3>
           <div class="ini section">
             <div class="example">
                 <div class="ini form grids">
@@ -467,11 +472,11 @@
 </template>
 <script>
 // @ is an alias to /src
-import Navbar from '@/components/Navbar.vue'
-import Menu from '@/components/Menubar.vue'
+import Navbar from "@/components/Navbar.vue";
+import Menu from "@/components/Menubar.vue";
 
 export default {
-  name: 'home',
+  name: "home",
   components: {
     Navbar,
     Menu
@@ -479,24 +484,28 @@ export default {
   data() {
     return {
       data: [
-        { name: 'Udin',
-          email: 'ini_udin@mail.com',
-          phone: '+62 812-3456-7890'
+        {
+          name: "Udin",
+          email: "ini_udin@mail.com",
+          phone: "+62 812-3456-7890"
         },
-        { name: 'Ucok',
-          email: 'ini_ucok@mail.com',
-          phone: '+62 812-3456-7891'
+        {
+          name: "Ucok",
+          email: "ini_ucok@mail.com",
+          phone: "+62 812-3456-7891"
         },
-        { name: 'Upik',
-          email: 'ini_upik@mail.com',
-          phone: '+62 812-3456-7892'
+        {
+          name: "Upik",
+          email: "ini_upik@mail.com",
+          phone: "+62 812-3456-7892"
         },
-        { name: 'Ucup',
-          email: 'ini_ucup@mail.com',
-          phone: '+62 812-3456-7893'
+        {
+          name: "Ucup",
+          email: "ini_ucup@mail.com",
+          phone: "+62 812-3456-7893"
         }
       ]
     };
   }
-}
+};
 </script>

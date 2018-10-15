@@ -1,36 +1,37 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import Home from './views/Home.vue'
-import Doc from './views/Documentation.vue'
-import DocElButton from './views/documentation/elements/Button.vue'
-import DocElDropdown from './views/documentation/elements/Dropdown.vue'
-import DocElModal from './views/documentation/elements/Modal.vue'
-import DocElNavbar from './views/documentation/elements/Navbar.vue'
-import DocElTable from './views/documentation/elements/Table.vue'
-import DocElImage from './views/documentation/elements/Image.vue'
-import DocElTabs from './views/documentation/elements/Tabs.vue'
-import DocElCard from './views/documentation/elements/Card.vue'
+import Vue from "vue";
+import Router from "vue-router";
+import Home from "./views/Home.vue";
+import Doc from "./views/Documentation.vue";
+import DocElButton from "./views/documentation/elements/Button.vue";
+import DocElDropdown from "./views/documentation/elements/Dropdown.vue";
+import DocElModal from "./views/documentation/elements/Modal.vue";
+import DocElNavbar from "./views/documentation/elements/Navbar.vue";
+import DocElTable from "./views/documentation/elements/Table.vue";
+import DocElImage from "./views/documentation/elements/Image.vue";
+import DocElTabs from "./views/documentation/elements/Tabs.vue";
+import DocElCard from "./views/documentation/elements/Card.vue";
+import DocElList from "./views/documentation/elements/List.vue";
 
-import DocFormGeneral from './views/documentation/form/General.vue'
-import DocFormInput from './views/documentation/form/Input.vue'
-import DocFormTextarea from './views/documentation/form/Textarea.vue'
-import DocFormCheckbox from './views/documentation/form/Checkbox.vue'
-import DocFormRadio from './views/documentation/form/Radio.vue'
-import DocFormSelect from './views/documentation/form/Select.vue'
-import DocFormFile from './views/documentation/form/File.vue'
+import DocFormGeneral from "./views/documentation/form/General.vue";
+import DocFormInput from "./views/documentation/form/Input.vue";
+import DocFormTextarea from "./views/documentation/form/Textarea.vue";
+import DocFormCheckbox from "./views/documentation/form/Checkbox.vue";
+import DocFormRadio from "./views/documentation/form/Radio.vue";
+import DocFormSelect from "./views/documentation/form/Select.vue";
+import DocFormFile from "./views/documentation/form/File.vue";
 
-import DocGridFlex from './views/documentation/grids/Flexible.vue'
-import DocGridSize from './views/documentation/grids/Size.vue'
-import DocGridResponsive from './views/documentation/grids/Responsive.vue'
-import DocLayCon from './views/documentation/layout/Container.vue'
+import DocGridFlex from "./views/documentation/grids/Flexible.vue";
+import DocGridSize from "./views/documentation/grids/Size.vue";
+import DocGridResponsive from "./views/documentation/grids/Responsive.vue";
+import DocLayCon from "./views/documentation/layout/Container.vue";
 
-import DocCollStep from './views/documentation/collection/Step.vue'
-import DocCollLoader from './views/documentation/collection/Loader.vue'
-import DocCollProgress from './views/documentation/collection/Progressbar.vue'
-import DocCollMessage from './views/documentation/collection/Message.vue'
-import DocCollDashboard from './views/documentation/collection/Dashboard.vue'
+import DocCollStep from "./views/documentation/collection/Step.vue";
+import DocCollLoader from "./views/documentation/collection/Loader.vue";
+import DocCollProgress from "./views/documentation/collection/Progressbar.vue";
+import DocCollMessage from "./views/documentation/collection/Message.vue";
+import DocCollDashboard from "./views/documentation/collection/Dashboard.vue";
 
-Vue.use(Router)
+Vue.use(Router);
 
 export default new Router({
   mode: "history",
@@ -65,6 +66,11 @@ export default new Router({
       path: "/documentation/elements/card",
       name: "card",
       component: DocElCard
+    },
+    {
+      path: "/documentation/elements/list",
+      name: "list",
+      component: DocElList
     },
     {
       path: "/documentation/elements/image",

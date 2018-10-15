@@ -14,19 +14,19 @@
                         <ul>
                             <li class="openTab active" data-target="#menuh1">
                                 <i class="material-icons">assessment</i>
-                                <div>Menu 1</div>
+                                <span>Menu 1</span>
                             </li>
                             <li class="openTab" data-target="#menuh2">
                                 <i class="material-icons">assessment</i>
-                                <div>Menu 2</div>
+                                <span>Menu 2</span>
                             </li>
                             <li class="openTab" data-target="#menuh3">
                                 <i class="material-icons">assessment</i>
-                                <div>Menu 3</div>
+                                <span>Menu 3</span>
                             </li>
                             <li class="openTab" data-target="#menuh4">
                                 <i class="material-icons">assessment</i>
-                                <div>Menu 4</div>
+                                <span>Menu 4</span>
                             </li>
                         </ul>
                     </div>
@@ -65,19 +65,19 @@
                         <ul>
                             <li class="openTab active" data-target="#menuv1">
                                 <i class="material-icons">assessment</i>
-                                <div>Menu 1</div>
+                                <span>Menu 1</span>
                             </li>
                             <li class="openTab" data-target="#menuv2">
                                 <i class="material-icons">assessment</i>
-                                <div>Menu 2</div>
+                                <span>Menu 2</span>
                             </li>
                             <li class="openTab" data-target="#menuv3">
                                 <i class="material-icons">assessment</i>
-                                <div>Menu 3</div>
+                                <span>Menu 3</span>
                             </li>
                             <li class="openTab" data-target="#menuv4">
                                 <i class="material-icons">assessment</i>
-                                <div>Menu 4</div>
+                                <span>Menu 4</span>
                             </li>
                         </ul>
                     </div>
@@ -114,14 +114,14 @@
 </template>
 <script>
 // @ is an alias to /src
-import Navbar from '@/components/Navbar.vue'
-import Menu from '@/components/Menubar.vue'
+import Navbar from "@/components/Navbar.vue";
+import Menu from "@/components/Menubar.vue";
 
 export default {
-  name: 'home',
+  name: "home",
   components: {
     Navbar,
     Menu
   }
-}
+};
 </script>
