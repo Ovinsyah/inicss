@@ -119,7 +119,11 @@ img {
 .ini.margin.center {
   margin: 0 auto;
 }
-
+.ini.center-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /*
 ===============================================================
     INI GRID
@@ -766,7 +770,7 @@ img {
 
 /*
 ===============================================================
-    INI DISPLAY
+    INI DISPLAY & POSITION
 ===============================================================
 */
 
@@ -780,6 +784,9 @@ img {
 
 .ini.display.inline-block {
   display: inline-block;
+}
+.ini.relative {
+  position: relative;
 }
 
 /*
@@ -1037,8 +1044,7 @@ img {
     .menu {
       overflow: initial;
       position: absolute;
-      top: 3.25rem;
-      min-width: max-content;
+      top: 5.1rem;
     }
     .menu::before {
       content: "";
@@ -1068,6 +1074,11 @@ img {
   width: 100%;
   z-index: 990;
   margin-bottom: 0 !important;
+  .ini.dropdown {
+    .menu {
+      top: 3.2rem;
+    }
+  }
 }
 
 @media (min-width: 768px) {
@@ -1788,7 +1799,6 @@ img.ini.thumbnail {
 .ini.select {
   max-width: 100% !important;
   background: white !important;
-  font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif !important;
   padding: 0.6rem !important;
   border: 1px solid rgba(34, 36, 38, 0.15) !important;
   border-radius: 0.28571429rem !important;
@@ -2067,7 +2077,7 @@ img.ini.thumbnail {
 
 .ini.dropdown {
   display: inline-block;
-  .ini.button {
+  > .ini.button {
     display: flex;
   }
   .menu {
@@ -2090,6 +2100,7 @@ img.ini.thumbnail {
     -moz-transform-origin: top;
     -o-transform-origin: top;
     transform-origin: top;
+    z-index: 2 !important;
   }
   .item {
     display: block;

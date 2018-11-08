@@ -74,6 +74,11 @@ img {
 .ini.margin.center {
   margin: 0 auto; }
 
+.ini.center-all {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 /*
 ===============================================================
     INI GRID
@@ -670,7 +675,7 @@ img {
     max-width: 1206px; } }
 /*
 ===============================================================
-    INI DISPLAY
+    INI DISPLAY & POSITION
 ===============================================================
 */
 .ini.display.block {
@@ -681,6 +686,9 @@ img {
 
 .ini.display.inline-block {
   display: inline-block; }
+
+.ini.relative {
+  position: relative; }
 
 /*
 ===============================================================
@@ -884,8 +892,7 @@ img {
     .ini.navbar .ini.dropdown .menu {
       overflow: initial;
       position: absolute;
-      top: 3.25rem;
-      min-width: max-content; }
+      top: 5.1rem; }
     .ini.navbar .ini.dropdown .menu::before {
       content: "";
       position: absolute;
@@ -910,6 +917,8 @@ img {
   width: 100%;
   z-index: 990;
   margin-bottom: 0 !important; }
+  .ini.navbar.fixed .ini.dropdown .menu {
+    top: 3.2rem; }
 
 @media (min-width: 768px) {
   .ini.navbar.responsive .ini.hamburger {
@@ -1484,7 +1493,6 @@ img.ini.thumbnail {
 .ini.select {
   max-width: 100% !important;
   background: white !important;
-  font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif !important;
   padding: 0.6rem !important;
   border: 1px solid rgba(34, 36, 38, 0.15) !important;
   border-radius: 0.28571429rem !important;
@@ -1713,7 +1721,7 @@ img.ini.thumbnail {
 */
 .ini.dropdown {
   display: inline-block; }
-  .ini.dropdown .ini.button {
+  .ini.dropdown > .ini.button {
     display: flex; }
   .ini.dropdown .menu {
     background: #fff;
@@ -1734,7 +1742,8 @@ img.ini.thumbnail {
     -webkit-transform-origin: top;
     -moz-transform-origin: top;
     -o-transform-origin: top;
-    transform-origin: top; }
+    transform-origin: top;
+    z-index: 2 !important; }
   .ini.dropdown .item {
     display: block;
     padding: 0.5rem 2rem; }
