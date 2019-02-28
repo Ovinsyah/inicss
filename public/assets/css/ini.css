@@ -1,11 +1,10 @@
-@import url("https://fonts.googleapis.com/css?family=Lato");
 body {
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
   color: #575757;
-  font-family: "Lato", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 0.94rem; }
 
 a {
@@ -23,14 +22,14 @@ img {
 .overflow-hidden {
   overflow: hidden; }
 
-.ini .button[disabled],
-.ini .input[disabled],
-.ini .textarea[disabled],
-.ini .select[disabled],
-.ini .button:active[disabled],
-.ini .input:active[disabled],
-.ini .textarea:active[disabled],
-.ini .select:active[disabled] {
+button[disabled],
+input[disabled],
+textarea[disabled],
+select[disabled],
+button:active[disabled],
+input:active[disabled],
+textarea:active[disabled],
+select:active[disabled] {
   cursor: not-allowed;
   background: #f7f7f7 !important;
   opacity: 0.7;
@@ -195,6 +194,18 @@ img {
 .grid.small-10,
 .grid.small-11,
 .grid.small-12,
+.grid.medium-1,
+.grid.medium-2,
+.grid.medium-3,
+.grid.medium-4,
+.grid.medium-5,
+.grid.medium-6,
+.grid.medium-7,
+.grid.medium-8,
+.grid.medium-9,
+.grid.medium-10,
+.grid.medium-11,
+.grid.medium-12,
 .grid.large-1,
 .grid.large-2,
 .grid.large-3,
@@ -687,8 +698,14 @@ img {
 .ini.display.inline-block {
   display: inline-block; }
 
+.ini.display.inline {
+  display: inline; }
+
 .ini.relative {
   position: relative; }
+
+.ini.absolute {
+  position: absolute; }
 
 /*
 ===============================================================
@@ -737,40 +754,40 @@ img {
 ===============================================================
 */
 .ini.color.blue {
-  background: #2980b9; }
+  color: #2980b9; }
 
 .ini.color.red {
-  background: #f82d51; }
+  color: #f82d51; }
 
 .ini.color.inicss {
-  background: #fc732b; }
+  color: #fc732b; }
 
 .ini.color.gray {
-  background: #7f8c8d; }
+  color: #7f8c8d; }
 
 .ini.color.black {
-  background: #000; }
+  color: #000; }
 
 .ini.color.orange {
-  background: #f39c12; }
+  color: #f39c12; }
 
 .ini.color.carrot {
-  background: #e67e22; }
+  color: #e67e22; }
 
 .ini.color.purple {
-  background: #9b59b6; }
+  color: #9b59b6; }
 
 .ini.color.orange {
-  background: #f39c12; }
+  color: #f39c12; }
 
 .ini.color.midnight {
-  background: #2c3e50; }
+  color: #2c3e50; }
 
 .ini.color.primary {
-  background: #0fb9b1; }
+  color: #0fb9b1; }
 
 .ini.color.green {
-  background: #2ecc71; }
+  color: #2ecc71; }
 
 /*
 ===============================================================
@@ -792,12 +809,14 @@ img {
   visibility: hidden;
   opacity: 0;
   transition: all 0.3s;
-  padding: 0rem 1rem; }
+  padding: 1rem;
+  overflow: auto; }
   .ini.modals .ini.modal {
     transform: scaleX(0.8) scaleY(0.8);
     transition: all 0.2s;
     margin: 2rem auto;
-    background: white; }
+    background: white;
+    width: inherit; }
     .ini.modals .ini.modal .header {
       display: flex;
       padding: 1rem 1.5rem 0 1.5rem; }
@@ -1580,7 +1599,7 @@ img.ini.thumbnail {
   background: linear-gradient(transparent, rgba(0, 0, 0, 0.05)) white;
   border-radius: 50%;
   transition: all 0.7s;
-  left: 0;
+  left: 0%;
   -webkit-transform: translate(0); }
 
 .ini.toggle:checked:after,
@@ -1603,7 +1622,8 @@ img.ini.thumbnail {
   position: absolute;
   top: calc(50% - 2px);
   opacity: 0.3;
-  transition: all 0.7s; }
+  transition: all 0.7s;
+  right: 0; }
 
 .ini.slider:checked:before {
   opacity: 1;

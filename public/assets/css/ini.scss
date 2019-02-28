@@ -22,7 +22,7 @@ $primary-color: #0fb9b1;
 $primary-nd-color: #05918b;
 
 // $inicss-color: #2ac0c0;
-@import url("https://fonts.googleapis.com/css?family=Lato");
+// @import url("https://fonts.googleapis.com/css?family=Lato");
 
 $text-color: #575757;
 $text-nd-color: #797979;
@@ -32,7 +32,7 @@ body {
   width: 100%;
   height: 100%;
   color: $text-color; // font-family: 'Roboto', sans-serif;
-  font-family: "Lato", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 0.94rem;
 }
 
@@ -55,20 +55,18 @@ img {
   overflow: hidden;
 }
 
-.ini {
-  .button[disabled],
-  .input[disabled],
-  .textarea[disabled],
-  .select[disabled],
-  .button:active[disabled],
-  .input:active[disabled],
-  .textarea:active[disabled],
-  .select:active[disabled] {
-    cursor: not-allowed;
-    background: #f7f7f7 !important;
-    opacity: 0.7;
-    border-color: #f7f7f7 !important;
-  }
+button[disabled],
+input[disabled],
+textarea[disabled],
+select[disabled],
+button:active[disabled],
+input:active[disabled],
+textarea:active[disabled],
+select:active[disabled] {
+  cursor: not-allowed;
+  background: #f7f7f7 !important;
+  opacity: 0.7;
+  border-color: #f7f7f7 !important;
 }
 
 .hidden {
@@ -257,6 +255,18 @@ img {
 .grid.small-10,
 .grid.small-11,
 .grid.small-12,
+.grid.medium-1,
+.grid.medium-2,
+.grid.medium-3,
+.grid.medium-4,
+.grid.medium-5,
+.grid.medium-6,
+.grid.medium-7,
+.grid.medium-8,
+.grid.medium-9,
+.grid.medium-10,
+.grid.medium-11,
+.grid.medium-12,
 .grid.large-1,
 .grid.large-2,
 .grid.large-3,
@@ -785,8 +795,15 @@ img {
 .ini.display.inline-block {
   display: inline-block;
 }
+
+.ini.display.inline {
+  display: inline;
+}
 .ini.relative {
   position: relative;
+}
+.ini.absolute {
+  position: absolute;
 }
 
 /*
@@ -850,50 +867,50 @@ img {
 */
 
 .ini.color.blue {
-  background: $blue-color;
+  color: $blue-color;
 }
 
 .ini.color.red {
-  background: $red-color;
+  color: $red-color;
 }
 
 .ini.color.inicss {
-  background: $inicss-color;
+  color: $inicss-color;
 }
 
 .ini.color.gray {
-  background: $gray-color;
+  color: $gray-color;
 }
 
 .ini.color.black {
-  background: $black-color;
+  color: $black-color;
 }
 
 .ini.color.orange {
-  background: $orange-color;
+  color: $orange-color;
 }
 
 .ini.color.carrot {
-  background: $carrot-color;
+  color: $carrot-color;
 }
 
 .ini.color.purple {
-  background: $purple-color;
+  color: $purple-color;
 }
 
 .ini.color.orange {
-  background: $orange-color;
+  color: $orange-color;
 }
 
 .ini.color.midnight {
-  background: $midnight-color;
+  color: $midnight-color;
 }
 .ini.color.primary {
-  background: $primary-color;
+  color: $primary-color;
 }
 
 .ini.color.green {
-  background: $green-color;
+  color: $green-color;
 }
 
 /*
@@ -917,12 +934,14 @@ img {
   visibility: hidden;
   opacity: 0;
   transition: all 0.3s;
-  padding: 0rem 1rem;
+  padding: 1rem;
+  overflow:auto;
   .ini.modal {
     transform: scaleX(0.8) scaleY(0.8);
     transition: all 0.2s;
     margin: 2rem auto;
     background: white;
+    width: inherit;
     .header {
       display: flex;
       padding: 1rem 1.5rem 0 1.5rem;
@@ -1900,7 +1919,7 @@ img.ini.thumbnail {
   background: linear-gradient(transparent, rgba(0, 0, 0, 0.05)) white;
   border-radius: 50%;
   transition: all 0.7s;
-  left: 0;
+  left: 0%;
   -webkit-transform: translate(0);
 }
 
@@ -1928,6 +1947,7 @@ img.ini.thumbnail {
   top: calc(50% - 2px);
   opacity: 0.3;
   transition: all 0.7s;
+  right: 0;
 }
 
 .ini.slider:checked:before {
