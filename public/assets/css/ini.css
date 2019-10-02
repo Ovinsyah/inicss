@@ -43,15 +43,9 @@ select:active[disabled] {
 
 /*
 ===============================================================
-    INI POSITION
+    INI TEXT
 ===============================================================
 */
-.ini.float.left {
-  float: left; }
-
-.ini.float.right {
-  float: right; }
-
 .ini.align.left {
   text-align: left; }
 
@@ -63,6 +57,38 @@ select:active[disabled] {
 
 .ini.align.justify {
   text-align: justify; }
+
+.ini.lowercase {
+  text-transform: lowercase !important; }
+
+.ini.uppercase {
+  text-transform: uppercase !important; }
+
+.ini.capitalize {
+  text-transform: capitalize !important; }
+
+.ini.bold {
+  font-weight: bold; }
+
+.ini.light {
+  font-weight: 300; }
+
+.ini.italic {
+  font-style: italic !important; }
+
+/*
+===============================================================
+    INI POSITION
+===============================================================
+*/
+.ini.float-left {
+  float: left; }
+
+.ini.float-right {
+  float: right; }
+
+.ini.float-none {
+  float: none; }
 
 .ini.margin.left {
   margin-left: auto; }
@@ -692,14 +718,20 @@ select:active[disabled] {
 .ini.display.block {
   display: block; }
 
-.ini.display.flex {
-  display: flex; }
-
 .ini.display.inline-block {
   display: inline-block; }
 
+.ini.display.flex {
+  display: flex; }
+
+.ini.display.inline-flex {
+  display: inline-flex; }
+
 .ini.display.inline {
   display: inline; }
+
+.ini.display.none {
+  display: none; }
 
 .ini.relative {
   position: relative; }
@@ -707,45 +739,54 @@ select:active[disabled] {
 .ini.absolute {
   position: absolute; }
 
+.ini.fixed {
+  position: fixed; }
+
+.ini.sticky {
+  position: sticky; }
+
 /*
 ===============================================================
     INI BACKGROUND
 ===============================================================
 */
-.ini.background.blue {
+.ini.background-transparent {
+  background: transparent; }
+
+.ini.background-blue {
   background: #2980b9; }
 
-.ini.background.red {
+.ini.background-red {
   background: #f82d51; }
 
-.ini.background.inicss {
+.ini.background-inicss {
   background: #fc732b; }
 
-.ini.background.gray {
+.ini.background-gray {
   background: #7f8c8d; }
 
-.ini.background.black {
+.ini.background-black {
   background: #000; }
 
-.ini.background.orange {
+.ini.background-orange {
   background: #f39c12; }
 
-.ini.background.carrot {
+.ini.background-carrot {
   background: #e67e22; }
 
-.ini.background.purple {
+.ini.background-purple {
   background: #9b59b6; }
 
-.ini.background.orange {
+.ini.background-orange {
   background: #f39c12; }
 
-.ini.background.midnight {
+.ini.background-midnight {
   background: #2c3e50; }
 
-.ini.background.primary {
+.ini.background-primary {
   background: #0fb9b1; }
 
-.ini.background.green {
+.ini.background-green {
   background: #2ecc71; }
 
 /*
@@ -753,40 +794,40 @@ select:active[disabled] {
     INI COLOR
 ===============================================================
 */
-.ini.color.blue {
+.ini.color-white {
+  color: white; }
+
+.ini.color-blue {
   color: #2980b9; }
 
-.ini.color.red {
+.ini.color-red {
   color: #f82d51; }
 
-.ini.color.inicss {
-  color: #fc732b; }
-
-.ini.color.gray {
+.ini.color-gray {
   color: #7f8c8d; }
 
-.ini.color.black {
+.ini.color-black {
   color: #000; }
 
-.ini.color.orange {
+.ini.color-orange {
   color: #f39c12; }
 
-.ini.color.carrot {
+.ini.color-carrot {
   color: #e67e22; }
 
-.ini.color.purple {
+.ini.color-purple {
   color: #9b59b6; }
 
-.ini.color.orange {
+.ini.color-orange {
   color: #f39c12; }
 
-.ini.color.midnight {
+.ini.color-midnight {
   color: #2c3e50; }
 
-.ini.color.primary {
+.ini.color-primary {
   color: #0fb9b1; }
 
-.ini.color.green {
+.ini.color-green {
   color: #2ecc71; }
 
 /*
@@ -1068,17 +1109,6 @@ select:active[disabled] {
     .ini.menu.vertical .collapse li:hover,
     .ini.menu.vertical .collapse a:hover {
       color: #fc732b; }
-
-/*
-===============================================================
-    INI TEXT
-===============================================================
-*/
-.ini.bold {
-  font-weight: bold; }
-
-.ini.color.white {
-  color: white; }
 
 /*
 ===============================================================

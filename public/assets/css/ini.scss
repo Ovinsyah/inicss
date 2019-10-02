@@ -78,18 +78,9 @@ select:active[disabled] {
 
 /*
 ===============================================================
-    INI POSITION
+    INI TEXT
 ===============================================================
 */
-
-.ini.float.left {
-  float: left;
-}
-
-.ini.float.right {
-  float: right;
-}
-
 .ini.align.left {
   text-align: left;
 }
@@ -104,6 +95,39 @@ select:active[disabled] {
 
 .ini.align.justify {
   text-align: justify;
+}
+.ini.lowercase{
+  text-transform: lowercase !important;
+}
+.ini.uppercase{
+  text-transform: uppercase !important;
+}
+.ini.capitalize{
+  text-transform: capitalize !important;
+}
+.ini.bold {
+  font-weight: bold;
+}
+.ini.light {
+  font-weight: 300;
+}
+.ini.italic {
+  font-style: italic!important;
+}
+/*
+===============================================================
+    INI POSITION
+===============================================================
+*/
+
+.ini.float-left {
+  float: left;
+}
+.ini.float-right {
+  float: right;
+}
+.ini.float-none {
+  float: none;
 }
 
 .ini.margin.left {
@@ -787,23 +811,32 @@ select:active[disabled] {
 .ini.display.block {
   display: block;
 }
-
-.ini.display.flex {
-  display: flex;
-}
-
 .ini.display.inline-block {
   display: inline-block;
 }
-
+.ini.display.flex {
+  display: flex;
+}
+.ini.display.inline-flex {
+  display: inline-flex;
+}
 .ini.display.inline {
   display: inline;
+}
+.ini.display.none {
+  display: none;
 }
 .ini.relative {
   position: relative;
 }
 .ini.absolute {
   position: absolute;
+}
+.ini.fixed {
+  position: fixed;
+}
+.ini.sticky {
+  position: sticky;
 }
 
 /*
@@ -812,51 +845,54 @@ select:active[disabled] {
 ===============================================================
 */
 
-.ini.background.blue {
+.ini.background-transparent {
+  background: transparent;
+}
+.ini.background-blue {
   background: $blue-color;
 }
 
-.ini.background.red {
+.ini.background-red {
   background: $red-color;
 }
 
-.ini.background.inicss {
+.ini.background-inicss {
   background: $inicss-color;
 }
 
-.ini.background.gray {
+.ini.background-gray {
   background: $gray-color;
 }
 
-.ini.background.black {
+.ini.background-black {
   background: $black-color;
 }
 
-.ini.background.orange {
+.ini.background-orange {
   background: $orange-color;
 }
 
-.ini.background.carrot {
+.ini.background-carrot {
   background: $carrot-color;
 }
 
-.ini.background.purple {
+.ini.background-purple {
   background: $purple-color;
 }
 
-.ini.background.orange {
+.ini.background-orange {
   background: $orange-color;
 }
 
-.ini.background.midnight {
+.ini.background-midnight {
   background: $midnight-color;
 }
 
-.ini.background.primary {
+.ini.background-primary {
   background: $primary-color;
 }
 
-.ini.background.green {
+.ini.background-green {
   background: $green-color;
 }
 
@@ -865,51 +901,49 @@ select:active[disabled] {
     INI COLOR
 ===============================================================
 */
-
-.ini.color.blue {
+.ini.color-white {
+  color: white;
+}
+.ini.color-blue {
   color: $blue-color;
 }
 
-.ini.color.red {
+.ini.color-red {
   color: $red-color;
 }
 
-.ini.color.inicss {
-  color: $inicss-color;
-}
-
-.ini.color.gray {
+.ini.color-gray {
   color: $gray-color;
 }
 
-.ini.color.black {
+.ini.color-black {
   color: $black-color;
 }
 
-.ini.color.orange {
+.ini.color-orange {
   color: $orange-color;
 }
 
-.ini.color.carrot {
+.ini.color-carrot {
   color: $carrot-color;
 }
 
-.ini.color.purple {
+.ini.color-purple {
   color: $purple-color;
 }
 
-.ini.color.orange {
+.ini.color-orange {
   color: $orange-color;
 }
 
-.ini.color.midnight {
+.ini.color-midnight {
   color: $midnight-color;
 }
-.ini.color.primary {
+.ini.color-primary {
   color: $primary-color;
 }
 
-.ini.color.green {
+.ini.color-green {
   color: $green-color;
 }
 
@@ -1265,21 +1299,6 @@ select:active[disabled] {
     }
   }
 }
-
-/*
-===============================================================
-    INI TEXT
-===============================================================
-*/
-
-.ini.bold {
-  font-weight: bold;
-}
-
-.ini.color.white {
-  color: white;
-}
-
 /*
 ===============================================================
     INI BUTTON

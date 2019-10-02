@@ -29,7 +29,12 @@ import DocCollStep from "./views/documentation/collection/Step.vue";
 import DocCollLoader from "./views/documentation/collection/Loader.vue";
 import DocCollProgress from "./views/documentation/collection/Progressbar.vue";
 import DocCollMessage from "./views/documentation/collection/Message.vue";
-import DocCollDashboard from "./views/documentation/collection/Dashboard.vue";
+
+import DocUtilityText from "./views/documentation/utility/Text.vue";
+import DocUtilityColor from "./views/documentation/utility/Color.vue";
+import DocUtilityPosition from "./views/documentation/utility/Position.vue";
+import DocUtilityFloat from "./views/documentation/utility/Float.vue";
+import DocUtilityDisplay from "./views/documentation/utility/Display.vue";
 
 Vue.use(Router);
 
@@ -168,9 +173,29 @@ export default new Router({
       component: DocCollMessage
     },
     {
-      path: "/documentation/collection/dashboard",
-      name: "dashboard",
-      component: DocCollDashboard
+      path: "/documentation/utility/text",
+      name: "text",
+      component: DocUtilityText
+    },
+    {
+      path: "/documentation/utility/color",
+      name: "color",
+      component: DocUtilityColor
+    },
+    {
+      path: "/documentation/utility/position",
+      name: "position",
+      component: DocUtilityPosition
+    },
+    {
+      path: "/documentation/utility/float",
+      name: "float",
+      component: DocUtilityFloat
+    },
+    {
+      path: "/documentation/utility/display",
+      name: "display",
+      component: DocUtilityDisplay
     }
   ]
 });

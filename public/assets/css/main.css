@@ -173,6 +173,10 @@ hr.inicss {
 .example.progress .ini.progress {
   margin-bottom: 10px;
 }
+.example.display >div,
+.example.position >div{
+  margin-bottom: 1rem;
+}
 .ini.message.compact.inicss {
   background: #fff1e0;
   margin: 1rem 0;
