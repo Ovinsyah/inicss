@@ -1,0 +1,2796 @@
+$black-color: #000;
+$black-nd-color: #505050;
+$blue-color: #2980b9;
+$blue-nd-color: #276994;
+$red-color: #f82d51;
+$red-nd-color: #d72e4c;
+$inicss-color: #fc732b;
+$inicss-nd-color: #e86520;
+$green-color: #2ecc71;
+$green-nd-color: #18b159;
+$purple-color: #9b59b6;
+$purple-nd-color: #8135a0;
+$carrot-color: #e67e22;
+$carrot-nd-color: #da6c0b;
+$orange-color: #f39c12;
+$orange-nd-color: #e29214;
+$gray-color: #7f8c8d;
+$gray-nd-color: #6b6b6b;
+$midnight-color: #2c3e50;
+$midnight-nd-color: #516982;
+$primary-color: #0fb9b1;
+$primary-nd-color: #05918b;
+
+// $inicss-color: #2ac0c0;
+// @import url("https://fonts.googleapis.com/css?family=Lato");
+
+$text-color: #575757;
+$text-nd-color: #797979;
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  color: $text-color; // font-family: 'Roboto', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.94rem;
+}
+
+a {
+  text-decoration: none;
+  color: $text-color;
+}
+
+img {
+  max-width: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+button[disabled],
+input[disabled],
+textarea[disabled],
+select[disabled],
+button:active[disabled],
+input:active[disabled],
+textarea:active[disabled],
+select:active[disabled] {
+  cursor: not-allowed;
+  background: #f7f7f7 !important;
+  opacity: 0.7;
+  border-color: #f7f7f7 !important;
+}
+
+.hidden {
+  display: none;
+}
+.ini.overflow.hidden {
+  overflow: hidden;
+}
+
+/*
+===============================================================
+    INI TEXT
+===============================================================
+*/
+.ini.align.left {
+  text-align: left;
+}
+
+.ini.align.right {
+  text-align: right;
+}
+
+.ini.align.center {
+  text-align: center;
+}
+
+.ini.align.justify {
+  text-align: justify;
+}
+.ini.lowercase{
+  text-transform: lowercase !important;
+}
+.ini.uppercase{
+  text-transform: uppercase !important;
+}
+.ini.capitalize{
+  text-transform: capitalize !important;
+}
+.ini.bold {
+  font-weight: bold;
+}
+.ini.light {
+  font-weight: 300;
+}
+.ini.italic {
+  font-style: italic!important;
+}
+/*
+===============================================================
+    INI POSITION
+===============================================================
+*/
+
+.ini.float-left {
+  float: left;
+}
+.ini.float-right {
+  float: right;
+}
+.ini.float-none {
+  float: none;
+}
+
+.ini.margin.left {
+  margin-left: auto;
+}
+
+.ini.margin.right {
+  margin-right: auto;
+}
+
+.ini.margin.center {
+  margin: 0 auto;
+}
+.ini.center-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*
+===============================================================
+    INI GRID
+===============================================================
+*/
+
+.ini.grids {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -10px;
+  margin-left: -10px;
+}
+
+.grid {
+  flex-basis: 0;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+//responsive
+.grid-12 {
+  flex: none;
+  width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.grid-11 {
+  flex: none;
+  width: 91.666667%;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.grid-10 {
+  flex: none;
+  width: 83.333333%;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.grid-9 {
+  flex: none;
+  width: 75%;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.grid-8 {
+  flex: none;
+  width: 66.666667%;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.grid-7 {
+  flex: none;
+  width: 58.333333%;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.grid-6 {
+  flex: none;
+  width: 50%;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.grid-5 {
+  flex: none;
+  width: 41.666667%;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.grid-4 {
+  flex: none;
+  width: 33.333333%;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.grid-3 {
+  flex: none;
+  width: 25%;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.grid-2 {
+  flex: none;
+  width: 16.666667%;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.grid-1 {
+  flex: none;
+  width: 8.333333%;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+//Set Grid Out Size
+.grid.xsmall-1,
+.grid.xsmall-2,
+.grid.xsmall-3,
+.grid.xsmall-4,
+.grid.xsmall-5,
+.grid.xsmall-6,
+.grid.xsmall-7,
+.grid.xsmall-8,
+.grid.xsmall-9,
+.grid.xsmall-10,
+.grid.xsmall-11,
+.grid.xsmall-12,
+.grid.small-1,
+.grid.small-2,
+.grid.small-3,
+.grid.small-4,
+.grid.small-5,
+.grid.small-6,
+.grid.small-7,
+.grid.small-8,
+.grid.small-9,
+.grid.small-10,
+.grid.small-11,
+.grid.small-12,
+.grid.medium-1,
+.grid.medium-2,
+.grid.medium-3,
+.grid.medium-4,
+.grid.medium-5,
+.grid.medium-6,
+.grid.medium-7,
+.grid.medium-8,
+.grid.medium-9,
+.grid.medium-10,
+.grid.medium-11,
+.grid.medium-12,
+.grid.large-1,
+.grid.large-2,
+.grid.large-3,
+.grid.large-4,
+.grid.large-5,
+.grid.large-6,
+.grid.large-7,
+.grid.large-8,
+.grid.large-9,
+.grid.large-10,
+.grid.large-11,
+.grid.large-12,
+.grid.xlarge-1,
+.grid.xlarge-2,
+.grid.xlarge-3,
+.grid.xlarge-4,
+.grid.xlarge-5,
+.grid.xlarge-6,
+.grid.xlarge-7,
+.grid.xlarge-8,
+.grid.xlarge-9,
+.grid.xlarge-10,
+.grid.xlarge-11,
+.grid.xlarge-12 {
+  width: 100%;
+  flex-basis: auto;
+  -ms-flex-positive: auto;
+  flex-grow: inherit;
+}
+
+//Extra small
+@media (min-width: 0px) {
+  .grid.xsmall-1 {
+    -ms-flex: 0 0 8.333333%;
+    flex: 0 0 8.333333%;
+    max-width: 8.333333%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.xsmall-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.xsmall-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.xsmall-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.xsmall-5 {
+    -ms-flex: 0 0 41.666667%;
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.xsmall-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.xsmall-7 {
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.xsmall-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.xsmall-9 {
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.xsmall-10 {
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.xsmall-11 {
+    -ms-flex: 0 0 91.666667%;
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.xsmall-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+
+//small
+@media (min-width: 576px) {
+  .grid.small-1 {
+    -ms-flex: 0 0 8.333333%;
+    flex: 0 0 8.333333%;
+    max-width: 8.333333%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.small-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.small-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.small-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.small-5 {
+    -ms-flex: 0 0 41.666667%;
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.small-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.small-7 {
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.small-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.small-9 {
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.small-10 {
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.small-11 {
+    -ms-flex: 0 0 91.666667%;
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.small-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+
+//medium
+@media (min-width: 768px) {
+  .grid.medium-1 {
+    -ms-flex: 0 0 8.333333%;
+    flex: 0 0 8.333333%;
+    max-width: 8.333333%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.medium-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.medium-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.medium-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.medium-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.medium-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.medium-7 {
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.medium-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.medium-9 {
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.medium-10 {
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.medium-11 {
+    -ms-flex: 0 0 91.666667%;
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.medium-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+} //large
+@media (min-width: 992px) {
+  .grid.large-1 {
+    -ms-flex: 0 0 8.333333%;
+    flex: 0 0 8.333333%;
+    max-width: 8.333333%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.large-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.large-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.large-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.large-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.large-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.large-7 {
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.large-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.large-9 {
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.large-10 {
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.large-11 {
+    -ms-flex: 0 0 91.666667%;
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.large-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+} //extra large
+@media (min-width: 1200px) {
+  .grid.xlarge-1 {
+    -ms-flex: 0 0 8.333333%;
+    flex: 0 0 8.333333%;
+    max-width: 8.333333%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.xlarge-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.xlarge-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.xlarge-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.xlarge-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.xlarge-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.xlarge-7 {
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.xlarge-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.xlarge-9 {
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.xlarge-10 {
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.xlarge-11 {
+    -ms-flex: 0 0 91.666667%;
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .grid.xlarge-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+
+/*
+===============================================================
+    INI CONTAINER
+===============================================================
+*/
+
+.ini.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  .ini.container {
+    max-width: 700px;
+  }
+}
+
+@media (min-width: 768px) {
+  .ini.container {
+    max-width: 900px;
+  }
+}
+
+@media (min-width: 992px) {
+  .ini.container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .ini.container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1366px) {
+  .ini.container {
+    max-width: 1206px;
+  }
+}
+
+/*
+===============================================================
+    INI DISPLAY & POSITION
+===============================================================
+*/
+
+.ini.display.block {
+  display: block;
+}
+.ini.display.inline-block {
+  display: inline-block;
+}
+.ini.display.flex {
+  display: flex;
+}
+.ini.display.inline-flex {
+  display: inline-flex;
+}
+.ini.display.inline {
+  display: inline;
+}
+.ini.display.none {
+  display: none;
+}
+.ini.relative {
+  position: relative;
+}
+.ini.absolute {
+  position: absolute;
+}
+.ini.fixed {
+  position: fixed;
+}
+.ini.sticky {
+  position: sticky;
+}
+
+/*
+===============================================================
+    INI BACKGROUND
+===============================================================
+*/
+
+.ini.background-transparent {
+  background: transparent;
+}
+.ini.background-blue {
+  background: $blue-color;
+}
+
+.ini.background-red {
+  background: $red-color;
+}
+
+.ini.background-inicss {
+  background: $inicss-color;
+}
+
+.ini.background-gray {
+  background: $gray-color;
+}
+
+.ini.background-black {
+  background: $black-color;
+}
+
+.ini.background-orange {
+  background: $orange-color;
+}
+
+.ini.background-carrot {
+  background: $carrot-color;
+}
+
+.ini.background-purple {
+  background: $purple-color;
+}
+
+.ini.background-orange {
+  background: $orange-color;
+}
+
+.ini.background-midnight {
+  background: $midnight-color;
+}
+
+.ini.background-primary {
+  background: $primary-color;
+}
+
+.ini.background-green {
+  background: $green-color;
+}
+
+/*
+===============================================================
+    INI COLOR
+===============================================================
+*/
+.ini.color-white {
+  color: white;
+}
+.ini.color-blue {
+  color: $blue-color;
+}
+
+.ini.color-red {
+  color: $red-color;
+}
+
+.ini.color-gray {
+  color: $gray-color;
+}
+
+.ini.color-black {
+  color: $black-color;
+}
+
+.ini.color-orange {
+  color: $orange-color;
+}
+
+.ini.color-carrot {
+  color: $carrot-color;
+}
+
+.ini.color-purple {
+  color: $purple-color;
+}
+
+.ini.color-orange {
+  color: $orange-color;
+}
+
+.ini.color-midnight {
+  color: $midnight-color;
+}
+.ini.color-primary {
+  color: $primary-color;
+}
+
+.ini.color-green {
+  color: $green-color;
+}
+
+/*
+===============================================================
+    INI MODAL
+===============================================================
+*/
+
+.closeModal,
+.openModal {
+  cursor: pointer;
+}
+.ini.modals {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.9);
+  height: 100%;
+  width: 100%;
+  z-index: 998;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s;
+  padding: 1rem;
+  overflow:auto;
+  .ini.modal {
+    transform: scaleX(0.8) scaleY(0.8);
+    transition: all 0.2s;
+    margin: 2rem auto;
+    background: white;
+    width: inherit;
+    .header {
+      display: flex;
+      padding: 1rem 1.5rem 0 1.5rem;
+      .title {
+        font-size: 1.42857143rem;
+        line-height: 1.28571429em;
+        font-weight: 700;
+      }
+    }
+    .content {
+      padding: 1.5rem;
+    }
+    .action {
+      padding: 0.5rem 1.5rem;
+      border-top: 1px solid rgba(34, 36, 38, 0.15);
+      text-align: right;
+      button {
+        margin: 0 0.3rem;
+      }
+      button:last-child {
+        margin-right: 0;
+      }
+    }
+    .button.close {
+      margin-left: auto;
+      padding: 0;
+      color: #a0a0a0;
+      i {
+        font-size: 22px;
+      }
+    }
+  } //size modal
+  .ini.modal.small {
+    max-width: 540px;
+  }
+  .ini.modal.medium {
+    max-width: 720px;
+  }
+  .ini.modal.large {
+    max-width: 1080px;
+  }
+}
+
+.ini.modals.active {
+  visibility: visible;
+  opacity: 1;
+  transition: all 0.3s;
+  .ini.modal {
+    transform: scaleX(1) scaleY(1);
+    transition: all 0.2s;
+  }
+}
+
+.ini.modals.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 575px) {
+  .ini.modal {
+    min-width: 100%;
+    max-width: 100%;
+  }
+}
+
+/*
+===============================================================
+    INI NAVBAR
+===============================================================
+*/
+
+.ini.navbar {
+  display: flex;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 2px 0 0 #f5f5f5;
+  margin-bottom: 1rem;
+  background: #f1f1f1;
+  img {
+    vertical-align: top !important;
+    height: 30px;
+  }
+  .ini.menus {
+    display: inline-flex;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar.brand {
+    padding: 0px 10px;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu.left,
+  .menu.right,
+  .menu.center {
+    flex: 1;
+    line-height: 30px;
+    a {
+      // font-weight: 600;
+      padding: 0.5rem 1rem;
+    }
+  }
+  .menu.left {
+    text-align: left;
+  }
+  .menu.center {
+    text-align: center;
+  }
+  .menu.right {
+    text-align: right;
+  }
+  .ini.dropdown {
+    display: inline-block;
+    .menu {
+      overflow: initial;
+      position: absolute;
+      top: 5.1rem;
+    }
+    .menu::before {
+      content: "";
+      position: absolute;
+      top: -0.5rem;
+      left: 0.8rem;
+      z-index: 1;
+      border-width: 1px 0px 0px 1px;
+      width: 0;
+      height: 0;
+      border-left: 0.5rem solid transparent;
+      border-right: 0.5rem solid transparent;
+      border-bottom: 0.5rem solid white;
+    }
+  }
+}
+
+.ini.navbar.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 990;
+}
+
+.ini.navbar.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 990;
+  margin-bottom: 0 !important;
+  .ini.dropdown {
+    .menu {
+      top: 3.2rem;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .ini.navbar.responsive {
+    .ini.hamburger {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .ini.navbar.responsive {
+    display: block;
+    .navbar.brand {
+      display: inline-block;
+    }
+    .ini.menus {
+      display: none !important;
+      box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
+      padding: 12px;
+    }
+    .ini.menus.active {
+      display: block !important;
+    } //Menu side
+    .ini.menus.side {
+      height: 100vh;
+      position: fixed;
+      background: white;
+      top: 0;
+      left: -80%;
+      z-index: 996;
+      display: block !important;
+      width: 80%;
+      transition: left ease-in 0.5s;
+    }
+    .ini.menus.side.active {
+      left: 0%;
+      transition: left ease-out 0.5s;
+    }
+    @media (max-width: 575px) {
+      .ini.menus.side {
+        width: 250px;
+      }
+    }
+    .ini.hamburger {
+      display: inline-block;
+      float: right;
+    }
+    .menu {
+      text-align: left !important;
+      line-height: normal !important;
+      a {
+        padding: 0.5rem 0.6rem 0.5rem 0rem !important;
+        display: block;
+      }
+    }
+  }
+}
+
+/*
+===============================================================
+    INI HAMBURGER
+===============================================================
+*/
+
+.ini.hamburger span {
+  height: 2px;
+  width: 25px;
+  background: #929292;
+  display: -webkit-box;
+  position: relative;
+  left: 0;
+  transition: all 0.3s;
+}
+
+.ini.hamburger span:first-child {
+  -webkit-transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.ini.hamburger span:nth-child(2),
+.ini.hamburger span:last-child {
+  margin-top: 6px;
+  -webkit-transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.ini.hamburger.active {
+  position: relative;
+  top: 8px;
+}
+
+.ini.hamburger.active span:first-child {
+  transform: translate3d(0, 0, 0) rotate(45deg);
+  -webkit-transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.ini.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.ini.hamburger.active span:last-child {
+  transform: translate3d(0, -16px, 0) rotate(-45deg);
+  -webkit-transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.ini.hamburger:hover:not(.active) span:first-child {
+  left: 10px;
+  transition: all 0.3s;
+}
+
+.ini.hamburger:hover:not(.active) span:nth-child(2) {
+  left: 5px;
+  transition: all 0.3s;
+}
+
+/*
+===============================================================
+    INI ACCORDION
+===============================================================
+*/
+
+.ini.menu.vertical {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  > li > a {
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  .openCollapse::after {
+    font-family: "Material Icons";
+    content: "expand_more";
+    float: right;
+  }
+  .openCollapse.active::after {
+    content: "expand_less";
+  }
+  .collapse.active {
+    max-height: 999px;
+    transition: max-height 0.5s;
+  }
+  .collapse {
+    list-style: none;
+    overflow: hidden;
+    padding-left: 20px;
+    max-height: 0px;
+    transition: max-height 0.3s;
+    li {
+      display: block;
+      padding: 7px;
+      cursor: pointer;
+      color: $text-nd-color;
+      font-size: 14px;
+      width: calc(100% - 23px);
+    }
+    li.active a,
+    li:hover,
+    a:hover {
+      color: $inicss-color;
+    }
+  }
+}
+/*
+===============================================================
+    INI BUTTON
+===============================================================
+*/
+
+.ini.button {
+  color: white;
+  padding: 6px 15px;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  background: transparent;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  transition: all 0.3s;
+}
+
+.ini.button.blue {
+  background: $blue-color;
+  border: 1px solid $blue-color;
+}
+
+.ini.button.blue:hover {
+  transition: all 0.3s;
+  background: $blue-nd-color;
+}
+
+.ini.button.o-blue {
+  border: 1px solid $blue-color;
+  color: $blue-color;
+}
+
+.ini.button.o-blue:hover {
+  transition: all 0.3s;
+  background: $blue-color;
+  color: white;
+}
+
+.ini.button.primary {
+  background: $primary-color;
+  border: 1px solid $primary-color;
+}
+
+.ini.button.primary:hover {
+  transition: all 0.3s;
+  background: $primary-nd-color;
+}
+
+.ini.button.o-primary {
+  border: 1px solid $primary-color;
+  color: $primary-color;
+}
+
+.ini.button.o-primary:hover {
+  transition: all 0.3s;
+  background: $primary-color;
+  color: white;
+}
+
+.ini.button.inicss {
+  border: 1px solid $inicss-color;
+  background: $inicss-color;
+}
+
+.ini.button.inicss:hover {
+  transition: all 0.3s;
+  background: $inicss-nd-color;
+}
+
+.ini.button.o-inicss {
+  border: 1px solid $inicss-color;
+  color: $inicss-color;
+}
+
+.ini.button.o-inicss:hover {
+  transition: all 0.3s;
+  background: $inicss-color;
+  color: white;
+}
+
+.ini.button.red {
+  border: 1px solid $red-color;
+  background: $red-color;
+}
+
+.ini.button.red:hover {
+  transition: all 0.3s;
+  background: $red-nd-color;
+}
+
+.ini.button.o-red {
+  border: 1px solid $red-color;
+  color: $red-color;
+}
+
+.ini.button.o-red:hover {
+  transition: all 0.3s;
+  background: $red-color;
+  color: white;
+}
+
+.ini.button.gray {
+  border: 1px solid $gray-color;
+  background: $gray-color;
+}
+
+.ini.button.gray:hover {
+  transition: all 0.3s;
+  background: $gray-nd-color;
+}
+
+.ini.button.o-gray {
+  border: 1px solid $gray-color;
+  color: $gray-color;
+}
+
+.ini.button.o-gray:hover {
+  transition: all 0.3s;
+  background: $gray-color;
+  color: white;
+}
+
+.ini.button.black {
+  border: 1px solid $black-color;
+  background: $black-color;
+}
+
+.ini.button.black:hover {
+  transition: all 0.3s;
+  background: $black-nd-color;
+}
+
+.ini.button.o-black {
+  border: 1px solid $black-color;
+  color: $black-color;
+}
+
+.ini.button.o-black:hover {
+  transition: all 0.3s;
+  background: $black-color;
+  color: white;
+}
+
+.ini.button.orange {
+  border: 1px solid $orange-color;
+  background: $orange-color;
+}
+
+.ini.button.orange:hover {
+  transition: all 0.3s;
+  background: $orange-nd-color;
+}
+
+.ini.button.o-orange {
+  border: 1px solid $orange-color;
+  color: $orange-color;
+}
+
+.ini.button.o-orange:hover {
+  transition: all 0.3s;
+  background: $orange-color;
+  color: white;
+}
+
+.ini.button.carrot {
+  border: 1px solid $carrot-color;
+  background: $carrot-color;
+}
+
+.ini.button.carrot:hover {
+  transition: all 0.3s;
+  background: $carrot-nd-color;
+}
+
+.ini.button.o-carrot {
+  border: 1px solid $carrot-color;
+  color: $carrot-color;
+}
+
+.ini.button.o-carrot:hover {
+  transition: all 0.3s;
+  background: $carrot-color;
+  color: white;
+}
+
+.ini.button.purple {
+  border: 1px solid $purple-color;
+  background: $purple-color;
+}
+
+.ini.button.purple:hover {
+  transition: all 0.3s;
+  background: $purple-nd-color;
+}
+
+.ini.button.o-purple {
+  border: 1px solid $purple-color;
+  color: $purple-color;
+}
+
+.ini.button.o-purple:hover {
+  transition: all 0.3s;
+  background: $purple-color;
+  color: white;
+}
+
+.ini.button.midnight {
+  border: 1px solid $midnight-color;
+  background: $midnight-color;
+}
+
+.ini.button.midnight:hover {
+  transition: all 0.3s;
+  background: $midnight-nd-color;
+}
+
+.ini.button.o-midnight {
+  border: 1px solid $midnight-color;
+  color: $midnight-color;
+}
+
+.ini.button.o-midnight:hover {
+  transition: all 0.3s;
+  background: $midnight-color;
+  color: white;
+}
+
+.ini.button.green {
+  border: 1px solid $green-color;
+  background: $green-color;
+}
+
+.ini.button.green:hover {
+  transition: all 0.3s;
+  background: $green-nd-color;
+}
+
+.ini.button.o-green {
+  border: 1px solid $green-color;
+  color: $green-color;
+}
+
+.ini.button.o-green:hover {
+  transition: all 0.3s;
+  background: $green-color;
+  color: white;
+}
+
+.ini.button.o-white {
+  border: 1px solid white;
+  color: white;
+}
+
+.ini.button.loader {
+  display: unset;
+  width: fit-content;
+  height: auto;
+  color: transparent !important;
+  cursor: default;
+  pointer-events: none;
+}
+
+.ini.button.loader:after,
+.ini.button.loader:before {
+  width: 20px;
+  height: 20px;
+}
+
+.ini.button.loader:before {
+  border: 3px solid #fff;
+}
+
+.ini.button.loader.inverse:before {
+  border: 3px solid #afafaf !important;
+}
+
+.ini.button.loader:after {
+  border-top: 3px solid #fff;
+}
+
+.ini.button.loader.inverse:after {
+  border-top: 3px solid #ccc !important;
+}
+
+/*
+===============================================================
+    display
+===============================================================
+*/
+
+@media (max-width: 575px) {
+  .ini.hide.down-small {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) {
+  .ini.hide.down-small {
+    display: show;
+  }
+}
+
+/*
+===============================================================
+    INI TABLE
+===============================================================
+*/
+
+.ini.table {
+  width: 100%;
+  background: #fff;
+  text-align: left;
+  border-spacing: 0;
+  font-size: 14px;
+  thead tr th,
+  tbody tr td {
+    padding: 0.78571429em 0.78571429em;
+  }
+  thead {
+    border-spacing: 0;
+    background: #e4e4e4;
+  }
+  tbody tr td {
+    border-bottom: 1px solid #ececec;
+  }
+}
+
+.ini.table.striped tbody tr:nth-of-type(odd) {
+  background: #f7f7f7;
+}
+
+.ini.table.bordered {
+  border: 1px solid #eaeaea;
+  border-radius: 3px;
+  thead tr th {
+    border-right: 1px solid #fff;
+  }
+  tbody tr td {
+    border: 0px solid #eaeaea;
+    border-width: 0px 1px 1px 0px;
+  }
+  tbody tr td:last-child,
+  thead tr th:last-child {
+    border-right: none;
+  }
+  tbody tr:last-child td {
+    border-bottom: none;
+  }
+}
+
+/*
+===============================================================
+    INI PAGINATION
+===============================================================
+*/
+
+.ini.pagination {
+  text-align: right;
+  font-size: 14px;
+  margin-top: 0.5rem;
+  ul {
+    list-style: none;
+    padding: 0;
+    li {
+      display: inline-block;
+      border: 1px solid #e2e2e2;
+      border-right: none;
+      min-width: 2.3rem;
+      text-align: center;
+      padding: 0.4rem;
+      transition: all 0.3s;
+    }
+    li:first-child {
+      border-radius: 5px 0px 0px 5px;
+    }
+    li:last-child {
+      border-radius: 0px 5px 5px 0px;
+      border-right: 1px solid #e2e2e2;
+    }
+    .active {
+      background: #cecece;
+    }
+    li:hover {
+      background: #cecece;
+      transition: all 0.3s;
+    }
+  }
+}
+
+/*
+===============================================================
+    INI IMAGE
+===============================================================
+*/
+
+img.ini.rounded {
+  border-radius: 5% !important;
+}
+
+img.ini.circle {
+  border-radius: 100% !important;
+}
+
+img.ini.thumbnail {
+  padding: 0.5rem;
+  border: 1px solid #f5f5f5;
+}
+
+/*
+===============================================================
+    INI CARD
+===============================================================
+*/
+
+.ini.card {
+  .card.content {
+    padding: 0.5rem;
+    border: 1px solid #f5f5f5;
+    display: flow-root;
+  }
+  .card.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .card.subtitle {
+    font-size: 14px;
+    color: #cccccc;
+  }
+  .card.text {
+    margin-top: 0.5rem;
+    font-size: 14px;
+  }
+  .card.footer {
+    padding: 1rem 0.5rem;
+    border: 1px solid #f5f5f5;
+    display: flow-root;
+    font-size: 14px;
+  }
+}
+
+/*
+===============================================================
+    INI FORM
+===============================================================
+*/
+
+.ini.form {
+  margin-bottom: 0.6rem;
+  > label {
+    display: block;
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+  }
+  .ini.input,
+  .ini.textarea,
+  .select {
+    width: 100% !important;
+  }
+  .icon.right,
+  .icon.left {
+    position: relative !important;
+    i {
+      position: absolute;
+      line-height: 1;
+      top: 0;
+      padding: 7px;
+      margin: 0;
+      opacity: 0.6;
+      font-size: 1.4rem;
+    }
+  }
+  .icon.right {
+    .ini.input {
+      padding-right: 2rem !important;
+    }
+    i {
+      right: 0;
+    }
+  }
+  .icon.left {
+    .ini.input {
+      padding-left: 2rem !important;
+    }
+    i {
+      left: 0;
+    }
+  }
+  > .checkbox,
+  > .radio,
+  > .toggle,
+  > .slider {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 1rem;
+    label {
+      font-size: 14px;
+      margin: 0px 0px 0px 5px !important;
+      cursor: pointer;
+    }
+  }
+  > .checkbox:last-child,
+  > .radio:last-child {
+    margin-right: 0;
+  }
+}
+
+.ini.form:last-child {
+  margin-bottom: 0;
+}
+
+.ini.textarea {
+  height: auto !important;
+}
+
+.ini.input,
+.ini.textarea,
+.ini.select {
+  max-width: 100% !important;
+  background: white !important;
+  padding: 0.6rem !important;
+  border: 1px solid rgba(34, 36, 38, 0.15) !important;
+  border-radius: 0.28571429rem !important;
+  height: 36px;
+}
+
+.ini.input::placeholder {
+  opacity: 0.5;
+}
+
+.ini.input:active,
+.ini.input:focus,
+.ini.textarea:active,
+.ini.textarea:focus,
+.ini.select:active,
+.ini.select:focus {
+  outline: none !important;
+  border: 1px solid rgba(0, 65, 111, 0.48) !important;
+}
+
+.ini.input.rouneded {
+  border-radius: 2rem !important;
+}
+
+//Checkbox
+.ini.checkbox,
+.ini.radio,
+.ini.toggle,
+.ini.slider {
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: lightgray;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  margin: 0;
+}
+
+.ini.radio,
+.ini.toggle,
+.ini.slider {
+  border-radius: 50%;
+}
+
+.ini.checkbox:focus,
+.ini.radio:focus,
+.ini.toggle:focus,
+.ini.slider:focus {
+  outline: none !important;
+}
+
+.ini.checkbox:checked,
+.ini.radio:checked,
+.ini.toggle:checked,
+.ini.slider:checked {
+  background: $inicss-color;
+  transition: all 0.7s;
+}
+
+.ini.checkbox:after,
+.ini.radio:after {
+  content: "";
+  position: relative;
+  top: 23%;
+  left: 43%;
+  width: 18%;
+  height: 44%;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  display: none;
+}
+
+.ini.checkbox:checked:after,
+.ini.radio:checked:after,
+.ini.toggle:checked:after,
+.ini.toggle:checked:after {
+  display: block;
+}
+
+//toggle
+.ini.toggle {
+  width: 50px !important;
+  border-radius: 2rem !important;
+  position: relative;
+}
+
+.ini.toggle:after,
+.ini.slider:after {
+  content: "";
+  position: absolute;
+  display: block;
+  box-shadow: rgba(34, 36, 38, 0.15) 0px 1px 2px 0px,
+    rgba(34, 36, 38, 0.15) 0px 0px 0px 1px inset;
+  width: 1.26rem;
+  height: 1.26rem;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.05)) white;
+  border-radius: 50%;
+  transition: all 0.7s;
+  left: 0%;
+  -webkit-transform: translate(0);
+}
+
+.ini.toggle:checked:after,
+.ini.slider:checked:after {
+  left: 100%;
+  -webkit-transform: translate(-100%);
+  transition: all 0.7s;
+}
+
+//slider
+.ini.slider {
+  width: 50px !important;
+  border-radius: 0 !important;
+  position: relative;
+  background: transparent !important;
+}
+
+.ini.slider::before {
+  content: "";
+  height: 4px;
+  background: $inicss-color;
+  width: 50px;
+  position: absolute;
+  top: calc(50% - 2px);
+  opacity: 0.3;
+  transition: all 0.7s;
+  right: 0;
+}
+
+.ini.slider:checked:before {
+  opacity: 1;
+  transition: all 0.7s;
+}
+
+/*
+===============================================================
+    INI UPLOAD FILE
+===============================================================
+*/
+
+.ini.upload.file {
+  max-width: max-content;
+  .view.image {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+  }
+  .ini.button.upload {
+    width: 100%;
+    display: block;
+  }
+}
+
+.ini.upload.file.hover {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .ini.button.upload {
+    position: absolute;
+    opacity: 0;
+    width: 80%;
+  }
+}
+
+.ini.upload.file.hover:hover {
+  .view.image {
+    filter: brightness(60%);
+  }
+  .ini.button.upload {
+    opacity: 1;
+    transition: all 0.3s;
+  }
+}
+
+.ini.upload.file.multiple {
+  display: inline-block !important;
+  .ini.button.multiple {
+    background: #e8e8e8;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #bbbbbb;
+    font-size: 4rem;
+    padding-bottom: 1rem;
+    border-radius: 0;
+  }
+  .view.many.images {
+    display: inline-flex;
+    float: left;
+    margin: 0 0.5rem 0.5rem 0;
+    justify-content: center;
+    align-items: center;
+    img {
+      height: 100px;
+      width: 100px;
+      object-fit: cover;
+      transition: all 0.3s;
+    }
+  }
+  .view.many.images:last-child {
+    margin: 0 0 0.5rem 0;
+  }
+  .deleteImage {
+    position: absolute;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    opacity: 0;
+    transition: all 0.3s;
+  }
+  .view.many.images:hover {
+    img {
+      filter: brightness(40%);
+      transition: all 0.3s;
+    }
+    .deleteImage {
+      opacity: 1;
+      transition: all 0.3s;
+    }
+  }
+}
+
+/*
+===============================================================
+    INI BORDER
+===============================================================
+*/
+
+.ini.rounded {
+  border-radius: 1rem;
+}
+
+.ini.circle {
+  border-radius: 50%;
+}
+
+//ex style
+.ini.button.upload {
+  background: $inicss-color;
+  padding: 5px 10px;
+  color: white;
+}
+
+.ini.button.upload.hover {
+  opacity: 0.5;
+}
+
+.ini.button.upload:hover {
+  background: #1d9e9e;
+  transition: all 0.3s;
+}
+
+/*
+===============================================================
+    INI Width
+===============================================================
+*/
+
+.ini.width.fit-content {
+  width: fit-content;
+  min-width: fit-content;
+  max-width: fit-content;
+}
+
+/*
+===============================================================
+    INI DROPDOWN
+===============================================================
+*/
+
+.ini.dropdown {
+  display: inline-block;
+  > .ini.button {
+    display: flex;
+  }
+  .menu {
+    background: #fff;
+    border: 1px solid #f5f5f5;
+    position: absolute;
+    font-size: 14px;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    -webkit-transform: scaleY(0);
+    -moz-transform: scaleY(0);
+    -o-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: top;
+    -moz-transform-origin: top;
+    -o-transform-origin: top;
+    transform-origin: top;
+    z-index: 2 !important;
+  }
+  .item {
+    display: block;
+    padding: 0.5rem 2rem;
+  }
+  .item:hover {
+    background: #f5f5f5;
+  }
+}
+
+.ini.dropdown.arrow {
+  .ini.button:after {
+    content: "expand_more";
+    font-family: "Material Icons";
+    margin-left: 5px;
+  }
+  .ini.button.active:after {
+    content: "expand_less";
+  }
+}
+.ini.dropdown.active .menu {
+  opacity: 1;
+  height: auto;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  -webkit-transform: scaleY(1);
+  -moz-transform: scaleY(1);
+  -o-transform: scaleY(1);
+  transform: scaleY(1);
+  z-index: 1;
+}
+.ini.dropdown.icon {
+  position: relative;
+  .menu {
+    background: #fff;
+    border: 1px solid #f5f5f5;
+    position: absolute;
+    font-size: 14px;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    min-width: 100%;
+    width: max-content;
+    width: -moz-max-content;
+    width: -o-max-content;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    -webkit-transform: scaleY(0);
+    -moz-transform: scaleY(0);
+    -o-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: top;
+    -moz-transform-origin: top;
+    -o-transform-origin: top;
+    transform-origin: top;
+  }
+  .item {
+    display: block;
+    padding: 0.5rem 2rem;
+  }
+  .item:hover {
+    background: #f5f5f5;
+  }
+  .material-icons {
+    color: #fff;
+    top: 8px;
+    padding: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    pointer-events: none;
+  }
+  .ini.button {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .ini.button.blue .material-icons {
+    background: $blue-color;
+  }
+  .ini.button.o-blue .material-icons {
+    color: $blue-color;
+  }
+  .ini.button.inicss .material-icons {
+    background: $inicss-color;
+  }
+  .ini.button.o-inicss .material-icons {
+    color: $inicss-color;
+  }
+  .ini.button.red .material-icons {
+    background: $red-color;
+  }
+  .ini.button.o-red .material-icons {
+    color: $red-color;
+  }
+  .ini.button.gray .material-icons {
+    background: $gray-color;
+  }
+  .ini.button.o-gray .material-icons {
+    color: $gray-color;
+  }
+  .ini.button.black .material-icons {
+    background: $black-color;
+  }
+  .ini.button.o-black .material-icons {
+    color: $black-color;
+  }
+  .ini.button.orange .material-icons {
+    background: $orange-color;
+  }
+  .ini.button.o-orange .material-icons {
+    color: $orange-color;
+  }
+  .ini.button.carrot .material-icons {
+    background: $carrot-color;
+  }
+  .ini.button.o-carrot .material-icons {
+    color: $carrot-color;
+  }
+  .ini.button.purple .material-icons {
+    background: $purple-color;
+  }
+  .ini.button.o-purple .material-icons {
+    color: $purple-color;
+  }
+  .ini.button.midnight .material-icons {
+    background: $midnight-color;
+  }
+  .ini.button.o-midnight .material-icons {
+    color: $midnight-color;
+  }
+  .ini.button.green .material-icons {
+    background: $green-color;
+  }
+  .ini.button.o-green .material-icons {
+    color: $green-color;
+  }
+  .ini.button.o-white .material-icons {
+    color: white;
+  }
+  .text {
+    margin-right: 15px;
+    margin-left: 15px;
+    pointer-events: none;
+  }
+}
+
+.ini.dropdown.icon.active .menu {
+  opacity: 1;
+  height: auto;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  -webkit-transform: scaleY(1);
+  -moz-transform: scaleY(1);
+  -o-transform: scaleY(1);
+  transform: scaleY(1);
+  -webkit-transform-origin: top;
+  -moz-transform-origin: top;
+  -o-transform-origin: top;
+  transform-origin: top;
+}
+/*
+===============================================================
+    INI TABS
+===============================================================
+*/
+
+.ini.tabs.horizontal {
+  .tab.header {
+    ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      margin: 0;
+      li {
+        flex: 1;
+        padding: 0.8rem 0.7rem;
+        cursor: pointer;
+        text-align: center;
+        transition: all 0.3s;
+        border: 1px solid #ececec;
+        border-right: none;
+      }
+      li:last-child {
+        border-right: 1px solid #ececec;
+      }
+      li.active,
+      li:hover {
+        background: whitesmoke;
+        transition: all 0.3s;
+      }
+      li.ini.step {
+        display: flex;
+        align-items: center;
+        position: relative;
+        background: white;
+        border: 1px solid #ececec;
+        border-right: none;
+        padding: 1.3rem 1rem;
+        i {
+          font-size: 38px;
+        }
+        div {
+          display: inline-block;
+          margin-left: 0.5rem;
+        }
+      }
+      li.ini.step:last-child {
+        border-right: 1px solid #ececec;
+      }
+      li.ini.step::after {
+        content: "";
+        position: absolute;
+        right: -0.55rem;
+        height: 1rem;
+        width: 1rem;
+        background: white;
+        transform: rotate(45deg);
+        z-index: 1;
+        border: 1px solid #ececec;
+        border-width: 1px 1px 0px 0px;
+        transition: all 0.3s;
+      }
+      li.ini.step:last-child::after {
+        content: none;
+      }
+      li.ini.step.active,
+      li.ini.step:hover {
+        background: whitesmoke;
+        border-radius: 0;
+      }
+      li.ini.step.active::after,
+      li.ini.step:hover::after {
+        background: whitesmoke;
+        transition: all 0.3s;
+      }
+    }
+  }
+  .tab.body {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    .content {
+      display: none;
+      min-height: 10rem;
+    }
+    .content.active {
+      display: block;
+    }
+  }
+}
+
+.ini.tabs.vertical {
+  display: flex;
+  .tab.header {
+    border: 1px solid #ececec;
+    flex: 1;
+    max-width: fit-content;
+    margin-right: 1rem;
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      li {
+        border-bottom: 1px solid #ececec;
+        padding: 1rem 0.7rem;
+        cursor: pointer;
+        text-align: center;
+        min-width: 8rem;
+      }
+      li:last-child {
+        border-bottom: none;
+      }
+      li.active,
+      li:hover {
+        background: whitesmoke;
+      }
+    }
+  }
+  .tab.body {
+    flex: 1;
+    padding: 0.5rem;
+    .content {
+      display: none;
+    }
+    .content.active {
+      display: block;
+    }
+  }
+}
+/*
+===============================================================
+    INI PROGRESS
+===============================================================
+*/
+
+.ini.progress {
+  width: 100%;
+  height: 1.5rem;
+  background: #f5f5f5;
+  border-radius: 5px;
+  overflow: hidden;
+  .bar {
+    max-width: 100%;
+    height: 100%;
+    background: $blue-color;
+    color: #fff;
+    text-align: center;
+    transition: all 0.5s;
+    position: relative;
+    display: grid;
+    align-content: center;
+  }
+  .bar.black {
+    background: $black-color;
+  }
+  .bar.red {
+    background: $red-color;
+  }
+  .bar.green {
+    background: $green-color;
+  }
+  .bar.purple {
+    background: $purple-color;
+  }
+  .bar.carrot {
+    background: $carrot-color;
+  }
+  .bar.orange {
+    background: $orange-color;
+  }
+  .bar.gray {
+    background: $gray-color;
+  }
+  .bar.midnight {
+    background: $midnight-color;
+  }
+  .striped {
+    background-image: linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0.15) 25%,
+      transparent 25%,
+      transparent 50%,
+      rgba(255, 255, 255, 0.15) 50%,
+      rgba(255, 255, 255, 0.15) 75%,
+      transparent 75%,
+      transparent
+    ) !important;
+    background-size: 2rem 2rem !important;
+  }
+  .bar.animated:after {
+    content: "";
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: #ffffff;
+    border-radius: 0.28571429rem;
+    -webkit-animation: bar-animated 2.5s ease infinite;
+    animation: bar-animated 2.5s ease infinite;
+  }
+  .striped-animated {
+    animation: bar-striped-animated 1.5s linear infinite;
+  }
+}
+
+.ini.progress.simple {
+  height: 0.2rem;
+  font-size: 0px;
+}
+
+.ini.progress.small {
+  height: 1rem;
+  font-size: 12px;
+}
+
+.ini.progress.large {
+  height: 2rem;
+}
+
+.ini.progress.big {
+  height: 3rem;
+}
+
+@-webkit-keyframes bar-animated {
+  0% {
+    opacity: 0.3;
+    width: 0;
+  }
+  100% {
+    opacity: 0;
+    width: 100%;
+  }
+}
+
+@keyframes bar-animated {
+  0% {
+    opacity: 0.3;
+    width: 0;
+  }
+  100% {
+    opacity: 0;
+    width: 100%;
+  }
+}
+
+@-webkit-keyframes bar-striped-animated {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 2rem 0;
+  }
+}
+
+@keyframes bar-striped-animated {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 2rem 0;
+  }
+}
+
+/*
+===============================================================
+    INI LOADER
+===============================================================
+*/
+.ini.loader {
+  display: block;
+  height: 32px;
+  width: 32px;
+  position: relative;
+}
+
+.ini.loader.inverse {
+  color: #fff;
+}
+
+.ini.loader:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  height: 32px;
+  width: 32px;
+  border: 3px solid transparent;
+  border-top: 3px solid #000;
+  border-radius: 50%;
+  -webkit-animation: outer 0.9s cubic-bezier(0.77, 0, 0.175, 1) infinite;
+  animation: outer 0.9s cubic-bezier(0.77, 0, 0.175, 1) infinite;
+}
+
+.ini.inverse.loader:after {
+  border-top: 3px solid #fff !important;
+}
+
+@-webkit-keyframes outer {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes outer {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.ini.loader:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  height: 32px;
+  width: 32px;
+  border: 3px solid #000;
+  opacity: 0.2;
+  border-radius: 50%;
+}
+
+.ini.inverse.loader:before {
+  border: 3px solid #fff;
+  opacity: 0.2;
+}
+
+.ini.overlay {
+  background: rgba(255, 255, 255, 0.85);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+
+  .loader {
+    margin: auto;
+  }
+}
+
+.ini.overlay.inverse {
+  background: rgba(0, 0, 0, 0.85);
+}
+
+.ini.loader.text {
+  width: auto;
+  height: auto;
+  padding-top: 3.5rem;
+}
+/*
+===============================================================
+    INI LIST
+===============================================================
+*/
+.ini.list.vertical {
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li {
+      a {
+        display: block;
+        padding: 0.7rem 0 0.7rem 0.4rem;
+        transition: all 0.3s;
+      }
+      a:hover {
+        background: #ececec;
+        transition: all 0.3s;
+      }
+    }
+  }
+}
+/*
+===============================================================
+    INI MESSAGE
+===============================================================
+*/
+// default
+.ini.message {
+  border-radius: 0.3rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  .header {
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+  }
+  .close {
+    float: right;
+    font-size: 18px;
+    position: relative;
+    top: 15px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}
+.ini.message.basic {
+  box-shadow: 0 0 0 1px rgba(156, 156, 156, 0.24);
+  background: #fafafa;
+}
+.ini.message.info {
+  box-shadow: 0 0 0 1px rgba(5, 66, 94, 0.24);
+  background: #e0e7ff;
+  .header,
+  .body,
+  i {
+    color: #1f748c;
+  }
+}
+.ini.message.success {
+  box-shadow: 0 0 0 1px rgba(19, 164, 8, 0.24);
+  background: #d9ffdf;
+  .header,
+  .body,
+  i {
+    color: #0e7b43;
+  }
+}
+.ini.message.danger {
+  box-shadow: 0 0 0 1px rgba(224, 24, 24, 0.24);
+  background: #ffe9e9;
+  .header,
+  .body,
+  i {
+    color: #b53f3f;
+  }
+}
+.ini.message.warning {
+  box-shadow: 0 0 0 1px rgba(224, 179, 24, 0.24);
+  background: #fffdcc;
+  .header,
+  .body,
+  i {
+    color: #b38534;
+  }
+}
+// compact
+.ini.message.compact {
+  padding: 0;
+  .header,
+  .body {
+    padding: 0.5rem 1rem;
+    margin-bottom: 0;
+  }
+  .closeMessage {
+    top: 1.4rem;
+    right: 1rem;
+  }
+}
+.ini.message.compact.basic {
+  .header {
+    background: #efefef;
+  }
+}
+
+.ini.message.compact.info {
+  .header {
+    background: #a0d5f3;
+  }
+}
+.ini.message.compact.success {
+  .header {
+    background: #9be6ab;
+  }
+}
+.ini.message.compact.danger {
+  .header {
+    background: #fbd1d1;
+  }
+}
+.ini.message.compact.warning {
+  .header {
+    background: #f9ebb9;
+  }
+}
